@@ -1,0 +1,152 @@
+{
+ "beat": "On 'would stroke the girl's hair' the old woman's hand strokes down three times above the girl's head; on 'deadly spear finger' the finger glints.",
+ "pieces": {
+  "finger": [
+   15144
+  ],
+  "hand": [
+   17183
+  ],
+  "granny": [
+   461,
+   11262,
+   78,
+   37,
+   16939,
+   540
+  ],
+  "girl": [
+   11895,
+   17399,
+   757,
+   13853
+  ]
+ },
+ "depth": {
+  "finger": 0.85,
+  "hand": 0.85,
+  "granny": 0.85,
+  "girl": 0.85
+ },
+ "pivot": {
+  "finger": [
+   540,
+   555
+  ],
+  "hand": [
+   540,
+   555
+  ]
+ },
+ "camera": {
+  "zoom": [
+   1.0,
+   1.045
+  ],
+  "focus": [
+   0.42,
+   0.55
+  ]
+ },
+ "motions": {
+  "hand": [
+   {
+    "type": "rotate",
+    "at": "p2w4+0.0",
+    "dur": 0.45,
+    "deg": -7,
+    "ease": "steps:3"
+   },
+   {
+    "type": "rotate",
+    "at": "p2w4+0.5",
+    "dur": 0.45,
+    "deg": 7,
+    "ease": "steps:3"
+   },
+   {
+    "type": "rotate",
+    "at": "p2w4+1.1",
+    "dur": 0.45,
+    "deg": -7,
+    "ease": "steps:3"
+   },
+   {
+    "type": "rotate",
+    "at": "p2w4+1.6",
+    "dur": 0.45,
+    "deg": 7,
+    "ease": "steps:3"
+   },
+   {
+    "type": "rotate",
+    "at": "p2w4+2.2",
+    "dur": 0.45,
+    "deg": -7,
+    "ease": "steps:3"
+   },
+   {
+    "type": "rotate",
+    "at": "p2w4+2.7",
+    "dur": 0.45,
+    "deg": 7,
+    "ease": "steps:3"
+   }
+  ],
+  "finger": [
+   {
+    "type": "rotate",
+    "at": "p2w4+0.0",
+    "dur": 0.45,
+    "deg": -7,
+    "ease": "steps:3"
+   },
+   {
+    "type": "rotate",
+    "at": "p2w4+0.5",
+    "dur": 0.45,
+    "deg": 7,
+    "ease": "steps:3"
+   },
+   {
+    "type": "rotate",
+    "at": "p2w4+1.1",
+    "dur": 0.45,
+    "deg": -7,
+    "ease": "steps:3"
+   },
+   {
+    "type": "rotate",
+    "at": "p2w4+1.6",
+    "dur": 0.45,
+    "deg": 7,
+    "ease": "steps:3"
+   },
+   {
+    "type": "rotate",
+    "at": "p2w4+2.2",
+    "dur": 0.45,
+    "deg": -7,
+    "ease": "steps:3"
+   },
+   {
+    "type": "rotate",
+    "at": "p2w4+2.7",
+    "dur": 0.45,
+    "deg": 7,
+    "ease": "steps:3"
+   },
+   {
+    "type": "glint",
+    "at": "p3w4",
+    "dur": 0.7
+   }
+  ]
+ },
+ "back": [
+  "hand"
+ ],
+ "front": [
+  "finger"
+ ]
+}

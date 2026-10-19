@@ -124,6 +124,11 @@ class Column:
                     cd.rounded_rectangle((x - 6, y - 1, x + it['w'] + 6, y + h), radius=8, fill=PILL)
                 if it['kind'] == 'eng': c = (95, 88, 80) if active else FADED
                 cd.text((x, y), it['text'], font=it['fnt'], fill=c)
+        # soft top and bottom edges, so a phrase scrolling out fades instead of being cut off
+        a = np.asarray(col.split()[3]).astype(np.float32)
+        ramp = np.ones(win_h, np.float32); E = 56
+        ramp[:E] = np.linspace(0, 1, E); ramp[-E:] = np.linspace(1, 0, E)
+        col.putalpha(Image.fromarray((a * ramp[:, None]).astype(np.uint8)))
         frame.alpha_composite(col, (cx - 12, win_top))
 
 # ---------- frame ----------

@@ -1,0 +1,150 @@
+{
+ "beat": "The picture already shows the change (monster, two outline ghosts, old woman); on 'she changed ... monster' the monster shudders and flashes, then on 'old woman' the old woman shudders and flashes, as if the change runs across the page.",
+ "pieces": {
+  "mon_a": {
+   "ids": [
+    23397,
+    16985,
+    8435,
+    8434,
+    20050,
+    8147,
+    4153,
+    11718,
+    4205
+   ],
+   "cut": [
+    925,
+    355,
+    1200,
+    946
+   ]
+  },
+  "mon_b": {
+   "ids": [
+    23397
+   ],
+   "cut": [
+    895,
+    800,
+    925,
+    946
+   ]
+  },
+  "ow_a": {
+   "ids": [
+    21020,
+    6554,
+    22974,
+    19038
+   ],
+   "cut": [
+    230,
+    0,
+    440,
+    330
+   ]
+  },
+  "ow_b": {
+   "ids": [
+    22974,
+    6554
+   ],
+   "cut": [
+    230,
+    330,
+    475,
+    460
+   ]
+  },
+  "leaf_front": [
+   597
+  ]
+ },
+ "depth": {
+  "mon_a": 0.85,
+  "mon_b": 0.85,
+  "ow_a": 0.8,
+  "ow_b": 0.8,
+  "leaf_front": 0.8
+ },
+ "pivot": {
+  "mon_a": [
+   1040,
+   840
+  ],
+  "mon_b": [
+   1040,
+   840
+  ],
+  "ow_a": [
+   350,
+   440
+  ],
+  "ow_b": [
+   350,
+   440
+  ]
+ },
+ "motions": {
+  "mon_a": [
+   {
+    "type": "shake",
+    "at": "p3w2",
+    "dur": 1.3,
+    "amp": 4,
+    "freq": 7
+   },
+   {
+    "type": "glint",
+    "at": "p3w3",
+    "dur": 0.5
+   }
+  ],
+  "mon_b": [
+   {
+    "type": "shake",
+    "at": "p3w2",
+    "dur": 1.3,
+    "amp": 4,
+    "freq": 7
+   },
+   {
+    "type": "glint",
+    "at": "p3w3",
+    "dur": 0.5
+   }
+  ],
+  "ow_a": [
+   {
+    "type": "shake",
+    "at": "p3w5",
+    "dur": 1.1,
+    "amp": 3,
+    "freq": 7
+   },
+   {
+    "type": "glint",
+    "at": "p3w5+0.2",
+    "dur": 0.5
+   }
+  ],
+  "ow_b": [
+   {
+    "type": "shake",
+    "at": "p3w5",
+    "dur": 1.1,
+    "amp": 3,
+    "freq": 7
+   },
+   {
+    "type": "glint",
+    "at": "p3w5+0.2",
+    "dur": 0.5
+   }
+  ]
+ },
+ "front": [
+  "leaf_front"
+ ]
+}

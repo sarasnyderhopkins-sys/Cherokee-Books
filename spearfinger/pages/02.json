@@ -1,0 +1,249 @@
+{
+ "beat": "On 'Spearfinger!' she looms toward us (small stepped push-in); on 'sharp finger as long as a dagger' her spear finger lifts; loose leaves sway.",
+ "pieces": {
+  "hand": [
+   33393,
+   31297,
+   31309,
+   31340,
+   31372
+  ],
+  "hag": {
+   "box": [
+    280,
+    130,
+    1070,
+    947
+   ],
+   "drop": [
+    5,
+    17,
+    230,
+    2043,
+    8,
+    23,
+    2,
+    1,
+    37,
+    83,
+    318,
+    1945,
+    1739
+   ]
+  },
+  "leaf1": [
+   5
+  ],
+  "leaf2": [
+   17
+  ],
+  "leaf3": [
+   230
+  ],
+  "leaf4": [
+   2043
+  ],
+  "leaf5": [
+   8
+  ],
+  "leaf6": [
+   23
+  ],
+  "leaf7": [
+   2
+  ],
+  "leaf8": [
+   1
+  ],
+  "leaf9": [
+   37
+  ],
+  "leaf10": [
+   83
+  ],
+  "leaf11": [
+   318
+  ],
+  "leaf12": [
+   1945
+  ],
+  "leaf13": [
+   1739
+  ]
+ },
+ "front": [
+  "hand"
+ ],
+ "depth": {
+  "hag": 0.85,
+  "hand": 0.9,
+  "leaf1": 0.6,
+  "leaf2": 0.6,
+  "leaf3": 0.6,
+  "leaf4": 0.6,
+  "leaf5": 0.6,
+  "leaf6": 0.6,
+  "leaf7": 0.6,
+  "leaf8": 0.6,
+  "leaf9": 0.6,
+  "leaf10": 0.6,
+  "leaf11": 0.6,
+  "leaf12": 0.6,
+  "leaf13": 0.6
+ },
+ "pivot": {
+  "leaf1": "center",
+  "leaf2": "center",
+  "leaf3": "center",
+  "leaf4": "center",
+  "leaf5": "center",
+  "leaf6": "center",
+  "leaf7": "center",
+  "leaf8": "center",
+  "leaf9": "center",
+  "leaf10": "center",
+  "leaf11": "center",
+  "leaf12": "center",
+  "leaf13": "center",
+  "hand": [
+   380,
+   860
+  ]
+ },
+ "camera": {
+  "zoom": [
+   1.0,
+   1.04
+  ],
+  "focus": [
+   0.45,
+   0.55
+  ]
+ },
+ "motions": {
+  "hag": [
+   {
+    "type": "move",
+    "at": "p2",
+    "dur": 1.0,
+    "dx": -14,
+    "ease": "steps:6"
+   },
+   {
+    "type": "scale",
+    "at": "p2",
+    "dur": 1.0,
+    "sx": 1.03,
+    "sy": 1.03,
+    "ease": "steps:6"
+   }
+  ],
+  "hand": [
+   {
+    "type": "move",
+    "at": "p2",
+    "dur": 1.0,
+    "dx": -14,
+    "ease": "steps:6"
+   },
+   {
+    "type": "rotate",
+    "at": "p5",
+    "dur": 1.5,
+    "deg": 5,
+    "ease": "steps:6"
+   }
+  ],
+  "leaf1": [
+   {
+    "type": "sway",
+    "amp": 2.5,
+    "freq": 0.44
+   }
+  ],
+  "leaf2": [
+   {
+    "type": "sway",
+    "amp": 1.6,
+    "freq": 0.27
+   }
+  ],
+  "leaf3": [
+   {
+    "type": "sway",
+    "amp": 2.3,
+    "freq": 0.4
+   }
+  ],
+  "leaf4": [
+   {
+    "type": "sway",
+    "amp": 2.2,
+    "freq": 0.31
+   }
+  ],
+  "leaf5": [
+   {
+    "type": "sway",
+    "amp": 2.1,
+    "freq": 0.37
+   }
+  ],
+  "leaf6": [
+   {
+    "type": "sway",
+    "amp": 2.1,
+    "freq": 0.28
+   }
+  ],
+  "leaf7": [
+   {
+    "type": "sway",
+    "amp": 1.9,
+    "freq": 0.33
+   }
+  ],
+  "leaf8": [
+   {
+    "type": "sway",
+    "amp": 2.2,
+    "freq": 0.45
+   }
+  ],
+  "leaf9": [
+   {
+    "type": "sway",
+    "amp": 2.4,
+    "freq": 0.36
+   }
+  ],
+  "leaf10": [
+   {
+    "type": "sway",
+    "amp": 1.9,
+    "freq": 0.3
+   }
+  ],
+  "leaf11": [
+   {
+    "type": "sway",
+    "amp": 1.5,
+    "freq": 0.26
+   }
+  ],
+  "leaf12": [
+   {
+    "type": "sway",
+    "amp": 2.0,
+    "freq": 0.31
+   }
+  ],
+  "leaf13": [
+   {
+    "type": "sway",
+    "amp": 1.9,
+    "freq": 0.43
+   }
+  ]
+ }
+}

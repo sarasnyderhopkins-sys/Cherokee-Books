@@ -7,3 +7,6 @@
 /work/*/prev/
 /work/*/frames/
 /out/
+/work/cards/
+/work/tools/
+/work/*.log

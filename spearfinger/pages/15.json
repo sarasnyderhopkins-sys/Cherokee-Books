@@ -1,0 +1,146 @@
+{
+ "beat": "The council fire flickers; as 'everyone in the village came to a great council' the woman at the left and the man at the right lean in toward the fire, one after the other.",
+ "pieces": {
+  "wall_tan": [
+   18085,
+   18078
+  ],
+  "wall_stripe": [
+   15953
+  ],
+  "flame_red": [
+   8318
+  ],
+  "flame_r2": [
+   8326
+  ],
+  "flame_o1": [
+   3813
+  ],
+  "flame_o2": [
+   3812
+  ],
+  "flame_o3": [
+   3814
+  ],
+  "logs": [
+   16350
+  ],
+  "woman": [
+   6478,
+   14635,
+   11687,
+   11676
+  ],
+  "man_right": [
+   14373,
+   3714,
+   18114,
+   6250,
+   14648,
+   14633,
+   6439
+  ],
+  "bush_l_dark": [
+   815
+  ],
+  "bush_l_light": [
+   9934
+  ],
+  "bush_r_dark": [
+   6530,
+   511
+  ],
+  "bush_r_light": [
+   9421
+  ]
+ },
+ "back": [
+  "wall_tan",
+  "wall_stripe",
+  "flame_red"
+ ],
+ "front": [
+  "logs",
+  "bush_l_dark",
+  "bush_l_light",
+  "bush_r_dark",
+  "bush_r_light"
+ ],
+ "depth": {
+  "flame_red": 0.65,
+  "flame_r2": 0.65,
+  "flame_o1": 0.65,
+  "flame_o2": 0.65,
+  "flame_o3": 0.65,
+  "logs": 0.65,
+  "woman": 0.65,
+  "man_right": 0.65,
+  "bush_l_dark": 0.65,
+  "bush_l_light": 0.65,
+  "bush_r_dark": 0.65,
+  "bush_r_light": 0.65,
+  "wall_tan": 0.65,
+  "wall_stripe": 0.65
+ },
+ "camera": {
+  "zoom": [
+   1.0,
+   1.04
+  ],
+  "focus": [
+   0.4,
+   0.45
+  ]
+ },
+ "motions": {
+  "flame_red": [
+   {
+    "type": "flicker",
+    "amp": 1.2
+   }
+  ],
+  "flame_r2": [
+   {
+    "type": "flicker",
+    "amp": 3.0
+   }
+  ],
+  "flame_o1": [
+   {
+    "type": "flicker",
+    "amp": 2.5
+   }
+  ],
+  "flame_o2": [
+   {
+    "type": "flicker",
+    "amp": 2.2
+   }
+  ],
+  "flame_o3": [
+   {
+    "type": "flicker",
+    "amp": 2.8
+   }
+  ],
+  "woman": [
+   {
+    "type": "rotate",
+    "at": "p3w2",
+    "dur": 1.2,
+    "deg": 2.5,
+    "ease": "steps:4"
+   }
+  ],
+  "man_right": [
+   {
+    "type": "rotate",
+    "at": "p3w4",
+    "dur": 1.2,
+    "deg": -2.5,
+    "ease": "steps:4"
+   }
+  ]
+ }
+}

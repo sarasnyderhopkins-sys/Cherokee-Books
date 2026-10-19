@@ -1,0 +1,68 @@
+{
+ "beat": "On 'picking wild strawberries' the girl's hand plucks twice toward the berry; on 'she would come upon them' the old woman creeps a few stepped paces toward her.",
+ "pieces": {
+  "arm": [
+   11485,
+   9961
+  ],
+  "hag": [
+   1193,
+   3989,
+   1964,
+   1701,
+   3943,
+   11531
+  ]
+ },
+ "front": [
+  "hag"
+ ],
+ "depth": {
+  "arm": 0.7,
+  "hag": 0.85
+ },
+ "pivot": {
+  "arm": [
+   192,
+   186
+  ]
+ },
+ "camera": {
+  "zoom": [
+   1.0,
+   1.035
+  ],
+  "focus": [
+   0.55,
+   0.45
+  ]
+ },
+ "motions": {
+  "arm": [
+   {
+    "type": "jab",
+    "at": "p2",
+    "dur": 1.6,
+    "dx": 6,
+    "dy": -3,
+    "count": 2
+   }
+  ],
+  "hag": [
+   {
+    "type": "move",
+    "at": "p3",
+    "dur": 2.0,
+    "dx": -30,
+    "ease": "steps:5"
+   },
+   {
+    "type": "bob",
+    "at": "p3",
+    "until": "p3+2",
+    "amp": 2,
+    "freq": 2.5
+   }
+  ]
+ }
+}

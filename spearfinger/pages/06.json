@@ -1,0 +1,125 @@
+{
+ "beat": "On each 'Come' the old woman's outstretched hand curls up to beckon; on 'come to your granny' the girl leans toward her.",
+ "pieces": {
+  "hand": {
+   "ids": [
+    4812
+   ],
+   "cut": [
+    455,
+    553,
+    509,
+    588
+   ]
+  },
+  "cape": {
+   "ids": [
+    4812
+   ],
+   "cut": [
+    509,
+    380,
+    760,
+    690
+   ]
+  },
+  "robe": [
+   4013,
+   5517,
+   14669
+  ],
+  "girl": [
+   3856,
+   14809,
+   14932,
+   12001,
+   15098,
+   15103
+  ],
+  "bush_back": [
+   2062,
+   4483,
+   18625
+  ],
+  "bush": [
+   4000
+  ]
+ },
+ "front": [
+  "girl"
+ ],
+ "depth": {
+  "hand": 0.85,
+  "girl": 0.85,
+  "bush": 0.85,
+  "bush_back": 0.85,
+  "cape": 0.85,
+  "robe": 0.85
+ },
+ "pivot": {
+  "hand": [
+   508,
+   572
+  ],
+  "girl": [
+   285,
+   775
+  ]
+ },
+ "camera": {
+  "zoom": [
+   1.0,
+   1.04
+  ],
+  "focus": [
+   0.38,
+   0.6
+  ]
+ },
+ "motions": {
+  "hand": [
+   {
+    "type": "rotate",
+    "at": "p2",
+    "dur": 0.35,
+    "deg": 12,
+    "ease": "steps:3"
+   },
+   {
+    "type": "rotate",
+    "at": "p2+0.45",
+    "dur": 0.35,
+    "deg": -12,
+    "ease": "steps:3"
+   },
+   {
+    "type": "rotate",
+    "at": "p3",
+    "dur": 0.35,
+    "deg": 12,
+    "ease": "steps:3"
+   },
+   {
+    "type": "rotate",
+    "at": "p3+0.45",
+    "dur": 0.35,
+    "deg": -12,
+    "ease": "steps:3"
+   }
+  ],
+  "girl": [
+   {
+    "type": "rotate",
+    "at": "p3w2",
+    "dur": 0.8,
+    "deg": -2.5,
+    "ease": "steps:3"
+   }
+  ]
+ },
+ "back": [
+  "bush_back",
+  "bush",
+  "hand"
+ ]
+}

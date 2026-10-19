@@ -1,0 +1,332 @@
+[
+ {
+  "page": 0,
+  "lines": [
+   {
+    "syl": "ᏥᎾᏛᏁᎰᎢ ᏣᎵ ᏣᎳᎩ",
+    "rom": "Tsinadvneho’i Tsali Tsalagi",
+    "start": 0.6,
+    "end": 3.14,
+    "en": "What Does Charlie Cherokee Do?"
+   }
+  ],
+  "audio": "audio/p00.mp3"
+ },
+ {
+  "page": 1,
+  "lines": [
+   {
+    "syl": "ᏂᎪᎯᎸ ᏑᎾᎴ ᎠᏰᎪᎢ.",
+    "rom": "Nigohilv sunale ayego’i.",
+    "start": 1.32,
+    "end": 3.68,
+    "en": "He always wakes up in the morning."
+   },
+   {
+    "syl": "ᎨᏙ ᎠᏛᏁᎭ ᏃᏊ?",
+    "rom": "Gedo advneha nogwu?",
+    "start": 4.58,
+    "end": 6.34,
+    "en": "What is he doing now?"
+   },
+   {
+    "syl": "ᎠᏰᎦ.",
+    "rom": "Ayega.",
+    "start": 7.18,
+    "end": 8.04,
+    "en": "He is waking up."
+   }
+  ],
+  "audio": "audio/p01.mp3"
+ },
+ {
+  "page": 2,
+  "lines": [
+   {
+    "syl": "ᎠᏓᏬᏍᎪᎢ.",
+    "rom": "Adawosgo’i.",
+    "start": 0.98,
+    "end": 2.3,
+    "en": "He bathes."
+   },
+   {
+    "syl": "ᎨᏙ ᎠᏛᏁᎭ ᏃᏊ?",
+    "rom": "Gedo advneha nogwu?",
+    "start": 3.52,
+    "end": 5.54,
+    "en": "What is he doing now?"
+   },
+   {
+    "syl": "ᎠᏓᏬᎠ.",
+    "rom": "Adawo’a.",
+    "start": 6.66,
+    "end": 8.24,
+    "en": "He is bathing."
+   }
+  ],
+  "audio": "audio/p02.mp3"
+ },
+ {
+  "page": 3,
+  "lines": [
+   {
+    "syl": "ᎠᎬᏍᏉᏍᎪᎢ.",
+    "rom": "Agvsgwosgo’i.",
+    "start": 1.3,
+    "end": 3.06,
+    "en": "He washes his face."
+   },
+   {
+    "syl": "ᎨᏙ ᎠᏛᏁᎭ ᏃᏊ?",
+    "rom": "Gedo advneha nogwu?",
+    "start": 4.26,
+    "end": 6.3,
+    "en": "What is he doing now?"
+   },
+   {
+    "syl": "ᎠᎬᏍᏉᎠ.",
+    "rom": "Agvsgwo’a.",
+    "start": 7.2,
+    "end": 8.42,
+    "en": "He is washing his face."
+   }
+  ],
+  "audio": "audio/p03.mp3"
+ },
+ {
+  "page": 4,
+  "lines": [
+   {
+    "syl": "ᎠᏓᎨᏍᎪᎢ.",
+    "rom": "Adakesgo’i.",
+    "start": 1.6,
+    "end": 3.14,
+    "en": "He looks at himself."
+   },
+   {
+    "syl": "ᎨᏙ ᎠᏛᏁᎭ ᏃᏊ?",
+    "rom": "Gedo advneha nogwu?",
+    "start": 4.4,
+    "end": 6.3,
+    "en": "What is he doing now?"
+   },
+   {
+    "syl": "ᎠᏓᎨᎭ.",
+    "rom": "Adakeha.",
+    "start": 7.86,
+    "end": 9.46,
+    "en": "He is looking at himself."
+   }
+  ],
+  "audio": "audio/p04.mp3"
+ },
+ {
+  "page": 5,
+  "lines": [
+   {
+    "syl": "ᎠᎳᏔᏬᏍᎪᎢ.",
+    "rom": "Altawosgo’i.",
+    "start": 1.4,
+    "end": 2.8,
+    "en": "He combs his hair."
+   },
+   {
+    "syl": "ᎨᏙ ᎠᏛᏁᎭ ᏃᏊ?",
+    "rom": "Gedo advneha nogwu?",
+    "start": 3.92,
+    "end": 6.02,
+    "en": "What is he doing now?"
+   },
+   {
+    "syl": "ᎠᎳᏔᏬᎠ.",
+    "rom": "Altawo’a.",
+    "start": 6.8,
+    "end": 7.84,
+    "en": "He is combing his hair."
+   }
+  ],
+  "audio": "audio/p05.mp3"
+ },
+ {
+  "page": 6,
+  "lines": [
+   {
+    "syl": "ᎠᎿᏬᏍᎪᎢ ᎤᎭᎨᏓ.",
+    "rom": "Ahnawosgo’i uhageda.",
+    "start": 1.0,
+    "end": 3.46,
+    "en": "He puts on a sweater."
+   },
+   {
+    "syl": "ᎨᏙ ᎠᏛᏁᎭ ᏃᏊ?",
+    "rom": "Gedo advneha nogwu?",
+    "start": 4.9,
+    "end": 7.08,
+    "en": "What is he doing now?"
+   },
+   {
+    "syl": "ᎤᎭᎨᏓ ᎠᎿᏬᎠ.",
+    "rom": "Uhageda ahnawo’a.",
+    "start": 8.1,
+    "end": 9.88,
+    "en": "He is putting on a sweater."
+   }
+  ],
+  "audio": "audio/p06.mp3"
+ },
+ {
+  "page": 7,
+  "lines": [
+   {
+    "syl": "ᎤᏅᏗ ᎠᏗᏔᏍᎪᎢ.",
+    "rom": "Unvdi aditasgo’i.",
+    "start": 0.92,
+    "end": 2.96,
+    "en": "He drinks milk."
+   },
+   {
+    "syl": "ᎨᏙ ᎠᏛᏁᎭ ᏃᏊ?",
+    "rom": "Gedo advneha nogwu?",
+    "start": 4.16,
+    "end": 6.0,
+    "en": "What is he doing now?"
+   },
+   {
+    "syl": "ᎤᏅᏗ ᎠᏗᏔᏍᎦ.",
+    "rom": "Unvdi aditasga.",
+    "start": 6.96,
+    "end": 8.78,
+    "en": "He is drinking milk."
+   }
+  ],
+  "audio": "audio/p07.mp3"
+ },
+ {
+  "page": 8,
+  "lines": [
+   {
+    "syl": "ᏑᎾᎴ ᎠᎳᏍᏓᏴᎲᏍᎪᎢ.",
+    "rom": "Sunale alsdayvhvsgo’i.",
+    "start": 0.88,
+    "end": 2.94,
+    "en": "He eats breakfast."
+   },
+   {
+    "syl": "ᎨᏙ ᎠᏛᏁᎭ ᏃᏊ?",
+    "rom": "Gedo advneha nogwu?",
+    "start": 4.06,
+    "end": 5.78,
+    "en": "What is he doing now?"
+   },
+   {
+    "syl": "ᏑᎾᎴ ᎠᎳᏍᏓᏴᎲᏍᎦ.",
+    "rom": "Sunale alsdayvhvsga.",
+    "start": 6.94,
+    "end": 8.7,
+    "en": "He is eating breakfast."
+   }
+  ],
+  "audio": "audio/p08.mp3"
+ },
+ {
+  "page": 9,
+  "lines": [
+   {
+    "syl": "ᏗᏙᎴᏆᏍᏗ ᎡᎪᎢ.",
+    "rom": "Didolegwasdi ego’i.",
+    "start": 0.96,
+    "end": 2.98,
+    "en": "He goes to school."
+   },
+   {
+    "syl": "ᎨᏙ ᎠᏛᏁᎭ ᏃᏊ?",
+    "rom": "Gedo advneha nogwu?",
+    "start": 4.18,
+    "end": 6.14,
+    "en": "What is he doing now?"
+   },
+   {
+    "syl": "ᏗᏙᎴᏆᏍᏗ ᎡᎦ.",
+    "rom": "Didolegwasdi ega.",
+    "start": 7.14,
+    "end": 9.24,
+    "en": "He is going to school."
+   }
+  ],
+  "audio": "audio/p09.mp3"
+ },
+ {
+  "page": 10,
+  "lines": [
+   {
+    "syl": "ᏓᏥᎶᏍᏗᏍᎪᎢ.",
+    "rom": "Datsilosdisgo’i.",
+    "start": 0.74,
+    "end": 2.32,
+    "en": "He draws."
+   },
+   {
+    "syl": "ᎨᏙ ᎠᏛᏁᎭ ᏃᏊ?",
+    "rom": "Gedo advneha nogwu?",
+    "start": 3.14,
+    "end": 4.64,
+    "en": "What is he doing now?"
+   },
+   {
+    "syl": "ᏓᏥᎶᏍᏗᎭ.",
+    "rom": "Datsilosdiha.",
+    "start": 5.6,
+    "end": 6.86,
+    "en": "He is drawing."
+   }
+  ],
+  "audio": "audio/p10.mp3"
+ },
+ {
+  "page": 11,
+  "lines": [
+   {
+    "syl": "ᏧᏪᏅᏒᎢ ᎡᎳᏗ ᎡᎪᎢ.",
+    "rom": "Tsuwenvsv’i eladi ego’i.",
+    "start": 0.8,
+    "end": 3.8,
+    "en": "He goes home on foot."
+   },
+   {
+    "syl": "ᎨᏙ ᎠᏛᏁᎭ ᏃᏊ?",
+    "rom": "Gedo advneha nogwu?",
+    "start": 4.72,
+    "end": 6.32,
+    "en": "What is he doing now?"
+   },
+   {
+    "syl": "ᏧᏪᏅᏒᎢ ᎡᎳᏗ ᎡᎦ.",
+    "rom": "Tsuwenvsv’i eladi ega.",
+    "start": 7.32,
+    "end": 9.88,
+    "en": "He is going home on foot."
+   }
+  ],
+  "audio": "audio/p11.mp3"
+ },
+ {
+  "page": 12,
+  "lines": [
+   {
+    "syl": "“ᏕᏓᏓᎪᎲᏯ,”",
+    "rom": "“Dedadagohvya,”",
+    "start": 1.12,
+    "end": 3.38,
+    "en": "“We’ll see each other,”"
+   },
+   {
+    "syl": "ᎠᏗᎭ ᏣᎵ ᏣᎳᎩ.",
+    "rom": "adiha Tsali Tsalagi.",
+    "start": 3.86,
+    "end": 4.82,
+    "en": "says Tsali Tsalagi."
+   }
+  ],
+  "audio": "audio/p12.mp3"
+ }
+]

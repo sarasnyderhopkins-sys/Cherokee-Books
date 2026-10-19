@@ -3,17 +3,28 @@
 
     python3 make_shelf.py
 Every folder holding an index.html built by the read-along skill is a book; its title, credit and cover come from the
-page data (the BOOK object), so adding a book means: put its folder here, run this script, commit.
+page data (the BOOK object), so adding a book means: put its folder here, run this script, commit. A book in another
+format (no BOOK object) gets its card from MANUAL below.
 """
 import html, json, os, re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ORDER = ['danny', 'halloween']          # shelf order; other folders follow alphabetically
+ORDER = ['danny', 'halloween', 'tsali']  # shelf order; other folders follow alphabetically
+
+# Books made before the read-along skill have no BOOK object in their page, so their card is written here.
+MANUAL = {
+    'tsali': {'title': {'syl': 'ᏥᎾᏛᏁᎰᎢ ᏣᎵ ᏣᎳᎩ', 'phon': 'Tsinadvneho’i Tsali Tsalagi', 'en': 'What Does Charlie Cherokee Do?'},
+              'credit': 'Illustrations: Shannon Whitelock and friends · © 2005 Indigenous Language Institute',
+              'cover': 'img/p00.webp', 'pages': 12},
+}
 
 
 def book_info(folder):
     path = os.path.join(HERE, folder, 'index.html')
     if not os.path.exists(path): return None
+    if folder in MANUAL:
+        m = MANUAL[folder]
+        return {'folder': folder, 'title': m['title'], 'credit': m['credit'], 'cover': f"{folder}/{m['cover']}", 'pages': m['pages']}
     text = open(path, encoding='utf-8').read()
     m = re.search(r'const BOOK = (\{.*?\});\n', text, re.S)
     if not m: return None

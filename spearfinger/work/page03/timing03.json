@@ -1,0 +1,130 @@
+[
+ {
+  "idx": 1,
+  "start": 0.12,
+  "end": 7.17,
+  "words": [
+   {
+    "syl": "ᎪᏍᏓᏱ",
+    "pho": "gó:sda:yi",
+    "start": 0.12,
+    "end": 0.94
+   },
+   {
+    "syl": "ᏗᎦᏘᏍᏙᏗ",
+    "pho": "digá:hlti:sdóhdi",
+    "start": 0.94,
+    "end": 3.1
+   },
+   {
+    "syl": "ᎦᏰᏌᏗ",
+    "pho": "gá:ye:sadv´:'i",
+    "start": 3.1,
+    "end": 4.49
+   },
+   {
+    "syl": "ᎠᏓᏪᎯ",
+    "pho": "adawé:hi",
+    "start": 4.49,
+    "end": 5.45
+   },
+   {
+    "syl": "ᏥᎨᏎᎢ",
+    "pho": "tsigesé:'i",
+    "start": 5.45,
+    "end": 7.17
+   }
+  ],
+  "eng": "Spearfinger had magic powers"
+ },
+ {
+  "idx": 2,
+  "start": 7.93,
+  "end": 11.39,
+  "words": [
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 7.93,
+    "end": 8.38
+   },
+   {
+    "syl": "ᏂᎪᎯᎸ",
+    "pho": "nigo:hi:lv´:",
+    "start": 8.38,
+    "end": 9.36
+   },
+   {
+    "syl": "ᏧᏲᏏᏍᎨᎢ.",
+    "pho": "tsu:yó:sisgé:'i.",
+    "start": 9.36,
+    "end": 11.39
+   }
+  ],
+  "eng": "and she was always hungry."
+ },
+ {
+  "idx": 3,
+  "start": 11.49,
+  "end": 16.42,
+  "words": [
+   {
+    "syl": "ᏙᏳ",
+    "pho": "do:yú",
+    "start": 11.49,
+    "end": 12.13
+   },
+   {
+    "syl": "ᎣᎯᏍᏗᏳ",
+    "pho": "o:hisdí:yu",
+    "start": 12.13,
+    "end": 13.2
+   },
+   {
+    "syl": "ᏧᏪᎳ",
+    "pho": "tsuwe:la",
+    "start": 13.2,
+    "end": 14.0
+   },
+   {
+    "syl": "ᏧᎸᏉᏗ",
+    "pho": "tsu:lv´:gwohdi",
+    "start": 14.0,
+    "end": 15.25
+   },
+   {
+    "syl": "ᏥᎨᏎᎢ",
+    "pho": "tsigesé:'i",
+    "start": 15.25,
+    "end": 16.42
+   }
+  ],
+  "eng": "What she liked best was to eat the livers"
+ },
+ {
+  "idx": 4,
+  "start": 16.68,
+  "end": 20.12,
+  "words": [
+   {
+    "syl": "ᎠᏂᏣᎳᎩ",
+    "pho": "ani:tsalagi",
+    "start": 16.68,
+    "end": 18.19
+   },
+   {
+    "syl": "ᏗᏂᏲᏟ",
+    "pho": "di:ni:yó:hli",
+    "start": 18.19,
+    "end": 19.1
+   },
+   {
+    "syl": "ᏚᏂᎸᎢ!",
+    "pho": "duni:hlv´:'i!",
+    "start": 19.1,
+    "end": 20.12
+   }
+  ],
+  "eng": "of Cherokee children!"
+ }
+]

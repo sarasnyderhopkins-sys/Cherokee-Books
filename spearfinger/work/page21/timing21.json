@@ -1,0 +1,172 @@
+[
+ {
+  "idx": 1,
+  "start": 0,
+  "end": 9.42,
+  "words": [
+   {
+    "syl": "ᎾᎥᏗ",
+    "pho": "na'vdi",
+    "start": 0,
+    "end": 1.08
+   },
+   {
+    "syl": "ᏧᏩᏓᎾᏏᏂᎴ",
+    "pho": "tsiwundansinole'i",
+    "start": 1.08,
+    "end": 3.59
+   },
+   {
+    "syl": "ᎠᏂᏃᏟᏙ",
+    "pho": "ani:nó:hli:do",
+    "start": 3.59,
+    "end": 5.38
+   },
+   {
+    "syl": "ᎦᏙ",
+    "pho": "gadó",
+    "start": 5.38,
+    "end": 7.17
+   },
+   {
+    "syl": "ᏗᏔᎳᎧᏒᎢ",
+    "pho": "ditala´:gsv'i",
+    "start": 7.17,
+    "end": 9.42
+   }
+  ],
+  "eng": "The hunters crawled close to the hole"
+ },
+ {
+  "idx": 2,
+  "start": 9.43,
+  "end": 19.73,
+  "words": [
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 9.43,
+    "end": 10.18
+   },
+   {
+    "syl": "ᏗᎦᏟᏓ",
+    "pho": "digahltsida",
+    "start": 10.18,
+    "end": 11.49
+   },
+   {
+    "syl": "ᎫᎾᏗ",
+    "pho": "gv´hndi",
+    "start": 11.49,
+    "end": 12.47
+   },
+   {
+    "syl": "ᏣᏚᏂᏲᎴ",
+    "pho": "tsiduni:yo:hle",
+    "start": 12.47,
+    "end": 15.05
+   },
+   {
+    "syl": "ᏍᎩᎾ",
+    "pho": "sgina",
+    "start": 15.05,
+    "end": 15.71
+   },
+   {
+    "syl": "ᎪᏍᏓᏱ",
+    "pho": "gó:sda:yi",
+    "start": 15.71,
+    "end": 16.69
+   },
+   {
+    "syl": "ᏗᎦᏘᏍᏙᏗ",
+    "pho": "digálitisdóhdi",
+    "start": 16.69,
+    "end": 18.32
+   },
+   {
+    "syl": "ᎦᏰᏌᏗ",
+    "pho": "gáye:sad,",
+    "start": 18.32,
+    "end": 19.73
+   }
+  ],
+  "eng": "and shot arrows at Spearfinger,"
+ },
+ {
+  "idx": 3,
+  "start": 19.53,
+  "end": 28.73,
+  "words": [
+   {
+    "syl": "ᎠᏎᏃ",
+    "pho": "aseno",
+    "start": 19.53,
+    "end": 20.68
+   },
+   {
+    "syl": "ᏣᏓᎳᏍᏆᎵᏍᏗᏍᎨ",
+    "pho": "tsida:lsgwálisdísge",
+    "start": 20.68,
+    "end": 23.14
+   },
+   {
+    "syl": "ᏗᎦᏟᏓ",
+    "pho": "digahltsida",
+    "start": 23.14,
+    "end": 24.84
+   },
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 24.84,
+    "end": 25.54
+   },
+   {
+    "syl": "ᎡᎳᏗ",
+    "pho": "é:ladi",
+    "start": 25.54,
+    "end": 26.87
+   },
+   {
+    "syl": "ᏣᏗᏥᏤᎮ",
+    "pho": "daditsihe'i",
+    "start": 26.87,
+    "end": 28.73
+   }
+  ],
+  "eng": "but the arrows broke and fell to the ground"
+ },
+ {
+  "idx": 4,
+  "start": 29.27,
+  "end": 34.16,
+  "words": [
+   {
+    "syl": "ᏍᎩᏴ",
+    "pho": "sgiyv",
+    "start": 29.27,
+    "end": 30.01
+   },
+   {
+    "syl": "ᏯᏚᏅᏂᎵ",
+    "pho": "yuniyohli",
+    "start": 30.01,
+    "end": 32.45
+   },
+   {
+    "syl": "ᏅᏱ",
+    "pho": "nv´:ya",
+    "start": 32.45,
+    "end": 33.09
+   },
+   {
+    "syl": "ᎦᏁᎦ.",
+    "pho": "gané:ga.",
+    "start": 33.09,
+    "end": 34.16
+   }
+  ],
+  "eng": "when they hit her stony skin."
+ }
+]

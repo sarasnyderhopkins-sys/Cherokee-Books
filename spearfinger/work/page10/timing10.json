@@ -1,0 +1,174 @@
+[
+ {
+  "idx": 1,
+  "start": 0.14,
+  "end": 4.25,
+  "words": [
+   {
+    "syl": "ᎭᎸᎢᏳ",
+    "pho": "halv:´'i:yu",
+    "start": 0.14,
+    "end": 0.96
+   },
+   {
+    "syl": "ᎤᏤᎵᏛ",
+    "pho": "kilo",
+    "start": 0.96,
+    "end": 1.68
+   },
+   {
+    "syl": "ᎦᏃᏟᏙᎯ",
+    "pho": "gano:hli:dó:hi",
+    "start": 1.68,
+    "end": 3.25
+   },
+   {
+    "syl": "ᏣᎪᏘᏍᎨᎢ",
+    "pho": "tsa:gohwtí:sge'i",
+    "start": 3.25,
+    "end": 4.25
+   }
+  ],
+  "eng": "Sometimes a solitary hunter would see"
+ },
+ {
+  "idx": 2,
+  "start": 4.77,
+  "end": 11.54,
+  "words": [
+   {
+    "syl": "ᎪᏍᏓᏱ",
+    "pho": "gó:sda:yi",
+    "start": 4.77,
+    "end": 5.44
+   },
+   {
+    "syl": "ᏗᎦᏘᏍᏙᏗ",
+    "pho": "digá:hlti:sdóhdi",
+    "start": 5.44,
+    "end": 6.41
+   },
+   {
+    "syl": "ᎦᏰᏌᏛᎢ",
+    "pho": "gá:ye:sadv´:'i",
+    "start": 6.41,
+    "end": 7.9
+   },
+   {
+    "syl": "ᏍᎩᎾ",
+    "pho": "sgina",
+    "start": 7.9,
+    "end": 8.28
+   },
+   {
+    "syl": "ᎤᏩᏏ",
+    "pho": "uwá:si",
+    "start": 8.28,
+    "end": 9.45
+   },
+   {
+    "syl": "ᏚᏓᏥᎶᏍᏓᏅᎢ",
+    "pho": "dudá:tsiló:sdanv'i",
+    "start": 9.45,
+    "end": 11.54
+   }
+  ],
+  "eng": "Spearfinger in her proper form"
+ },
+ {
+  "idx": 3,
+  "start": 12.55,
+  "end": 17.6,
+  "words": [
+   {
+    "syl": "ᎢᎾᎨᎢ",
+    "pho": "i:nagé:'i",
+    "start": 12.55,
+    "end": 13.54
+   },
+   {
+    "syl": "ᎢᏣ",
+    "pho": "í:tsa",
+    "start": 13.54,
+    "end": 13.98
+   },
+   {
+    "syl": "ᏫᎦᎶᏍᎬᎢ",
+    "pho": "wigalo:sgv´'i",
+    "start": 13.98,
+    "end": 15.65
+   },
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 15.65,
+    "end": 16.1
+   },
+   {
+    "syl": "ᏕᎧᏃᎩᏍᎨ,",
+    "pho": "de:kano:gí:sge",
+    "start": 16.1,
+    "end": 17.6
+   }
+  ],
+  "eng": "going through the woods, singing to herself,"
+ },
+ {
+  "idx": 4,
+  "start": 17.59,
+  "end": 20.88,
+  "words": [
+   {
+    "syl": "“ᎤᏪᎳ",
+    "pho": "uwe:la",
+    "start": 17.59,
+    "end": 18.44
+   },
+   {
+    "syl": "ᏥᎩᎠ",
+    "pho": "tsigí'a",
+    "start": 18.44,
+    "end": 19.02
+   },
+   {
+    "syl": "ᏧᏪᎳ",
+    "pho": "“tsuwela",
+    "start": 19.02,
+    "end": 19.59
+   },
+   {
+    "syl": "ᏕᏥᎩᏍᎪᎢ",
+    "pho": "de:tsigí:sgo’i",
+    "start": 19.59,
+    "end": 20.88
+   }
+  ],
+  "eng": "“Liver, I eat… liver, I eat,”"
+ },
+ {
+  "idx": 5,
+  "start": 20.68,
+  "end": 21.66,
+  "words": [
+   {
+    "syl": "Ꮡ,",
+    "pho": "su",
+    "start": 20.68,
+    "end": 20.97
+   },
+   {
+    "syl": "Ꮜ,",
+    "pho": "sa",
+    "start": 20.97,
+    "end": 21.17
+   },
+   {
+    "syl": "ᏌᎢ”",
+    "pho": "sai”",
+    "start": 21.17,
+    "end": 21.66
+   }
+  ],
+  "eng": "“su, sa, sai.”"
+ }
+]

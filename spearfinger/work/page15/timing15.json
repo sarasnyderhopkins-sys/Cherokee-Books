@@ -1,0 +1,166 @@
+[
+ {
+  "idx": 1,
+  "start": 0,
+  "end": 2.73,
+  "words": [
+   {
+    "syl": "ᏐᏉ",
+    "pho": "so:gwú:",
+    "start": 0,
+    "end": 0.48
+   },
+   {
+    "syl": "ᎢᎦ",
+    "pho": "i:ga",
+    "start": 0.48,
+    "end": 0.95
+   },
+   {
+    "syl": "ᎯᎠ",
+    "pho": "hi'a",
+    "start": 0.95,
+    "end": 1.43
+   },
+   {
+    "syl": "ᎠᏂᏣᎳᎩ",
+    "pho": "ani:tsalagi",
+    "start": 1.43,
+    "end": 2.73
+   }
+  ],
+  "eng": "One day the Cherokees"
+ },
+ {
+  "idx": 2,
+  "start": 2.53,
+  "end": 12.05,
+  "words": [
+   {
+    "syl": "ᏣᏚᎧᏔᏁ",
+    "pho": "tsidunúktane:",
+    "start": 2.53,
+    "end": 3.86
+   },
+   {
+    "syl": "ᎤᎾᎴᏫᏍᏓᏗ",
+    "pho": "unlé:hwisdóhdi",
+    "start": 3.86,
+    "end": 5.33
+   },
+   {
+    "syl": "ᎤᎾᏰᎯᏍᏗ",
+    "pho": "anisga'vhv'i",
+    "start": 5.33,
+    "end": 6.76
+   },
+   {
+    "syl": "ᎠᏁᎲᎢ",
+    "pho": "anehvi",
+    "start": 6.76,
+    "end": 8.0
+   },
+   {
+    "syl": "ᎾᏍᎩ",
+    "pho": "nasgi",
+    "start": 8.0,
+    "end": 8.5
+   },
+   {
+    "syl": "ᎪᏍᏓᏱ",
+    "pho": "gó:sda:yi",
+    "start": 8.5,
+    "end": 9.23
+   },
+   {
+    "syl": "ᏗᎦᏘᏍᏙᏗ",
+    "pho": "digá:hlti:sdóhdi",
+    "start": 9.23,
+    "end": 10.46
+   },
+   {
+    "syl": "ᎦᏰᏌᏗ.",
+    "pho": "gá:ye:sadv´:'i",
+    "start": 10.46,
+    "end": 12.05
+   }
+  ],
+  "eng": "decided they had to stop living in fear of Spearfinger."
+ },
+ {
+  "idx": 3,
+  "start": 12.4,
+  "end": 18.09,
+  "words": [
+   {
+    "syl": "ᏂᎦᏓ",
+    "pho": "nigá:da",
+    "start": 12.4,
+    "end": 13.17
+   },
+   {
+    "syl": "ᎦᏚᎲᎢ",
+    "pho": "ga:du:hv´:'i",
+    "start": 13.17,
+    "end": 14.26
+   },
+   {
+    "syl": "ᏧᏂᎷᏗᏤᎢ",
+    "pho": "anehv'i",
+    "start": 14.26,
+    "end": 16.21
+   },
+   {
+    "syl": "ᎡᏆ",
+    "pho": "é:gwa",
+    "start": 16.21,
+    "end": 16.66
+   },
+   {
+    "syl": "ᏣᏚᏂᎳᏫᏤ",
+    "pho": "tsiduni:la:wi:tsé'i",
+    "start": 16.66,
+    "end": 18.09
+   }
+  ],
+  "eng": "Everyone in the village came to a great council"
+ },
+ {
+  "idx": 4,
+  "start": 18.45,
+  "end": 24.33,
+  "words": [
+   {
+    "syl": "ᎾᏍᏊ",
+    "pho": "ná:sgwu",
+    "start": 18.45,
+    "end": 19.04
+   },
+   {
+    "syl": "ᏣᏚᎧᏔᏁ",
+    "pho": "tsidunúktane:",
+    "start": 19.04,
+    "end": 20.66
+   },
+   {
+    "syl": "ᎯᎳᎪ",
+    "pho": "hilago",
+    "start": 20.66,
+    "end": 21.92
+   },
+   {
+    "syl": "ᎾᏍᏊ",
+    "pho": "ná:sgwu",
+    "start": 21.92,
+    "end": 22.4
+   },
+   {
+    "syl": "ᏧᏂᏲᎯᏍᏗᏊ.",
+    "pho": "tsuni:yó:hisdí:gwu.",
+    "start": 22.4,
+    "end": 24.33
+   }
+  ],
+  "eng": "to decide how to get rid of her once and for all."
+ }
+]

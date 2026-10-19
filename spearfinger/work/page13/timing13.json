@@ -1,0 +1,104 @@
+[
+ {
+  "idx": 1,
+  "start": 0.26,
+  "end": 3.87,
+  "words": [
+   {
+    "syl": "ᎨᏍᏓᏗ",
+    "pho": "gé:sdadi",
+    "start": 0.26,
+    "end": 0.92
+   },
+   {
+    "syl": "ᏂᎦᎾ",
+    "pho": "tohi",
+    "start": 0.92,
+    "end": 1.48
+   },
+   {
+    "syl": "ᏰᎬᏁ",
+    "pho": "yanehe'i",
+    "start": 1.48,
+    "end": 2.05
+   },
+   {
+    "syl": "ᎯᎠ",
+    "pho": "hia",
+    "start": 2.05,
+    "end": 2.42
+   },
+   {
+    "syl": "ᎠᏂᏣᎳᎩ",
+    "pho": "ani:tsalagi",
+    "start": 2.42,
+    "end": 3.87
+   }
+  ],
+  "eng": "The Cherokees were never safe,"
+ },
+ {
+  "idx": 2,
+  "start": 3.86,
+  "end": 8.26,
+  "words": [
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 3.86,
+    "end": 4.33
+   },
+   {
+    "syl": "ᏣᎾᏁᎳᏗᏍᎨ",
+    "pho": "tsananehlsdé:lisgé:'i",
+    "start": 4.33,
+    "end": 6.29
+   },
+   {
+    "syl": "ᎠᏂᏔᎵᎭ",
+    "pho": "ani:tá'liha",
+    "start": 6.29,
+    "end": 7.23
+   },
+   {
+    "syl": "ᏧᎾᎵᎪᏗ",
+    "pho": "unligo'i",
+    "start": 7.23,
+    "end": 8.26
+   }
+  ],
+  "eng": "and they tried to go about in twos"
+ },
+ {
+  "idx": 3,
+  "start": 8.47,
+  "end": 12.71,
+  "words": [
+   {
+    "syl": "ᎠᎴ",
+    "pho": "ale",
+    "start": 8.47,
+    "end": 9.28
+   },
+   {
+    "syl": "ᎤᎵᎢᎦᎢ",
+    "pho": "uligohi",
+    "start": 9.28,
+    "end": 10.48
+   },
+   {
+    "syl": "ᎱᎾᏓᏍᎬᎢ",
+    "pho": "undá:'sgv´'i",
+    "start": 10.48,
+    "end": 11.82
+   },
+   {
+    "syl": "ᎤᏁᏓᏍᏗ.",
+    "pho": "anedohe'i.",
+    "start": 11.82,
+    "end": 12.71
+   }
+  ],
+  "eng": "or together in groups."
+ }
+]

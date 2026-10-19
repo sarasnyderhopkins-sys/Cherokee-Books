@@ -1,0 +1,166 @@
+[
+ {
+  "idx": 1,
+  "start": 0,
+  "end": 4.73,
+  "words": [
+   {
+    "syl": "ᏍᎩᎾᏃ",
+    "pho": "sginahno",
+    "start": 0,
+    "end": 0.93
+   },
+   {
+    "syl": "ᏧᏪᎷᏁ",
+    "pho": "tsuwe:hluhné",
+    "start": 0.93,
+    "end": 2.16
+   },
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 2.16,
+    "end": 2.78
+   },
+   {
+    "syl": "ᏚᏩᏯᏑᎦᎸ",
+    "pho": "tsidugwenugise'i",
+    "start": 2.78,
+    "end": 4.73
+   }
+  ],
+  "eng": "She screamed and clawed"
+ },
+ {
+  "idx": 2,
+  "start": 4.53,
+  "end": 12.68,
+  "words": [
+   {
+    "syl": "ᎾᏍᎩᎾ",
+    "pho": "nasgína",
+    "start": 4.53,
+    "end": 5.56
+   },
+   {
+    "syl": "ᎠᏔᎸᎦᏒ",
+    "pho": "atala´:gsv",
+    "start": 5.56,
+    "end": 7.1
+   },
+   {
+    "syl": "ᎪᏍᏓᏱ",
+    "pho": "gó:sda:yi",
+    "start": 7.1,
+    "end": 8.02
+   },
+   {
+    "syl": "ᎦᏁᎦᏗᏓᎸᎦᏍᏙᏗ",
+    "pho": "gane:gadí:dalvgsdóhdi",
+    "start": 8.02,
+    "end": 11.34
+   },
+   {
+    "syl": "ᎦᏰᏌᏗ",
+    "pho": "gaye:sad",
+    "start": 11.34,
+    "end": 12.68
+   }
+  ],
+  "eng": "at the sides of the pit with her sharp awl finger."
+ },
+ {
+  "idx": 3,
+  "start": 12.48,
+  "end": 20.26,
+  "words": [
+   {
+    "syl": "ᏍᎩᎾ",
+    "pho": "sgina",
+    "start": 12.48,
+    "end": 13.2
+   },
+   {
+    "syl": "ᏣᏚᏩᏘᎴ",
+    "pho": "tsidu:wá:ti:hlé",
+    "start": 13.2,
+    "end": 15.0
+   },
+   {
+    "syl": "ᏂᎬᏛᎢ",
+    "pho": "nikv´tv",
+    "start": 15.0,
+    "end": 17.01
+   },
+   {
+    "syl": "ᎠᏁᎳᏗᏍᎬ",
+    "pho": "ane:hldísgv",
+    "start": 17.01,
+    "end": 18.92
+   },
+   {
+    "syl": "ᏧᏩᏘᏍᏗ",
+    "pho": "tsuwa:tí:sdi",
+    "start": 18.92,
+    "end": 20.26
+   }
+  ],
+  "eng": "She jabbed in every direction, trying to stab"
+ },
+ {
+  "idx": 4,
+  "start": 20.06,
+  "end": 29.39,
+  "words": [
+   {
+    "syl": "ᎢᏳᏍᏓᏊ",
+    "pho": "iyúsdagwu",
+    "start": 20.06,
+    "end": 21.39
+   },
+   {
+    "syl": "ᎩᎶ",
+    "pho": "ki:ló",
+    "start": 21.39,
+    "end": 22.01
+   },
+   {
+    "syl": "ᎾᎥ",
+    "pho": "ná'v",
+    "start": 22.01,
+    "end": 22.63
+   },
+   {
+    "syl": "ᎾᎢ",
+    "pho": "nai",
+    "start": 22.63,
+    "end": 23.25
+   },
+   {
+    "syl": "ᏳᎷᏥ",
+    "pho": "yú:lu:tsi",
+    "start": 23.25,
+    "end": 24.63
+   },
+   {
+    "syl": "ᎦᎸᏗᏣ",
+    "pho": "galvdí:tsa",
+    "start": 24.63,
+    "end": 25.86
+   },
+   {
+    "syl": "ᎦᏙ",
+    "pho": "gadó",
+    "start": 25.86,
+    "end": 26.71
+   },
+   {
+    "syl": "ᎠᏔᎸᎦᏒᎢ.",
+    "pho": "atala:gsv´'i.",
+    "start": 26.71,
+    "end": 29.39
+   }
+  ],
+  "eng": "anyone who came near the top of the pit."
+ }
+]

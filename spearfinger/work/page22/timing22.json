@@ -1,0 +1,210 @@
+[
+ {
+  "idx": 1,
+  "start": 0,
+  "end": 8.44,
+  "words": [
+   {
+    "syl": "ᏂᎦᏓᏃ",
+    "pho": "nigá:dahno",
+    "start": 0,
+    "end": 1.02
+   },
+   {
+    "syl": "ᏣᏂᎧᏔᎮᎢ",
+    "pho": "tsaníktahé:'i",
+    "start": 1.02,
+    "end": 3.07
+   },
+   {
+    "syl": "ᎠᏓᏪᎯ",
+    "pho": "adawé:hi",
+    "start": 3.07,
+    "end": 4.08
+   },
+   {
+    "syl": "ᎨᏒ",
+    "pho": "gesv´",
+    "start": 4.08,
+    "end": 4.59
+   },
+   {
+    "syl": "ᎪᏍᏓᏱ",
+    "pho": "gó:sda:yi",
+    "start": 4.59,
+    "end": 5.54
+   },
+   {
+    "syl": "ᏗᎦᏘᏍᏙᏗ",
+    "pho": "digálitisdóhdi",
+    "start": 5.54,
+    "end": 6.81
+   },
+   {
+    "syl": "ᎦᏰᏌᏗ",
+    "pho": "gáye:sadv´:",
+    "start": 6.81,
+    "end": 7.83
+   },
+   {
+    "syl": "ᎨᏒ",
+    "pho": "gesv´",
+    "start": 7.83,
+    "end": 8.44
+   }
+  ],
+  "eng": "Everyone knew Spearfinger was magic"
+ },
+ {
+  "idx": 2,
+  "start": 8.49,
+  "end": 14.24,
+  "words": [
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 8.49,
+    "end": 9.01
+   },
+   {
+    "syl": "ᎢᏳᏊ",
+    "pho": "iyú:gwu",
+    "start": 9.01,
+    "end": 9.65
+   },
+   {
+    "syl": "ᏗᏁᎳᏔᏂᏒᎢ",
+    "pho": "dinéhltani:sv´:'i",
+    "start": 9.65,
+    "end": 11.37
+   },
+   {
+    "syl": "ᎤᏅᎪᎢᏍᏗ",
+    "pho": "unv:go:'ísdi",
+    "start": 11.37,
+    "end": 12.44
+   },
+   {
+    "syl": "ᎭᎾ",
+    "pho": "haná",
+    "start": 12.44,
+    "end": 12.86
+   },
+   {
+    "syl": "ᎠᏔᎸᎧᏒᎢ.",
+    "pho": "atalagsv´'i.",
+    "start": 12.86,
+    "end": 14.24
+   }
+  ],
+  "eng": "and would soon find a way out of the pit."
+ },
+ {
+  "idx": 3,
+  "start": 14.48,
+  "end": 16.08,
+  "words": [
+   {
+    "syl": "ᎠᏎᏃ",
+    "pho": "aseno",
+    "start": 14.48,
+    "end": 15.0
+   },
+   {
+    "syl": "ᏍᎩᏴᏃ",
+    "pho": "sgiyvno",
+    "start": 15.0,
+    "end": 15.42
+   },
+   {
+    "syl": "ᎤᏍᏗ",
+    "pho": "ú:sdi",
+    "start": 15.42,
+    "end": 15.7
+   },
+   {
+    "syl": "ᏥᏍᏆ,",
+    "pho": "tsí:sgwa,",
+    "start": 15.7,
+    "end": 16.08
+   }
+  ],
+  "eng": "But then along came a little bird,"
+ },
+ {
+  "idx": 4,
+  "start": 16.55,
+  "end": 23.8,
+  "words": [
+   {
+    "syl": "ᏧᏃᎯᎵᏣᏁᎢ",
+    "pho": "tsunohilotsv",
+    "start": 16.55,
+    "end": 18.54
+   },
+   {
+    "syl": "ᏗᏧᎧᎬᎢ",
+    "pho": "ditsu:kv´'i",
+    "start": 18.54,
+    "end": 20.11
+   },
+   {
+    "syl": "ᏧᎩᎴ",
+    "pho": "tsukilvnile'i",
+    "start": 20.11,
+    "end": 20.92
+   },
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 20.92,
+    "end": 22.08
+   },
+   {
+    "syl": "ᏣᏚᏃᎩᏎᎢ,",
+    "pho": "tsiduhnogí:se'i",
+    "start": 22.08,
+    "end": 23.8
+   }
+  ],
+  "eng": "which perched on a tree and sang out,"
+ },
+ {
+  "idx": 5,
+  "start": 24.24,
+  "end": 27.73,
+  "words": [
+   {
+    "syl": "“ᎤᏂ,",
+    "pho": "un,",
+    "start": 24.24,
+    "end": 24.81
+   },
+   {
+    "syl": "ᎤᏂ,",
+    "pho": "un,",
+    "start": 24.81,
+    "end": 25.28
+   },
+   {
+    "syl": "ᎤᏂ,”",
+    "pho": "un.”",
+    "start": 25.28,
+    "end": 26.04
+   },
+   {
+    "syl": "ᏥᏍᏆ",
+    "pho": "tsí:sgwa",
+    "start": 26.04,
+    "end": 26.7
+   },
+   {
+    "syl": "ᏔᏯᎪᎦ.",
+    "pho": "gahygó:ga",
+    "start": 26.7,
+    "end": 27.73
+   }
+  ],
+  "eng": "“Un, un, un!” The titmouse."
+ }
+]

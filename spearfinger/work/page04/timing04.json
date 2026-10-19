@@ -1,0 +1,212 @@
+[
+ {
+  "idx": 1,
+  "start": 0.84,
+  "end": 5.89,
+  "words": [
+   {
+    "syl": "ᎾᏍᎩ",
+    "pho": "hnasgi",
+    "start": 0.84,
+    "end": 1.44
+   },
+   {
+    "syl": "ᎢᎾᎨᎢ",
+    "pho": "i:nagé:'i",
+    "start": 1.44,
+    "end": 2.44
+   },
+   {
+    "syl": "ᏤᏙᎵᏙᎮᎢ",
+    "pho": "tse:dó:lidó:he'i",
+    "start": 2.44,
+    "end": 4.79
+   },
+   {
+    "syl": "ᎢᎪᎯᏓ",
+    "pho": "i:go:hí:da",
+    "start": 4.79,
+    "end": 5.89
+   }
+  ],
+  "eng": "She roamed through the forests,"
+ },
+ {
+  "idx": 2,
+  "start": 5.96,
+  "end": 9.83,
+  "words": [
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 5.96,
+    "end": 6.39
+   },
+   {
+    "syl": "ᎢᏳᏊ",
+    "pho": "i:yú:gwu",
+    "start": 6.39,
+    "end": 7.35
+   },
+   {
+    "syl": "ᎱᏚᎵᏍᎬᎢ",
+    "pho": "hu:du:lisgv´:'i",
+    "start": 7.35,
+    "end": 8.55
+   },
+   {
+    "syl": "ᏣᎳᏍᏕᎵᏴᏍᎨᎢ.",
+    "pho": "tsalsde:lí:yv:sgé:'i.",
+    "start": 8.55,
+    "end": 9.83
+   }
+  ],
+  "eng": "and any time she wanted to, she could shapeshift."
+ },
+ {
+  "idx": 3,
+  "start": 11.18,
+  "end": 18.13,
+  "words": [
+   {
+    "syl": "ᎾᏍᎩ",
+    "pho": "hnasgi",
+    "start": 11.18,
+    "end": 11.71
+   },
+   {
+    "syl": "ᎭᎳᏍᏕᎵᏴᏌ",
+    "pho": "alsde:lí:yv:sv´:'i",
+    "start": 11.71,
+    "end": 12.98
+   },
+   {
+    "syl": "ᏍᎩᎵ",
+    "pho": "sgi:li",
+    "start": 12.98,
+    "end": 13.62
+   },
+   {
+    "syl": "ᏃᏗ",
+    "pho": "hnodi",
+    "start": 13.62,
+    "end": 14.04
+   },
+   {
+    "syl": "ᎠᎦᏴᎵᎨᎢ",
+    "pho": "agayv:ligé:'i",
+    "start": 14.04,
+    "end": 15.92
+   },
+   {
+    "syl": "ᏣᎦᎾᏅᎪᎨᎢ.",
+    "pho": "tsagananvgó:ge'i.",
+    "start": 15.92,
+    "end": 18.13
+   }
+  ],
+  "eng": "She could change from looking like a monster to looking like an old woman."
+ },
+ {
+  "idx": 4,
+  "start": 18.9,
+  "end": 23.17,
+  "words": [
+   {
+    "syl": "ᎢᎤᏍᏗᏯᏛᎾ",
+    "pho": "i:yú:sdi-yadv´:na",
+    "start": 18.9,
+    "end": 20.53
+   },
+   {
+    "syl": "ᏳᎳᏍᏕᎵᏴᏌ",
+    "pho": "yulsdeli:yv´:sv",
+    "start": 20.53,
+    "end": 22.05
+   },
+   {
+    "syl": "ᏗᎧᎾᏗ",
+    "pho": "di:ká:ndi",
+    "start": 22.05,
+    "end": 23.17
+   }
+  ],
+  "eng": "No matter how she looked,"
+ },
+ {
+  "idx": 5,
+  "start": 23.6,
+  "end": 29.36,
+  "words": [
+   {
+    "syl": "ᎠᏎᏃ",
+    "pho": "ase:no",
+    "start": 23.6,
+    "end": 24.53
+   },
+   {
+    "syl": "ᏅᏱ",
+    "pho": "nv:ya",
+    "start": 24.53,
+    "end": 25.08
+   },
+   {
+    "syl": "ᎠᏍᏓᏱ",
+    "pho": "asdá:yi",
+    "start": 25.08,
+    "end": 25.91
+   },
+   {
+    "syl": "ᏥᎨᏎᎢ",
+    "pho": "tsigesé:",
+    "start": 25.91,
+    "end": 27.63
+   },
+   {
+    "syl": "ᎱᏁᎦᎸᎢ",
+    "pho": "uné:galv´:'i",
+    "start": 27.63,
+    "end": 29.36
+   }
+  ],
+  "eng": "her skin was hard like a rock"
+ },
+ {
+  "idx": 6,
+  "start": 29.52,
+  "end": 33.46,
+  "words": [
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 29.52,
+    "end": 30.01
+   },
+   {
+    "syl": "ᎨᏍᏓᏗ",
+    "pho": "ge:sdadi",
+    "start": 30.01,
+    "end": 30.59
+   },
+   {
+    "syl": "ᎦᏟᏓ",
+    "pho": "gahltsida",
+    "start": 30.59,
+    "end": 31.41
+   },
+   {
+    "syl": "ᎬᏔᎸᎦᏍᏙᏗ",
+    "pho": "gv:talv´gsdóhdi",
+    "start": 31.41,
+    "end": 32.58
+   },
+   {
+    "syl": "ᏱᎨᏎᎢ.",
+    "pho": "yige:se'i.",
+    "start": 32.58,
+    "end": 33.46
+   }
+  ],
+  "eng": "and arrows would not pierce it."
+ }
+]

@@ -1,0 +1,104 @@
+[
+ {
+  "idx": 1,
+  "start": 0.14,
+  "end": 7.72,
+  "words": [
+   {
+    "syl": "ᏂᎠ",
+    "pho": "hi'a",
+    "start": 0.14,
+    "end": 0.69
+   },
+   {
+    "syl": "ᎤᏁᎩᎸᏗ-ᎠᎦᏴᎵ",
+    "pho": "une:gi:lv´:di",
+    "start": 0.69,
+    "end": 2.74
+   },
+   {
+    "syl": "ᏧᎸᏆᏕ",
+    "pho": "tsulv´:gwadé:",
+    "start": 2.74,
+    "end": 4.45
+   },
+   {
+    "syl": "ᎤᎧᎯᏓ",
+    "pho": "u:kvhada",
+    "start": 4.45,
+    "end": 5.98
+   },
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 5.98,
+    "end": 6.71
+   },
+   {
+    "syl": "ᎤᎦᏒᏍᏗ.",
+    "pho": "tsu:gsv´:sdi.",
+    "start": 6.71,
+    "end": 7.72
+   }
+  ],
+  "eng": "The ugly old hag loved fog and smoke."
+ },
+ {
+  "idx": 2,
+  "start": 7.79,
+  "end": 11.6,
+  "words": [
+   {
+    "syl": "ᎠᎯᏓ",
+    "pho": "ahí:da",
+    "start": 7.79,
+    "end": 8.67
+   },
+   {
+    "syl": "ᏄᎳᏍᏓᏁᎮ",
+    "pho": "nulsdané:he'i",
+    "start": 8.67,
+    "end": 9.97
+   },
+   {
+    "syl": "ᎤᏗᏍᎦᎳᏗ",
+    "pho": "u:disgahldi",
+    "start": 9.97,
+    "end": 11.6
+   }
+  ],
+  "eng": "They made it easy for her to hide"
+ },
+ {
+  "idx": 3,
+  "start": 11.61,
+  "end": 15.85,
+  "words": [
+   {
+    "syl": "ᎾᏍᎩ",
+    "pho": "ná:sgin",
+    "start": 11.61,
+    "end": 12.19
+   },
+   {
+    "syl": "ᎤᏓᎾᎢᏍᏙᏗ",
+    "pho": "u:da:nv´:'isdóhdi",
+    "start": 12.19,
+    "end": 13.62
+   },
+   {
+    "syl": "ᏐᎢ",
+    "pho": "só'i",
+    "start": 13.62,
+    "end": 14.31
+   },
+   {
+    "syl": "ᎤᏐᏅᏅᏍᏙᏗ.",
+    "pho": "u:so:nv:sdóhdi",
+    "start": 14.31,
+    "end": 15.85
+   }
+  ],
+  "eng": "until she was ready to strike her next victim."
+ }
+]

@@ -1,0 +1,166 @@
+[
+ {
+  "idx": 1,
+  "start": 0.21,
+  "end": 6.44,
+  "words": [
+   {
+    "syl": "ᎠᏎᏃ",
+    "pho": "ase:no",
+    "start": 0.21,
+    "end": 0.93
+   },
+   {
+    "syl": "ᎪᏍᏓᏱ",
+    "pho": "gó:sda:yi",
+    "start": 0.93,
+    "end": 1.55
+   },
+   {
+    "syl": "ᏗᎦᏘᏍᏙᏗ",
+    "pho": "digá:hlti:sdóhdi",
+    "start": 1.55,
+    "end": 2.58
+   },
+   {
+    "syl": "ᎦᏰᏌᏗ",
+    "pho": "gá:ye:sadv´:'i",
+    "start": 2.58,
+    "end": 3.41
+   },
+   {
+    "syl": "ᏙᏳ",
+    "pho": "do:yu",
+    "start": 3.41,
+    "end": 3.82
+   },
+   {
+    "syl": "ᏣᏏᎾᏏᏁ",
+    "pho": "tsasí:nahé:",
+    "start": 3.82,
+    "end": 5.1
+   },
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 5.1,
+    "end": 5.51
+   },
+   {
+    "syl": "ᎤᏕᎵᏍᏗ",
+    "pho": "udé:li:sdi",
+    "start": 5.51,
+    "end": 6.44
+   }
+  ],
+  "eng": "But old Spearfinger was very clever and sneaky."
+ },
+ {
+  "idx": 2,
+  "start": 6.56,
+  "end": 12.12,
+  "words": [
+   {
+    "syl": "ᏣᏕᎦᏂᏱᏍᎨ",
+    "pho": "ganihti",
+    "start": 6.56,
+    "end": 8.72
+   },
+   {
+    "syl": "ᎩᎶ",
+    "pho": "kiló:",
+    "start": 8.72,
+    "end": 9.48
+   },
+   {
+    "syl": "ᎤᏩᏏᎧ",
+    "pho": "uwá:si",
+    "start": 9.48,
+    "end": 10.61
+   },
+   {
+    "syl": "ᎢᏴ",
+    "pho": "i:yv",
+    "start": 10.61,
+    "end": 11.17
+   },
+   {
+    "syl": "ᏰᏙᎭ",
+    "pho": "ye:dó:ha",
+    "start": 11.17,
+    "end": 12.12
+   }
+  ],
+  "eng": "She would grab someone who was out alone"
+ },
+ {
+  "idx": 3,
+  "start": 12.61,
+  "end": 16.77,
+  "words": [
+   {
+    "syl": "ᏍᎩᎾ",
+    "pho": "sgina",
+    "start": 12.61,
+    "end": 13.04
+   },
+   {
+    "syl": "ᏯᏓᎢᏗᏏ",
+    "pho": "yadaidisi",
+    "start": 13.04,
+    "end": 13.88
+   },
+   {
+    "syl": "ᏓᏰᏠᎮᎢ",
+    "pho": "dahyé:hlo:hé'i",
+    "start": 13.88,
+    "end": 15.0
+   },
+   {
+    "syl": "ᏧᏪᎳ",
+    "pho": "tsuwe:la",
+    "start": 15.0,
+    "end": 15.5
+   },
+   {
+    "syl": "ᏕᎦᎵᎩᎡᎮᎢ",
+    "pho": "de:gahligí:'ehe'i",
+    "start": 15.5,
+    "end": 16.77
+   }
+  ],
+  "eng": "and slice out their liver"
+ },
+ {
+  "idx": 4,
+  "start": 17.05,
+  "end": 21.14,
+  "words": [
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 17.05,
+    "end": 17.6
+   },
+   {
+    "syl": "ᎤᎬᎭᏓ",
+    "pho": "u:kvhada",
+    "start": 17.6,
+    "end": 19.24
+   },
+   {
+    "syl": "ᎢᏣ",
+    "pho": "i:tsa",
+    "start": 19.24,
+    "end": 19.69
+   },
+   {
+    "syl": "ᏣᏗᏍᎦᎳᏍᎨᎢ.",
+    "pho": "tsadí:sgalvsgé:'i",
+    "start": 19.69,
+    "end": 21.14
+   }
+  ],
+  "eng": "and disappear back into the fog."
+ }
+]

@@ -1,0 +1,242 @@
+[
+ {
+  "idx": 1,
+  "start": 0,
+  "end": 7.98,
+  "words": [
+   {
+    "syl": "ᎠᏎᏃ",
+    "pho": "a:sé:hno",
+    "start": 0,
+    "end": 0.92
+   },
+   {
+    "syl": "ᏐᏊ",
+    "pho": "so:gwú",
+    "start": 0.92,
+    "end": 1.53
+   },
+   {
+    "syl": "ᎪᎱᏍᏗ",
+    "pho": "go:hó:sdi",
+    "start": 1.53,
+    "end": 2.45
+   },
+   {
+    "syl": "ᏧᎾᏓᏕᏙᏗᏍᎨᎢ",
+    "pho": "tsundé:hdohdí:sge'i",
+    "start": 2.45,
+    "end": 4.9
+   },
+   {
+    "syl": "ᎤᎵᎮᎵᏍᏗ",
+    "pho": "u:lihé:li:sdi",
+    "start": 4.9,
+    "end": 6.43
+   },
+   {
+    "syl": "ᎠᏁᎲᎢ…",
+    "pho": "ane:hv´'i",
+    "start": 6.43,
+    "end": 7.98
+   }
+  ],
+  "eng": "There was one thing that disturbed their happy lives…"
+ },
+ {
+  "idx": 2,
+  "start": 8.19,
+  "end": 12.28,
+  "words": [
+   {
+    "syl": "ᎪᏍᏓᏱ",
+    "pho": "gó:sda:yi",
+    "start": 8.19,
+    "end": 9.12
+   },
+   {
+    "syl": "ᏗᎦᏘᏍᏙᏗ",
+    "pho": "digá:hlti:sdóhdi",
+    "start": 9.12,
+    "end": 10.8
+   },
+   {
+    "syl": "ᎦᏰᏌᏗ",
+    "pho": "gá:ye:sadv´:'i",
+    "start": 10.8,
+    "end": 12.28
+   }
+  ],
+  "eng": "Spearfinger!"
+ },
+ {
+  "idx": 3,
+  "start": 12.4,
+  "end": 21.1,
+  "words": [
+   {
+    "syl": "ᏍᎩᎾ",
+    "pho": "sgina",
+    "start": 12.4,
+    "end": 13.12
+   },
+   {
+    "syl": "ᎪᏍᏓᏱ",
+    "pho": "gó:sda:yi",
+    "start": 13.12,
+    "end": 14.04
+   },
+   {
+    "syl": "ᎦᏰᏌᏗ",
+    "pho": "gá:ye:sad",
+    "start": 14.04,
+    "end": 15.47
+   },
+   {
+    "syl": "ᏙᏳᏕᎦ",
+    "pho": "do:yú:de:ga",
+    "start": 15.47,
+    "end": 16.7
+   },
+   {
+    "syl": "ᎤᎶᏒᏍᏗ",
+    "pho": "u:lo:sv´sdi",
+    "start": 16.7,
+    "end": 17.93
+   },
+   {
+    "syl": "ᎤᏲᎢ",
+    "pho": "uyó:'i",
+    "start": 17.93,
+    "end": 18.85
+   },
+   {
+    "syl": "ᏥᎨᏎᎢ",
+    "pho": "tsigesé:'i",
+    "start": 18.85,
+    "end": 20.39
+   },
+   {
+    "syl": "ᏍᎩᎵ",
+    "pho": "sgi:li",
+    "start": 20.39,
+    "end": 21.1
+   }
+  ],
+  "eng": "Spearfinger was a terrible old monster"
+ },
+ {
+  "idx": 4,
+  "start": 21.14,
+  "end": 24.35,
+  "words": [
+   {
+    "syl": "ᏤᎮᎢ",
+    "pho": "tsehé:'i",
+    "start": 21.14,
+    "end": 22.06
+   },
+   {
+    "syl": "ᎦᎸᎳᏗᏳ",
+    "pho": "galv´:ladí:yu",
+    "start": 22.06,
+    "end": 23.43
+   },
+   {
+    "syl": "ᎦᏚᏏ.",
+    "pho": "gadú:si.",
+    "start": 23.43,
+    "end": 24.35
+   }
+  ],
+  "eng": "who lived high in the mountains."
+ },
+ {
+  "idx": 5,
+  "start": 24.81,
+  "end": 35.32,
+  "words": [
+   {
+    "syl": "ᎾᎩᎾᏃ",
+    "pho": "na:sgihno",
+    "start": 24.81,
+    "end": 26.24
+   },
+   {
+    "syl": "ᎪᏍᏓᏱ",
+    "pho": "gó:sda:yi",
+    "start": 26.24,
+    "end": 27.24
+   },
+   {
+    "syl": "ᏥᎦᏰᏌᏕ",
+    "pho": "tsigá:ye:sade",
+    "start": 27.24,
+    "end": 28.9
+   },
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 28.9,
+    "end": 29.56
+   },
+   {
+    "syl": "ᎦᏅᎯᏓ",
+    "pho": "ganv:hí:da",
+    "start": 29.56,
+    "end": 30.89
+   },
+   {
+    "syl": "ᏗᏓᏰᎳᏍᏙᏗ",
+    "pho": "didahyé:lsdóhdi",
+    "start": 30.89,
+    "end": 32.89
+   },
+   {
+    "syl": "ᎢᏳᏍᏗ",
+    "pho": "i:yú:sdi",
+    "start": 32.89,
+    "end": 33.89
+   },
+   {
+    "syl": "ᏥᎨᏎᎢ",
+    "pho": "tsigesé:",
+    "start": 33.89,
+    "end": 35.32
+   }
+  ],
+  "eng": "She had a sharp finger as long as a dagger"
+ },
+ {
+  "idx": 6,
+  "start": 35.63,
+  "end": 43.12,
+  "words": [
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 35.63,
+    "end": 36.4
+   },
+   {
+    "syl": "ᎦᏁᎦᏗᏓᎸᎦᏍᏙᏗ",
+    "pho": "gané:gadihdalvgsdóhdi",
+    "start": 36.4,
+    "end": 41.03
+   },
+   {
+    "syl": "ᎢᏳᏍᏗ",
+    "pho": "i:yú:sdi",
+    "start": 41.03,
+    "end": 42.03
+   },
+   {
+    "syl": "ᏣᏄᏍᏕ.",
+    "pho": "tsinu:sdé:'i",
+    "start": 42.03,
+    "end": 43.12
+   }
+  ],
+  "eng": "and shaped like an awl."
+ }
+]

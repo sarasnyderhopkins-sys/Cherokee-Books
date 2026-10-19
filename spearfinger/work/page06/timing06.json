@@ -1,0 +1,86 @@
+[
+ {
+  "idx": 1,
+  "start": 0.1,
+  "end": 2.97,
+  "words": [
+   {
+    "syl": "ᎾᏍᎩ",
+    "pho": "hnasgi",
+    "start": 0.1,
+    "end": 0.81
+   },
+   {
+    "syl": "ᎯᎠ",
+    "pho": "hi'a",
+    "start": 0.81,
+    "end": 1.22
+   },
+   {
+    "syl": "ᏣᎾᏕᎦᏪᏎᎮᎢ,",
+    "pho": "tsinde:gawé:se:he'i,",
+    "start": 1.22,
+    "end": 2.97
+   }
+  ],
+  "eng": "She would say to them,"
+ },
+ {
+  "idx": 2,
+  "start": 3.99,
+  "end": 6.16,
+  "words": [
+   {
+    "syl": "“ᎨᎾ,",
+    "pho": "ké:na,",
+    "start": 3.99,
+    "end": 4.58
+   },
+   {
+    "syl": "ᎤᏍᏗ",
+    "pho": "usdí",
+    "start": 4.58,
+    "end": 5.07
+   },
+   {
+    "syl": "ᎠᎨᏳᏣ,",
+    "pho": "age:hyú:tsa,",
+    "start": 5.07,
+    "end": 6.16
+   }
+  ],
+  "eng": "“Come, little girl,"
+ },
+ {
+  "idx": 3,
+  "start": 6.22,
+  "end": 10.54,
+  "words": [
+   {
+    "syl": "ᎨᎾ",
+    "pho": "ké:na",
+    "start": 6.22,
+    "end": 6.79
+   },
+   {
+    "syl": "ᏣᎵᏏ",
+    "pho": "tsalí:si",
+    "start": 6.79,
+    "end": 7.7
+   },
+   {
+    "syl": "ᏩᏣᏔᏬᎢᏏ",
+    "pho": "wigv:tawó:tsa",
+    "start": 7.7,
+    "end": 9.5
+   },
+   {
+    "syl": "ᏍᏔᏰᎬᎢ.”",
+    "pho": "sdiye:hgv´:'i",
+    "start": 9.5,
+    "end": 10.54
+   }
+  ],
+  "eng": "come to your granny and let me comb your hair.”"
+ }
+]

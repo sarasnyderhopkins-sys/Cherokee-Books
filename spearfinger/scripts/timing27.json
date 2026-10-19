@@ -1,0 +1,374 @@
+[
+ {
+  "idx": 1,
+  "start": 0.0,
+  "end": 6.7,
+  "words": [
+   {
+    "syl": "ᎪᏍᏓᏱ",
+    "pho": "gó:sda:yi",
+    "start": 0.0,
+    "end": 0.56
+   },
+   {
+    "syl": "ᏗᎦᎵᏘᏍᏙᏗ",
+    "pho": "digá:hltisdóhdi",
+    "start": 0.56,
+    "end": 1.69
+   },
+   {
+    "syl": "ᎦᏰᏌᏛᎢ",
+    "pho": "gá:ye:sadv´:'i",
+    "start": 1.69,
+    "end": 2.64
+   },
+   {
+    "syl": "ᎤᎵᏬᏨ",
+    "pho": "u:li:hwo:tsv",
+    "start": 2.64,
+    "end": 3.75
+   },
+   {
+    "syl": "ᏗᎧᎾᏗ",
+    "pho": "di:gandi",
+    "start": 3.75,
+    "end": 5.34
+   },
+   {
+    "syl": "ᏥᏄᏍᏕᎢ,",
+    "pho": "tsinu:sdei,",
+    "start": 5.34,
+    "end": 6.7
+   }
+  ],
+  "eng": "Spearfinger looked dead,"
+ },
+ {
+  "idx": 2,
+  "start": 6.7,
+  "end": 12.25,
+  "words": [
+   {
+    "syl": "ᎠᏎᏃ",
+    "pho": "aseno",
+    "start": 6.7,
+    "end": 7.27
+   },
+   {
+    "syl": "ᏥᏳᎦᏗ",
+    "pho": "tsiyú:gdi",
+    "start": 7.27,
+    "end": 8.02
+   },
+   {
+    "syl": "ᎤᎾᏕᎶᎯᏍᏗ",
+    "pho": "u:ndeló:hosdi",
+    "start": 8.02,
+    "end": 9.15
+   },
+   {
+    "syl": "ᏧᎾᏚᎵᏍᎨᎢ",
+    "pho": "tsundu:lísge",
+    "start": 9.15,
+    "end": 10.55
+   },
+   {
+    "syl": "ᎠᏂᏣᎳᎩ",
+    "pho": "ani:tsalagi",
+    "start": 10.55,
+    "end": 12.25
+   }
+  ],
+  "eng": "but the Cherokees wanted to know for sure,"
+ },
+ {
+  "idx": 3,
+  "start": 12.5,
+  "end": 13.99,
+  "words": [
+   {
+    "syl": "ᏍᎩᏳᏍᏗ",
+    "pho": "sgi:yú:sdi",
+    "start": 12.5,
+    "end": 12.71
+   },
+   {
+    "syl": "ᎡᏆ",
+    "pho": "é:gwa",
+    "start": 12.71,
+    "end": 13.09
+   },
+   {
+    "syl": "ᏧᏃᏔᏁᎢ",
+    "pho": "tsuno:tané:'i",
+    "start": 13.09,
+    "end": 13.99
+   }
+  ],
+  "eng": "so they built a big fire"
+ },
+ {
+  "idx": 4,
+  "start": 14.29,
+  "end": 18.78,
+  "words": [
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 14.29,
+    "end": 14.71
+   },
+   {
+    "syl": "ᎭᎾ",
+    "pho": "hana",
+    "start": 14.71,
+    "end": 15.77
+   },
+   {
+    "syl": "ᏣᏭᎾᏓᎩᏅᏎᎢ",
+    "pho": "tsawundagi:nvsé:'i",
+    "start": 15.77,
+    "end": 17.51
+   },
+   {
+    "syl": "ᏍᎩᎾ",
+    "pho": "sgina",
+    "start": 17.51,
+    "end": 17.89
+   },
+   {
+    "syl": "ᏍᎩᎵ.",
+    "pho": "sgi:lí.",
+    "start": 17.89,
+    "end": 18.78
+   }
+  ],
+  "eng": "and threw the witch on it."
+ },
+ {
+  "idx": 5,
+  "start": 18.78,
+  "end": 25.04,
+  "words": [
+   {
+    "syl": "ᏍᎩᏴᏃ",
+    "pho": "sgiyvhno",
+    "start": 18.78,
+    "end": 19.35
+   },
+   {
+    "syl": "ᎠᏥᎳ",
+    "pho": "atsí:la",
+    "start": 19.35,
+    "end": 20.61
+   },
+   {
+    "syl": "ᎠᎪᎲᏍᎬ",
+    "pho": "agó:hvsgv´",
+    "start": 20.61,
+    "end": 21.36
+   },
+   {
+    "syl": "ᎯᎠ",
+    "pho": "hí'a",
+    "start": 21.36,
+    "end": 22.83
+   },
+   {
+    "syl": "ᎠᏂᏴᏫᏯ",
+    "pho": "ani:yv:wiyá",
+    "start": 22.83,
+    "end": 24.12
+   },
+   {
+    "syl": "ᏣᎾᏛᎩᏍᎨ",
+    "pho": "tsani:tv:gí:sge",
+    "start": 24.12,
+    "end": 25.04
+   }
+  ],
+  "eng": "As the fire burned, the people heard"
+ },
+ {
+  "idx": 6,
+  "start": 25.41,
+  "end": 30.58,
+  "words": [
+   {
+    "syl": "ᏗᎧᏃᎩᏓ",
+    "pho": "dikano:gí:da",
+    "start": 25.41,
+    "end": 26.67
+   },
+   {
+    "syl": "ᎠᏥᎳ",
+    "pho": "atsí:lv",
+    "start": 26.67,
+    "end": 27.43
+   },
+   {
+    "syl": "ᎢᏣ",
+    "pho": "i:tsá",
+    "start": 27.43,
+    "end": 27.81
+   },
+   {
+    "syl": "ᏗᏓᏅᏫᏍᎩ",
+    "pho": "di:da:nv:wísgi",
+    "start": 27.81,
+    "end": 29.29
+   },
+   {
+    "syl": "ᏗᎧᏃᎩᏓ.",
+    "pho": "dikahno:gí:da.",
+    "start": 29.29,
+    "end": 30.58
+   }
+  ],
+  "eng": "songs coming from the fire, songs of healing."
+ },
+ {
+  "idx": 7,
+  "start": 31.32,
+  "end": 39.55,
+  "words": [
+   {
+    "syl": "ᏍᎩᏴ",
+    "pho": "sgiyv",
+    "start": 31.32,
+    "end": 31.67
+   },
+   {
+    "syl": "ᎤᏐᏅᎢ",
+    "pho": "u:so:nv´'i",
+    "start": 31.67,
+    "end": 32.8
+   },
+   {
+    "syl": "ᎠᏓᏪᎯ",
+    "pho": "adawé:hi",
+    "start": 32.8,
+    "end": 33.83
+   },
+   {
+    "syl": "ᎪᏍᏓᏱ",
+    "pho": "go:sdáyi",
+    "start": 33.83,
+    "end": 35.0
+   },
+   {
+    "syl": "ᏗᎦᎵᏘᏍᏙᏗ",
+    "pho": "digá:tisdóhdi",
+    "start": 35.0,
+    "end": 36.13
+   },
+   {
+    "syl": "ᎦᏰᏍᏛᎢ",
+    "pho": "gá:yesadi",
+    "start": 36.13,
+    "end": 37.35
+   },
+   {
+    "syl": "ᎩᎳᎯᏯ",
+    "pho": "kilá:hí:ya",
+    "start": 37.35,
+    "end": 38.46
+   },
+   {
+    "syl": "ᏧᏂᏲᏍᏓᏁᎢ,",
+    "pho": "tsuni:yó:sdané:'i,",
+    "start": 38.46,
+    "end": 39.55
+   }
+  ],
+  "eng": "When Spearfinger's evil magic was finally destroyed,"
+ },
+ {
+  "idx": 8,
+  "start": 39.81,
+  "end": 43.73,
+  "words": [
+   {
+    "syl": "ᎠᏓᏅᏫᏍᎩ",
+    "pho": "ada:nv:wísgi",
+    "start": 39.81,
+    "end": 40.8
+   },
+   {
+    "syl": "ᏅᏬᏘ",
+    "pho": "nvwoti",
+    "start": 40.8,
+    "end": 41.37
+   },
+   {
+    "syl": "ᏗᎧᏃᎩᏓ",
+    "pho": "dikanogida",
+    "start": 41.37,
+    "end": 42.31
+   },
+   {
+    "syl": "ᎤᏂᎷᏤᎸ",
+    "pho": "unilutselv",
+    "start": 42.31,
+    "end": 43.73
+   }
+  ],
+  "eng": "healing medicine songs came."
+ },
+ {
+  "idx": 9,
+  "start": 43.96,
+  "end": 51.25,
+  "words": [
+   {
+    "syl": "ᎯᎠ",
+    "pho": "hí'a",
+    "start": 43.96,
+    "end": 44.15
+   },
+   {
+    "syl": "ᎠᏂᏣᎳᎩ",
+    "pho": "ani:tsalagi",
+    "start": 44.15,
+    "end": 45.1
+   },
+   {
+    "syl": "ᎤᎾᏛᎦᏅ",
+    "pho": "unatvganv",
+    "start": 45.1,
+    "end": 46.41
+   },
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 46.41,
+    "end": 47.12
+   },
+   {
+    "syl": "ᎤᎾᎾᏔ",
+    "pho": "unanta",
+    "start": 47.12,
+    "end": 48.19
+   },
+   {
+    "syl": "ᏍᎩᎾ",
+    "pho": "sgina",
+    "start": 48.19,
+    "end": 48.57
+   },
+   {
+    "syl": "ᏗᎧᏃᎩᏓ",
+    "pho": "dikahno:gí:da",
+    "start": 48.57,
+    "end": 50.12
+   },
+   {
+    "syl": "ᎯᎪᎢᎦ.",
+    "pho": "hi:go",
+    "start": 50.12,
+    "end": 51.25
+   }
+  ],
+  "eng": "The Cherokees listened, and they remember those songs to this day."
+ }
+]

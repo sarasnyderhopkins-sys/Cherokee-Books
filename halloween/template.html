@@ -1,0 +1,359 @@
+<title>Danaligvdulvsgv Ditsilosdanv</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Cherokee:wght@400;600&family=Patrick+Hand&family=Nunito:wght@400;600;700&display=swap">
+<style>
+/* Layout: one full-screen night-sky stage holding the picture; a thin bar of controls above it, the caption floating over the lower part of the picture, page arrows at the sides. Single deliberate dark theme (a night scene). */
+:root {
+  --bg: #0e1630;
+  --bg-deep: #060a18;
+  --fg: #f4ead8;
+  --fg-dim: #b7ae9d;
+  --accent: #f0a53c;
+  --accent-ink: #2a1600;
+  --accent-soft: rgba(240, 165, 60, .16);
+  --caption: rgba(8, 12, 28, .74);
+  --line: rgba(244, 234, 216, .16);
+  --font-syl: 'Noto Sans Cherokee', 'Plantagenet Cherokee', 'Galvji', 'Aboriginal Sans', sans-serif;
+  --font-story: 'Patrick Hand', 'Chalkboard', 'Comic Sans MS', cursive;
+  --font-ui: 'Nunito', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --fade: 0.8s;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font-ui); overflow: hidden; -webkit-font-smoothing: antialiased; }
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; padding: 0; }
+button:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+#app { height: 100%; display: flex; flex-direction: column; }
+
+/* control bar */
+#bar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding: 8px 16px; padding-top: calc(8px + env(safe-area-inset-top, 0px)); border-bottom: 1px solid var(--line); background: var(--bg-deep); font-size: 14px; }
+#bar .brand { font-family: var(--font-syl); font-weight: 600; letter-spacing: .02em; color: var(--fg); white-space: nowrap; }
+#bar .brand small { font-family: var(--font-ui); font-weight: 400; color: var(--fg-dim); margin-left: 8px; }
+#bar .spacer { flex: 1; }
+#bar .counter { font-variant-numeric: tabular-nums; color: var(--fg-dim); min-width: 4.5ch; text-align: right; }
+.btn { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); background: rgba(244, 234, 216, .04); line-height: 1; white-space: nowrap; }
+.btn:hover { background: rgba(244, 234, 216, .1); }
+.btn[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 700; }
+.chips { display: inline-flex; gap: 4px; }
+.chip { padding: 5px 9px; border-radius: 999px; border: 1px solid var(--line); color: var(--fg-dim); font-size: 12.5px; line-height: 1; }
+.chip[aria-pressed="true"] { color: var(--fg); background: var(--accent-soft); border-color: rgba(240, 165, 60, .5); }
+.chips.disabled { opacity: .4; pointer-events: none; }
+
+/* stage */
+#stage { position: relative; flex: 1; min-height: 0; overflow: hidden; background: var(--bg); }
+#pic { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; transform-origin: 50% 50%; will-change: transform; transition: transform 16s linear, opacity .5s ease; }
+#pic.swap { transition: opacity .25s ease; opacity: 0; }
+#pic.flicker { animation: flicker 2.8s ease-in-out infinite; }
+@keyframes flicker { 0%{filter:brightness(1)} 9%{filter:brightness(1.05)} 17%{filter:brightness(.98)} 26%{filter:brightness(1.04)} 38%{filter:brightness(1)} 47%{filter:brightness(1.06)} 56%{filter:brightness(.97)} 71%{filter:brightness(1.03)} 100%{filter:brightness(1)} }
+
+.arrow { position: absolute; top: 50%; transform: translateY(-50%); width: 48px; height: 72px; border-radius: 12px; background: rgba(6, 10, 24, .45); color: var(--fg); font-size: 28px; display: grid; place-items: center; opacity: .55; transition: opacity .2s; z-index: 3; }
+.arrow:hover { opacity: 1; background: rgba(6, 10, 24, .7); }
+.arrow[disabled] { opacity: .15; cursor: default; }
+#prev { left: 10px; } #next { right: 10px; }
+
+#replay { position: absolute; right: 14px; bottom: calc(14px + env(safe-area-inset-bottom, 0px)); width: 44px; height: 44px; border-radius: 50%; background: rgba(6, 10, 24, .55); border: 1px solid var(--line); display: grid; place-items: center; z-index: 3; }
+#replay svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+#full { position: absolute; left: 14px; bottom: calc(14px + env(safe-area-inset-bottom, 0px)); width: 44px; height: 44px; border-radius: 50%; background: rgba(6, 10, 24, .55); border: 1px solid var(--line); display: grid; place-items: center; z-index: 3; }
+#full svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+
+/* caption */
+#caption { position: absolute; left: 50%; bottom: calc(22px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); width: min(92%, 62ch); padding: 14px 20px 16px; border-radius: 16px; background: var(--caption); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); text-align: center; opacity: 0; transition: opacity var(--fade) ease; z-index: 2; pointer-events: none; }
+#caption.show { opacity: 1; }
+#caption[hidden] { display: none; }
+#caption .syl { font-family: var(--font-syl); font-weight: 600; font-size: clamp(1.35rem, 3vw, 2.1rem); line-height: 1.3; text-wrap: balance; }
+#caption .phon { font-family: var(--font-ui); font-weight: 600; font-size: clamp(1rem, 2vw, 1.25rem); line-height: 1.4; margin-top: 4px; color: var(--fg); }
+#caption .en { font-family: var(--font-story); font-size: clamp(1.05rem, 2.1vw, 1.35rem); line-height: 1.35; margin-top: 6px; color: var(--fg-dim); }
+#caption > div[hidden] { display: none; }
+
+/* cover */
+#cover { position: absolute; inset: 0; display: grid; place-items: center; padding: 24px; z-index: 4; background: linear-gradient(180deg, rgba(6,10,24,.25), rgba(6,10,24,.55)); }
+#cover[hidden] { display: none; }
+#cover .card { max-width: 34rem; width: 100%; text-align: center; padding: 28px 28px 26px; border-radius: 22px; background: var(--caption); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border: 1px solid var(--line); }
+#cover h1 { margin: 0; font-family: var(--font-syl); font-weight: 600; font-size: clamp(1.7rem, 5vw, 2.8rem); line-height: 1.25; text-wrap: balance; }
+#cover .phon { margin: 8px 0 0; font-family: var(--font-story); font-size: clamp(1.2rem, 3vw, 1.6rem); color: var(--fg); }
+#cover .en { margin: 10px 0 0; font-family: var(--font-story); font-size: 1.1rem; color: var(--fg-dim); }
+#cover .credit { margin: 14px 0 0; font-size: .85rem; letter-spacing: .08em; text-transform: uppercase; color: var(--fg-dim); }
+#begin { margin-top: 22px; padding: 12px 28px; border-radius: 999px; background: var(--accent); color: var(--accent-ink); font-weight: 700; font-size: 1.05rem; letter-spacing: .02em; }
+#begin:hover { filter: brightness(1.06); }
+
+@media (max-width: 560px) {
+  #bar { gap: 8px; padding-inline: 12px; }
+  #bar .brand small { display: none; }
+  .arrow { width: 38px; height: 60px; font-size: 24px; }
+  #caption { padding: 10px 14px 12px; bottom: calc(68px + env(safe-area-inset-bottom, 0px)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  #pic { transition: opacity .5s ease; }
+  #pic.flicker { animation: none; }
+}
+</style>
+
+<div id="app">
+  <header id="bar">
+    <span class="brand" id="brand"></span>
+    <span class="spacer"></span>
+    <button class="btn" id="textToggle" aria-pressed="true" title="Show or hide the words (T)">Text</button>
+    <span class="chips" id="chips" aria-label="Which lines to show">
+      <button class="chip" data-show="syl" aria-pressed="true">ᏣᎳᎩ</button>
+      <button class="chip" data-show="phon" aria-pressed="true">phonetics</button>
+      <button class="chip" data-show="en" aria-pressed="true">English</button>
+    </span>
+    <button class="btn" id="playAll" aria-pressed="false" title="Play every page in order (P)">Play all</button>
+    <span class="counter" id="counter"></span>
+  </header>
+
+  <main id="stage">
+    <img id="pic" alt="">
+    <button class="arrow" id="prev" aria-label="Previous page">&#8249;</button>
+    <button class="arrow" id="next" aria-label="Next page">&#8250;</button>
+    <button id="full" aria-label="Full screen" title="Full screen (F)"><svg viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+    <button id="replay" aria-label="Hear it again" title="Hear it again (space)"><svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg></button>
+    <div id="caption" aria-live="polite">
+      <div class="syl" id="capSyl"></div>
+      <div class="phon" id="capPhon"></div>
+      <div class="en" id="capEn"></div>
+    </div>
+    <div id="cover">
+      <div class="card">
+        <h1 id="coverSyl"></h1>
+        <p class="phon" id="coverPhon"></p>
+        <p class="en" id="coverEn"></p>
+        <p class="credit" id="coverCredit"></p>
+        <button id="begin">Begin</button>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script>
+const BOOK = /*DATA*/;
+
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const S = BOOK.settings;
+  const pages = BOOK.pages;
+  const lines = BOOK.lines;
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.documentElement.style.setProperty('--fade', (S.fade_seconds || 0.8) + 's');
+
+  const state = {
+    page: 0,
+    textOn: (S.text_default || 'on') !== 'off',
+    show: { syl: S.show_syllabary !== 'no', phon: S.show_phonetics !== 'no', en: S.show_english !== 'no' },
+    autoplay: false,
+    started: false,
+  };
+  try { const saved = JSON.parse(localStorage.getItem('hpb-prefs') || 'null'); if (saved) { state.textOn = saved.textOn; Object.assign(state.show, saved.show || {}); } } catch (e) {}
+  const savePrefs = () => { try { localStorage.setItem('hpb-prefs', JSON.stringify({ textOn: state.textOn, show: state.show })); } catch (e) {} };
+
+  const pic = $('pic'), caption = $('caption'), cover = $('cover');
+  const audio = new Audio();
+  audio.preload = 'auto';
+  let queue = [], timer = null, token = 0, pageGen = 0, unlocked = false;
+  // Safari and iOS only let a sound start inside a tap. The first tap plays a 10 ms silent clip on the
+  // shared audio element, which unlocks it for every line that follows.
+  const SILENCE = 'data:audio/wav;base64,UklGRsQAAABXQVZFZm10IBAAAAABAAEAQB8AAIA+AAACABAAZGF0YaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA';
+  function unlock() {
+    if (unlocked) return;
+    unlocked = true;
+    try {
+      audio.src = SILENCE;
+      const p = audio.play();
+      if (p && p.then) p.then(() => { if (audio.src === SILENCE) audio.pause(); }, () => {});
+    } catch (e) {}
+  }
+
+  // ----- cover and bar text -----
+  $('brand').innerHTML = `${BOOK.title.syl} <small>${BOOK.title.phon}</small>`;
+  $('coverSyl').textContent = BOOK.title.syl;
+  $('coverPhon').textContent = BOOK.title.phon;
+  $('coverEn').textContent = [BOOK.title.en, BOOK.title.subtitle].filter(Boolean).join(' · ');
+  $('coverCredit').textContent = S.credit || '';
+  $('coverCredit').hidden = !S.credit;
+
+  // ----- motion (light Ken Burns) -----
+  const MOTIONS = {
+    'zoom in':   [[1.0, 0, 0], [1.12, 0, 0]],
+    'zoom out':  [[1.12, 0, 0], [1.0, 0, 0]],
+    'pan right': [[1.12, 3, 0], [1.12, -3, 0]],
+    'pan left':  [[1.12, -3, 0], [1.12, 3, 0]],
+    'drift':     [[1.05, 1.5, 1], [1.1, -1.5, -1]],
+    'hold':      [[1.0, 0, 0], [1.0, 0, 0]],
+  };
+  const tf = (m) => `translate(${m[1]}%, ${m[2]}%) scale(${m[0]})`;
+  function runMotion(page) {
+    const m = MOTIONS[(page.motion || 'hold').toLowerCase()] || MOTIONS.hold;
+    pic.classList.toggle('flicker', (page.effect || '').toLowerCase() === 'flicker');
+    if (reduce) { pic.style.transform = 'none'; return; }
+    pic.style.transition = 'none';
+    pic.style.transform = tf(m[0]);
+    void pic.offsetWidth;
+    pic.style.transition = '';
+    pic.style.transform = tf(m[1]);
+  }
+
+  // ----- caption -----
+  function setCaption(line) {
+    $('capSyl').textContent = line.syl || '';
+    $('capPhon').textContent = line.phon || '';
+    $('capEn').textContent = line.en || '';
+  }
+  function applyShow() {
+    $('capSyl').hidden = !state.show.syl;
+    $('capPhon').hidden = !state.show.phon;
+    $('capEn').hidden = !state.show.en;
+    caption.hidden = !state.textOn;
+    $('textToggle').setAttribute('aria-pressed', String(state.textOn));
+    $('chips').classList.toggle('disabled', !state.textOn);
+    document.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', String(state.show[c.dataset.show])));
+  }
+
+  // ----- audio queue -----
+  function stopAudio() {
+    token++;
+    clearTimeout(timer);
+    audio.pause();
+    caption.classList.remove('show');
+  }
+  function playQueue(ids) {
+    stopAudio();
+    const my = ++token;
+    queue = ids.slice();
+    const next = () => {
+      if (my !== token) return;
+      if (!queue.length) { afterPage(my); return; }
+      const line = lines[queue.shift()];
+      if (!line) { next(); return; }
+      setCaption(line);
+      let done = false;
+      const finish = () => {
+        if (done || my !== token) return;
+        done = true;
+        caption.classList.remove('show');
+        timer = setTimeout(next, 600);
+      };
+      // no sound (missing file, or the browser refused to play): show the text for a moment, then move on
+      const fallback = () => {
+        if (done || my !== token) return;
+        caption.classList.add('show');
+        clearTimeout(timer);
+        timer = setTimeout(finish, 2500);
+      };
+      audio.onplaying = () => { if (my === token) caption.classList.add('show'); };
+      audio.onended = finish;
+      audio.onerror = fallback;
+      audio.src = line.audio;
+      const p = audio.play();
+      if (p && p.catch) p.catch(fallback);
+    };
+    next();
+  }
+  function afterPage(my) {
+    if (!state.autoplay) return;
+    const wait = Math.max(0, Number(S.pause_seconds) || 1.5) * 1000;
+    timer = setTimeout(() => {
+      if (my !== token) return;
+      if (state.page < pages.length - 1) go(state.page + 1);
+      else { setAutoplay(false); go(0); }
+    }, wait);
+  }
+
+  // ----- pages -----
+  function preload(i) { if (pages[i]) { const im = new Image(); im.src = pages[i].image; } }
+  function go(i, opts = {}) {
+    i = Math.max(0, Math.min(pages.length - 1, i));
+    const page = pages[i];
+    const changed = i !== state.page || opts.force;
+    state.page = i;
+    stopAudio();
+    $('prev').disabled = i === 0;
+    $('next').disabled = i === pages.length - 1;
+    $('counter').textContent = i === 0 ? '' : `${i} / ${pages.length - 1}`;
+    cover.hidden = i !== 0;
+    $('replay').hidden = i === 0;
+    const show = () => {
+      const gen = ++pageGen;
+      let fired = false;
+      const ready = () => {
+        if (fired || gen !== pageGen) return;   // a later page took over, or we already ran
+        fired = true;
+        pic.onload = pic.onerror = null;
+        pic.classList.remove('swap');
+        runMotion(page);
+        if (i > 0 && state.started) playQueue(page.lines);
+        else if (i === 0 && state.autoplay) afterPage(token);
+      };
+      pic.onload = pic.onerror = null;
+      pic.alt = page.alt || '';
+      pic.src = page.image;
+      if (pic.decode) pic.decode().then(ready, ready);
+      else { pic.onload = pic.onerror = ready; if (pic.complete && pic.naturalWidth) ready(); }
+    };
+    if (changed && pic.src) { pic.classList.add('swap'); timer = setTimeout(show, 260); } else show();
+    preload(i + 1);
+    snapshot();
+  }
+  function setAutoplay(on) {
+    state.autoplay = on;
+    $('playAll').setAttribute('aria-pressed', String(on));
+    $('playAll').textContent = on ? 'Stop' : 'Play all';
+  }
+
+  // ----- controls -----
+  $('begin').addEventListener('click', () => { unlock(); state.started = true; go(1); });
+  $('prev').addEventListener('click', () => go(state.page - 1));
+  $('next').addEventListener('click', () => { unlock(); state.started = true; go(state.page + 1); });
+  $('replay').addEventListener('click', () => { unlock(); state.started = true; go(state.page, { force: true }); });
+  $('textToggle').addEventListener('click', () => { state.textOn = !state.textOn; applyShow(); savePrefs(); });
+  document.querySelectorAll('.chip').forEach(c => c.addEventListener('click', () => { state.show[c.dataset.show] = !state.show[c.dataset.show]; applyShow(); savePrefs(); }));
+  $('playAll').addEventListener('click', () => {
+    unlock();
+    state.started = true;
+    setAutoplay(!state.autoplay);
+    if (state.autoplay) go(state.page === 0 ? 1 : state.page, { force: true }); else stopAudio();
+  });
+  $('full').addEventListener('click', () => {
+    const el = document.documentElement;
+    if (document.fullscreenElement) { document.exitFullscreen && document.exitFullscreen(); return; }
+    const req = el.requestFullscreen || el.webkitRequestFullscreen;
+    if (req) { try { const p = req.call(el); if (p && p.catch) p.catch(() => {}); } catch (e) {} }
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.target.tagName === 'INPUT') return;
+    unlock();
+    if (e.key === 'ArrowRight') { state.started = true; go(state.page + 1); }
+    else if (e.key === 'ArrowLeft') go(state.page - 1);
+    else if (e.key === ' ') { e.preventDefault(); if (state.page === 0) { state.started = true; go(1); } else { state.started = true; go(state.page, { force: true }); } }
+    else if (e.key === 'Enter' && state.page === 0) { state.started = true; go(1); }
+    else if (e.key.toLowerCase() === 't') $('textToggle').click();
+    else if (e.key.toLowerCase() === 'p') $('playAll').click();
+    else if (e.key.toLowerCase() === 'f') $('full').click();
+  });
+  let tx = null;
+  $('stage').addEventListener('touchstart', (e) => { tx = e.changedTouches[0].clientX; }, { passive: true });
+  $('stage').addEventListener('touchend', (e) => {
+    if (tx === null) return;
+    const dx = e.changedTouches[0].clientX - tx; tx = null;
+    if (Math.abs(dx) < 50) return;
+    unlock();
+    state.started = true;
+    go(state.page + (dx < 0 ? 1 : -1));
+  }, { passive: true });
+
+  // ----- live-update hook (keeps the page you are on if this file is republished) -----
+  function snapshot() { try { window.claude?.hot?.snapshot?.(() => ({ page: state.page, started: state.started })); } catch (e) {} }
+  function start(data) {
+    applyShow();
+    setAutoplay(false);
+    if (data && data.started) state.started = true;
+    go(data && data.page ? data.page : 0, { force: true });
+  }
+  const hot = window.claude && window.claude.hot;
+  if (hot && hot.ready) hot.ready(start); else start((hot && hot.data) || {});
+})();
+</script>

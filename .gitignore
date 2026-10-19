@@ -1,0 +1,9 @@
+# single-file versions (10-20 MB each) are rebuilt with build_standalone.py; keep them out of git
+/*/* *.html
+# scratch
+*/build/shots/
+*/timings.csv
+__pycache__/
+*.pyc
+.DS_Store
+.vercel/

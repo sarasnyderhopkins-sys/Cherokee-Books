@@ -1,0 +1,698 @@
+{
+ "sentences": [
+  {
+   "en": "It is Halloween night.",
+   "phon_docx": "Gohi usv anidasgili aninvgoga.",
+   "syl_docx": "ᎪᎯ ᎤᏒ ᎠᏂᏓᏍᎩᎵ ᎠᏂᏅᎪᎦ.",
+   "syl": "ᎪᎯ ᎤᏒ ᎠᏂᏥᏍᎩᎵ ᎠᏂᏅᎪᎦ.",
+   "page": 5,
+   "note": "Syllabary taken from the Oct 24 PDF; differs from the Word file: Word file “Ꮣ” → PDF “Ꮵ” Phonetics re-spelled for: ᎠᏂᏥᏍᎩᎵ = anitsisgili (check).",
+   "phon": "Gohi usv anitsisgili aninvgoga.",
+   "start": 10.23,
+   "end": 14.23,
+   "line": 1
+  },
+  {
+   "en": "Danny looks out the window.",
+   "phon_docx": "Doyi itsa wagatisgv denili.",
+   "syl_docx": "ᏙᏱ ᎢᏣ ᏩᎦᏘᏍᎬ ᏕᏂᎵ.",
+   "syl": "ᏙᏱ ᎢᏣ ᏩᎦᏘᏍᎬ ᏕᏂᎵ.",
+   "page": 5,
+   "note": "",
+   "phon": "Doyi itsa wagatisgv denili.",
+   "start": 15.64,
+   "end": 18.2,
+   "line": 2
+  },
+  {
+   "en": "He is sad.",
+   "phon_docx": "Uyo udanata.",
+   "syl_docx": "ᎤᏲ ᎤᏓᎾᏔ.",
+   "syl": "ᎤᏲ ᎤᏓᎾᏔ.",
+   "page": 5,
+   "note": "",
+   "phon": "Uyo udanata.",
+   "start": 19.7,
+   "end": 21.42,
+   "line": 3
+  },
+  {
+   "en": "He can't go out to trick or treat because he has a cold.",
+   "phon_docx": "Uyvtsa uniyisgv uyelati gesdi guwateladisdi yigi danadanehv nole danadalonvhesgv.",
+   "syl_docx": "ᎤᏴᏣ ᎤᏂᏱᏍᎬ ᎤᏰᎳᏘ ᎨᏍᏗ ᎫᏩᏖᎳᏗᏍᏗ ᏱᎩ ᏓᎾᏓᏁᎲ ᏃᎴ ᏓᎾᏓᎶᏅᎮᏍᎬ.",
+   "syl": "ᎤᏴᏣ ᎤᏂᏱᏍᎬ ᎤᏰᎳᏘ ᎨᏍᏗ ᎫᏩᏖᎳᏗᏍᏗ ᏱᎩ ᏓᎾᏓᏁᎲ ᏃᎴ ᏓᎾᏓᎶᏅᎮᏍᎬ.",
+   "page": 5,
+   "note": "",
+   "phon": "Uyvtsa uniyisgv uyelati gesdi guwateladisdi yigi danadanehv nole danadalonvhesgv.",
+   "start": 22.93,
+   "end": 34.46,
+   "line": 4
+  },
+  {
+   "en": "It is dark outside.",
+   "phon_docx": "Ulasiga doyi.",
+   "syl_docx": "ᎤᎳᏏᎦ ᏙᏱ.",
+   "syl": "ᎤᎳᏏᎦ ᏙᏱ.",
+   "page": 6,
+   "note": "",
+   "phon": "Ulasiga doyi.",
+   "start": 35.79,
+   "end": 37.3,
+   "line": 5
+  },
+  {
+   "en": "The wind is blowing through the branches.",
+   "phon_docx": "Ganolvvsgv ado detsugv duwanigatlv datelvhvsga",
+   "syl_docx": "ᎦᏃᎸᎥᏍᎬ ᎠᏙ ᏕᏧᎬ ᏚᏩᏂᎦᏢ ᏓᏖᎸᎲᏍᎦ",
+   "syl": "ᎦᏃᎸᎥᏍᎬ ᎠᏙ ᏕᏧᎬ ᏚᏩᏂᎦᏢ ᏓᏖᎸᎲᏍᎦ.",
+   "page": 6,
+   "note": "Syllabary taken from the Oct 24 PDF; differs from the Word file: PDF adds “.”",
+   "phon": "Ganolvvsgv ado detsugv duwanigatlv datelvhvsga.",
+   "start": 38.58,
+   "end": 46.44,
+   "line": 6
+  },
+  {
+   "en": "The moon peeps out from the clouds.",
+   "phon_docx": "Nvdano dulogila one digatiha.",
+   "syl_docx": "ᏅᏓᏃ ᏚᎶᎩᎳ ᎣᏁ ᏗᎦᏘᎭ.",
+   "syl": "ᏅᏓᏃ ᏚᎶᎩᎳ ᎣᏁ ᏗᎦᏘᎭ.",
+   "page": 6,
+   "note": "",
+   "phon": "Nvdano dulogila one digatiha.",
+   "start": 48.35,
+   "end": 53.66,
+   "line": 7
+  },
+  {
+   "en": "“What a bad, awful Halloween,” Danny whispers.",
+   "phon_docx": "“Udayv uyoi gohi usvhi,” etlawe udvnv Denili.",
+   "syl_docx": "“ᎤᏓᏴ ᎤᏲᎢ ᎪᎯ ᎤᏒᎯ,” ᎡᏝᏪ ᎤᏛᏅ ᏕᏂᎵ.",
+   "syl": "“ᎤᏓᏴ ᎤᏲᎢ ᎪᎯ ᎤᏒᎯ,” ᎡᏝᏪ ᎤᏛᏅ ᏕᏂᎵ.",
+   "page": 7,
+   "note": "",
+   "phon": "“Udayv uyoi gohi usvhi,” etlawe udvnv Denili.",
+   "start": 54.54,
+   "end": 61.45,
+   "line": 8
+  },
+  {
+   "en": "“Come here, Danny,” calls his mother from the kitchen.",
+   "phon_docx": "“Hani tena, Deni-li!” dayudvnv utsi unalasdadi diyav.",
+   "syl_docx": "“ᎭᏂ ᏖᎾ, ᏕᏂ-Ꮅ!” ᏓᏳᏛᏅ ᎤᏥ ᎤᎾᎳᏍᏓᏗ ᏗᏯᎥ.",
+   "syl": "“ᎭᏂ ᏖᎾ, ᏕᏂᎵ!” ᏓᏳᏛᏅ ᎤᏥ ᎤᎾᎳᏍᏓᏯᏗ ᏗᏯᎥ.",
+   "page": 8,
+   "note": "Syllabary taken from the Oct 24 PDF; differs from the Word file: PDF drops “-”; PDF adds “Ꮿ” Phonetics re-spelled for: ᏕᏂᎵ = Denili, ᎤᎾᎳᏍᏓᏯᏗ = unalasdayadi (check).",
+   "phon": "“Hani tena, Denili!” dayudvnv utsi unalasdayadi diyav.",
+   "start": 62.94,
+   "end": 69.84,
+   "line": 9
+  },
+  {
+   "en": "“It’s time to carve the pumpkin.”",
+   "phon_docx": "“Noi usqualv iya hiyoladihi.”",
+   "syl_docx": "“ᏃᎢ ᎤᏍᏆᎸ ᎢᏯ ᎯᏲᎳᏗᎯ.”",
+   "syl": "“ᏃᎢ ᎤᏍᏆᎸ ᎢᏯ ᎯᏲᎳᏗᎯ.”",
+   "page": 8,
+   "note": "",
+   "phon": "“Noi usqualv iya hiyoladihi.”",
+   "start": 70.39,
+   "end": 74.24,
+   "line": 10
+  },
+  {
+   "en": "“First draw the face and make plenty of snaggly teeth,” says Danny’s father.",
+   "phon_docx": "“Agvyi ukatv tatsilosda nole agadi tsuyoi deganadogesdi,” udvnv udoda.",
+   "syl_docx": "“ᎠᎬᏱ ᎤᎧtᎥ ᏔᏥᎶᏍᏓ ᏃᎴ ᎠᎦᏗ ᏧᏲᎢ ᏕᎦᎾᏙᎨᏍᏗ,” ᎤᏛᏅ ᎤᏙᏓ.",
+   "syl": "“ᎠᎬᏱ ᎤᎧᏛ ᏔᏥᎶᏍᏓ ᏃᎴ ᎠᎦᏗ ᏧᏲᎢ ᏕᎦᎾᏙᎨᏍᏗ,” ᎤᏛᏅ ᎤᏙᏓ.",
+   "page": 9,
+   "note": "Syllabary taken from the Oct 24 PDF; differs from the Word file: Word file “tᎥ” → PDF “Ꮫ”",
+   "phon": "“Agvyi ukatv tatsilosda nole agadi tsuyoi deganadogesdi,” udvnv udoda.",
+   "start": 75.03,
+   "end": 85.26,
+   "line": 11
+  },
+  {
+   "en": "“All right,” says Danny.",
+   "phon_docx": "“Hawa,” udvnv Denili.",
+   "syl_docx": "“ᎭᏩ,” ᎤᏛᏅ ᏕᏂᎵ.",
+   "syl": "“ᎭᏩ,” ᎤᏛᏅ ᏕᏂᎵ.",
+   "page": 9,
+   "note": "",
+   "phon": "“Hawa,” udvnv Denili.",
+   "start": 86.24,
+   "end": 87.76,
+   "line": 12
+  },
+  {
+   "en": "He draws a face with snaggly teeth.",
+   "phon_docx": "Ukatv dutsilosdanv squisda tsuyo diganadogi.",
+   "syl_docx": "ᎤᎧtᎥ ᏚᏥᎶᏍᏓᏅ ᏍᏈᏍᏓ ᏧᏲ ᏗᎦᎾᏙᎩ.",
+   "syl": "ᎤᎧᏛ ᏚᏥᎶᏍᏓᏅ ᏍᏈᏍᏓ ᏧᏲ ᏗᎦᎾᏙᎩ.",
+   "page": 9,
+   "note": "Syllabary taken from the Oct 24 PDF; differs from the Word file: Word file “tᎥ” → PDF “Ꮫ”",
+   "phon": "Ukatv dutsilosdanv squisda tsuyo diganadogi.",
+   "start": 88.85,
+   "end": 94.08,
+   "line": 13
+  },
+  {
+   "en": "His mother cuts out the face.",
+   "phon_docx": "Ukatv ugahalvhv utsihi.",
+   "syl_docx": "ᎤᎧtᎥ ᎤᎦᎭᎸᎲ ᎤᏥᎯ.",
+   "syl": "ᎤᎧᏛ ᎤᎦᎭᎸᎲ ᎤᏥᎯ.",
+   "page": 9,
+   "note": "Syllabary taken from the Oct 24 PDF; differs from the Word file: Word file “tᎥ” → PDF “Ꮫ”",
+   "phon": "Ukatv ugahalvhv utsihi.",
+   "start": 96.4,
+   "end": 99.8,
+   "line": 14
+  },
+  {
+   "en": "Danny reaches into the pumpkin and scoops out some slip slippery seeds with his hand.",
+   "phon_docx": "Uwoyeni gvti wadulagisv didawisgige iya unigata",
+   "syl_docx": "ᎤᏬᏰᏂ ᎬᏘ ᏩᏚᎳᎩᏒ ᏗᏓᏫᏍᎩᎨ ᎢᏯ ᎤᏂᎦᏔ",
+   "syl": "ᎤᏬᏰᏂ ᎬᏘ ᏩᏚᎳᎩᏒ ᏗᏓᏫᏍᎩᎨ ᎢᏯ ᎤᏂᎦᏔ.",
+   "page": 10,
+   "note": "Syllabary taken from the Oct 24 PDF; differs from the Word file: PDF adds “.”",
+   "phon": "Uwoyeni gvti wadulagisv didawisgige iya unigata.",
+   "start": 100.32,
+   "end": 105.92,
+   "line": 15
+  },
+  {
+   "en": "“Yuck!” he says.",
+   "phon_docx": "“eha!” udvnv.",
+   "syl_docx": "“ᎡᎭ!” ᎤᏛᏅ.",
+   "syl": "“ᎡᎭ!” ᎤᏛᏅ.",
+   "page": 10,
+   "note": "",
+   "phon": "“eha!” udvnv.",
+   "start": 106.82,
+   "end": 110.36,
+   "line": 16
+  },
+  {
+   "en": "Then he scrapes the pumpkin's insides with a big spoon.",
+   "phon_docx": "Hawinitsa aditodi gvti usdvgosv iyahi.",
+   "syl_docx": "ᎭᏫᏂᏣ ᎠᏗᏙᏗ ᎬᏘ ᎤᏍᏛᎪᏒ ᎢᏯᎯ.",
+   "syl": "ᎭᏫᏂᏣ ᎠᏗᏙᏗ ᎬᏘ ᎤᏍᏛᎪᏒ ᎢᏯᎯ.",
+   "page": 10,
+   "note": "",
+   "phon": "Hawinitsa aditodi gvti usdvgosv iyahi.",
+   "start": 110.98,
+   "end": 116.61,
+   "line": 17
+  },
+  {
+   "en": "His father puts a candle inside the pumpkin.",
+   "phon_docx": "Ukanawi uwusdanv hawini Udoda.",
+   "syl_docx": "ᎤᎧᎾᏫ ᎤᏭᏍᏓᏅ ᎭᏫᏂ ᎤᏙᏓ.",
+   "syl": "ᎤᎧᎾᏫ ᎤᏭᏍᏓᏅ ᎭᏫᏂ ᎤᏙᏓ.",
+   "page": 10,
+   "note": "",
+   "phon": "Ukanawi uwusdanv hawini Udoda.",
+   "start": 117.32,
+   "end": 122.53,
+   "line": 18
+  },
+  {
+   "en": "Danny carries it over to the window.",
+   "phon_docx": "Tsolani itsa wuyvsdanv Denili.",
+   "syl_docx": "ᏦᎳᏂ ᎢᏣ ᏭᏴᏍᏓᏅ ᏕᏂᎵ.",
+   "syl": "ᏦᎳᏂ ᎢᏣ ᏭᏴᏍᏓᏅ ᏕᏂᎵ.",
+   "page": 11,
+   "note": "",
+   "phon": "Tsolani itsa wuyvsdanv Denili.",
+   "start": 123.07,
+   "end": 128.06,
+   "line": 19
+  },
+  {
+   "en": "He walks very, very carefully.",
+   "phon_docx": "Ulasinadi aisvyi.",
+   "syl_docx": "ᎤᎳᏏᎾᏗ ᎠᎢᏒᏱ.",
+   "syl": "ᎤᎳᏏᎾᏗ ᎠᎢᏒᏱ.",
+   "page": 11,
+   "note": "",
+   "phon": "Ulasinadi aisvyi.",
+   "start": 129.6,
+   "end": 132.26,
+   "line": 20
+  },
+  {
+   "en": "“Now light the candle,” he begs.",
+   "phon_docx": "“No atsvsdanv,” uduladvhi.",
+   "syl_docx": "“Ꮓ ᎠᏨᏍᏓᏅ,” ᎤᏚᎳᏛᎯ.",
+   "syl": "“Ꮓ ᎠᏨᏍᏓᏅ,” ᎤᏚᎳᏛᎯ.",
+   "page": 11,
+   "note": "",
+   "phon": "“No atsvsdanv,” uduladvhi.",
+   "start": 133.11,
+   "end": 135.96,
+   "line": 21
+  },
+  {
+   "en": "His father lights the candle inside the pumpkin.",
+   "phon_docx": "Udodano utsvsdanv ukanawi iya hawinitsa getv.",
+   "syl_docx": "ᎤᏙᏓᏃ ᎤᏨᏍᏓᏅ ᎤᎧᎾᏫ ᎢᏯ ᎭᏫᏂᏣ ᎨtᎥ.",
+   "syl": "ᎤᏙᏓᏃ ᎤᏨᏍᏓᏅ ᎤᎧᎾᏫ ᎢᏯ ᎭᏫᏂᏣ ᎨᏛ.",
+   "page": 11,
+   "note": "Syllabary taken from the Oct 24 PDF; differs from the Word file: Word file “tᎥ” → PDF “Ꮫ”",
+   "phon": "Udodano utsvsdanv ukanawi iya hawinitsa getv.",
+   "start": 136.33,
+   "end": 145.56,
+   "line": 22
+  },
+  {
+   "en": "Then Danny sees something outside.",
+   "phon_docx": "No doyitsa gohosdi wugohv Denili.",
+   "syl_docx": "Ꮓ ᏙᏱᏣ ᎪᎰᏍᏗ ᏭᎪᎲ ᏕᏂᎵ.",
+   "syl": "Ꮓ ᏙᏱᏣ ᎪᎰᏍᏗ ᏭᎪᎲ ᏕᏂᎵ.",
+   "page": 12,
+   "note": " Page turn in the movie is 1.6 s from the nearest pause; start time may need a nudge.",
+   "phon": "No doyitsa gohosdi wugohv Denili.",
+   "start": 145.98,
+   "end": 148.66,
+   "line": 23
+  },
+  {
+   "en": "He sees a witch, a robber, and a ghost.",
+   "phon_docx": "Sgili, adanvsahvsgi, nole asgina dugohvyv.",
+   "syl_docx": "ᏍᎩᎵ, ᎠᏓᏅᏌᎲᏍᎩ, ᏃᎴ ᎠᏍᎩᎾ ᏚᎪᎲᏴ.",
+   "syl": "ᏍᎩᎵ, ᎠᏓᏅᏌᎲᏍᎩ, ᏃᎴ ᎠᏍᎩᎾ ᏚᎪᎲᏴ.",
+   "page": 12,
+   "note": "",
+   "phon": "Sgili, adanvsahvsgi, nole asgina dugohvyv.",
+   "start": 149.53,
+   "end": 156.15,
+   "line": 24
+  },
+  {
+   "en": "“Help!” he shouts. “Monsters!”",
+   "phon_docx": "“Sgisdela!” uwelunvhv. “Unisgahedi!”",
+   "syl_docx": "“ᏍᎩᏍᏕᎳ!” ᎤᏪᎷᏅᎲ. “ᎤᏂᏍᎦᎮᏗ!”",
+   "syl": "“ᏍᎩᏍᏕᎳ!” ᎤᏪᎷᏅᎲ. “ᎤᏂᏍᎦᎮᏗ!”",
+   "page": 13,
+   "note": "",
+   "phon": "“Sgisdela!” uwelunvhv. “Unisgahedi!”",
+   "start": 156.62,
+   "end": 161.63,
+   "line": 25
+  },
+  {
+   "en": "The monsters come closer to the window.",
+   "phon_docx": "Tsolani navnige unilutsa unisgahedi.",
+   "syl_docx": "ᏦᎳᏂ ᎾᎥᏂᎨ ᎤᏂᎷᏣ ᎤᏂᏍᎦᎮᏗ.",
+   "syl": "ᏦᎳᏂ ᎾᎥᏂᎨ ᎤᏂᎷᏣ ᎤᏂᏍᎦᎮᏗ.",
+   "page": 14,
+   "note": "",
+   "phon": "Tsolani navnige unilutsa unisgahedi.",
+   "start": 162.64,
+   "end": 168.08,
+   "line": 26
+  },
+  {
+   "en": "Suddenly they snatch off their masks!",
+   "phon_docx": "Gilaquiyu dunagudulagisvhv!",
+   "syl_docx": "ᎩᎳᏈᏳ ᏚᎾᎫᏚᎳᎩᏒᎲ!",
+   "syl": "ᎩᎳᏈᏳ ᏚᎾᎫᏚᎳᎩᏒᎲ!",
+   "page": 14,
+   "note": "",
+   "phon": "Gilaquiyu dunagudulagisvhv!",
+   "start": 169.62,
+   "end": 171.92,
+   "line": 27
+  },
+  {
+   "en": "They are Danny’s friends, Lucy, Mark, and Joshua. [Can make up Cherokee names instead.]",
+   "phon_docx": "Deniliquu tsunali gehe Lusi, Magi, nole Tsosaya.",
+   "syl_docx": "ᏕᏂᎵᏊ ᏧᎾᎵ ᎨᎮ ᎷᏏ, ᎹᎩ, ᏃᎴ ᏦᏌᏯ.",
+   "syl": "ᏕᏂᎵᏊ ᏧᎾᎵ ᎨᎮ ᎷᏏ, ᎹᎩ, ᏃᎴ ᏦᏌᏯ.",
+   "page": 15,
+   "note": "",
+   "phon": "Deniliquu tsunali gehe Lusi, Magi, nole Tsosaya.",
+   "start": 173.48,
+   "end": 179.02,
+   "line": 28
+  },
+  {
+   "en": "They jump up and down.",
+   "phon_docx": "Dunalatadesidolv.",
+   "syl_docx": "ᏚᎾᎳᏔᏕᏏᏙᎸ.",
+   "syl": "ᏚᎾᎳᏔᏕᏏᏙᎸ.",
+   "page": 16,
+   "note": "",
+   "phon": "Dunalatadesidolv.",
+   "start": 180.02,
+   "end": 182.42,
+   "line": 29
+  },
+  {
+   "en": "They are saying something, but Danny can’t hear what it is.",
+   "phon_docx": "Gohosdi anadiha aseno gesdi yadvgi Denili.",
+   "syl_docx": "ᎪᎰᏍᏗ ᎠᎾᏗᎭ ᎠᏎᏃ ᎨᏍᏗ ᏯᏛᎩ ᏕᏂᎵ.",
+   "syl": "ᎪᎰᏍᏗ ᎠᎾᏗᎭ ᎠᏎᏃ ᎨᏍᏗ ᏯᏛᎩ ᏕᏂᎵ.",
+   "page": 16,
+   "note": "",
+   "phon": "Gohosdi anadiha aseno gesdi yadvgi Denili.",
+   "start": 182.89,
+   "end": 187.63,
+   "line": 30
+  },
+  {
+   "en": "Then he sees his friends run to the door.",
+   "phon_docx": "No tsunali dugohv asdudiitsa dunadasolv.",
+   "syl_docx": "Ꮓ ᏧᎾᎵ ᏚᎪᎲ ᎠᏍᏚᏗᎢᏣ ᏚᎾᏓᏐᎸ.",
+   "syl": "Ꮓ ᏧᎾᎵ ᏚᎪᎲ ᎠᏍᏚᏗᎢᏣ ᏚᎾᏓᏐᎸ.",
+   "page": 16,
+   "note": "",
+   "phon": "No tsunali dugohv asdudiitsa dunadasolv.",
+   "start": 188.77,
+   "end": 195.15,
+   "line": 31
+  },
+  {
+   "en": "The door opens, and three paper bags drop onto the floor.",
+   "phon_docx": "Asdudi unisdugisa tsoiga degalidi edasdi duninvhi.",
+   "syl_docx": "ᎠᏍᏚᏗ ᎤᏂᏍᏚᎩᏌ ᏦᎢᎦ ᏕᎦᎵᏗ ᎡᏓᏍᏗ ᏚᏂᏅᎯ.",
+   "syl": "ᎠᏍᏚᏗ ᎤᏂᏍᏚᎩᏌ ᏦᎢᎦ ᏕᎦᎵᏗ ᎡᏓᏍᏗ ᏚᏂᏅᎯ.",
+   "page": 17,
+   "note": "",
+   "phon": "Asdudi unisdugisa tsoiga degalidi edasdi duninvhi.",
+   "start": 196.04,
+   "end": 203.94,
+   "line": 32
+  },
+  {
+   "en": "Danny's mother picks up the bags.",
+   "phon_docx": "Denili utsi duwutagisvhi.",
+   "syl_docx": "ᏕᏂᎵ ᎤᏥ ᏚᏭᏔᎩᏒᎯ.",
+   "syl": "ᏕᏂᎵ ᎤᏥ ᏚᏭᏔᎩᏒᎯ.",
+   "page": 17,
+   "note": "",
+   "phon": "Denili utsi duwutagisvhi.",
+   "start": 205.11,
+   "end": 207.59,
+   "line": 33
+  },
+  {
+   "en": "“Hold it!” Danny’s father calls.",
+   "phon_docx": "“Si!” dayudvnv Denili udoda.",
+   "syl_docx": "“Ꮟ!” ᏓᏳᏛᏅ ᏕᏂᎵ ᎤᏙᏓ.",
+   "syl": "“Ꮟ!” ᏓᏳᏛᏅ ᏕᏂᎵ ᎤᏙᏓ.",
+   "page": 18,
+   "note": "",
+   "phon": "“Si!” dayudvnv Denili udoda.",
+   "start": 208.96,
+   "end": 212.42,
+   "line": 34
+  },
+  {
+   "en": "“We have something for you.”",
+   "phon_docx": "“Gohosdi ogiitsvnedi.”",
+   "syl_docx": "“ᎪᎰᏍᏗ ᎣᎩᎢᏨᏁᏗ.”",
+   "syl": "“ᎪᎰᏍᏗ ᎣᎩᎢᏨᏁᏗ.”",
+   "page": 18,
+   "note": "",
+   "phon": "“Gohosdi ogiitsvnedi.”",
+   "start": 212.77,
+   "end": 216.04,
+   "line": 35
+  },
+  {
+   "en": "He grabs a bowl from the table and goes out the door.",
+   "phon_docx": "Unvweda wusagisa gasgilvi galohisdi wunvgotsvhv.",
+   "syl_docx": "ᎤᏅᏪᏓ ᏭᏌᎩᏌ ᎦᏍᎩᎸᎢ ᎦᎶᎯᏍᏗ ᏭᏅᎪᏨᎲ.",
+   "syl": "ᎤᏅᏪᏓ ᏭᏌᎩᏌ ᎦᏍᎩᎸᎢ ᎦᎶᎯᏍᏗ ᏭᏅᎪᏨᎲ.",
+   "page": 18,
+   "note": "",
+   "phon": "Unvweda wusagisa gasgilvi galohisdi wunvgotsvhv.",
+   "start": 216.78,
+   "end": 223.78,
+   "line": 36
+  },
+  {
+   "en": "Danny watches from the window as his friends take candy from the bowl.",
+   "phon_docx": "Tsolani wagadugadosdvi kalasetsi danilagisgvyi.",
+   "syl_docx": "ᏦᎳᏂ ᏩᎦᏚᎦᏙᏍᏛᎢ ᎧᎳᏎᏥ ᏓᏂᎳᎩᏍᎬᏱ.",
+   "syl": "ᏦᎳᏂ ᏩᎦᏚᎦᏙᏍᏛᎢ ᎧᎳᏎᏥ ᏓᏂᎳᎩᏍᎬᏱ.",
+   "page": 19,
+   "note": "",
+   "phon": "Tsolani wagadugadosdvi kalasetsi danilagisgvyi.",
+   "start": 224.57,
+   "end": 231.6,
+   "line": 37
+  },
+  {
+   "en": "Then, “Good-bye!” they call.",
+   "phon_docx": "No taline, “dedadagohvyi,” dayunadvnvhi.",
+   "syl_docx": "Ꮓ ᏔᎵᏁ, “ᏕᏓᏓᎪᎲᏱ,” ᏓᏳᎾᏛᏅᎯ.",
+   "syl": "Ꮓ ᏔᎵᏁ, “ᏕᏓᏓᎪᎲᏱ,” ᏓᏳᎾᏛᏅᎯ.",
+   "page": 19,
+   "note": "",
+   "phon": "No taline, “dedadagohvyi,” dayunadvnvhi.",
+   "start": 233.8,
+   "end": 237.68,
+   "line": 38
+  },
+  {
+   "en": "“Wait!” Danny cries.",
+   "phon_docx": "“Si itsigatida!” udvnv Denili.",
+   "syl_docx": "“Ꮟ ᎢᏥᎦᏘᏓ!” ᎤᏛᏅ ᏕᏂᎵ.",
+   "syl": "“Ꮟ ᎢᏥᎦᏘᏓ!” ᎤᏛᏅ ᏕᏂᎵ.",
+   "page": 20,
+   "note": "",
+   "phon": "“Si itsigatida!” udvnv Denili.",
+   "start": 239.28,
+   "end": 243.44,
+   "line": 39
+  },
+  {
+   "en": "He puts on his own mask and puts his face near the window.",
+   "phon_docx": "Uwasa utseli ulagudulo wulasdulanv tsolani wugatanv.",
+   "syl_docx": "ᎤᏩᏌ ᎤᏤᎵ ᎤᎳᎫᏚᎶ ᏭᎳᏍᏚᎳᏅ ᏦᎳᏂ ᏭᎦᏔᏅ.",
+   "syl": "ᎤᏩᏌ ᎤᏤᎵ ᎤᎳᎫᏚᎶ ᏭᎳᏍᏚᎳᏅ ᏦᎳᏂ ᏭᎦᏔᏅ.",
+   "page": 20,
+   "note": "",
+   "phon": "Uwasa utseli ulagudulo wulasdulanv tsolani wugatanv.",
+   "start": 244.67,
+   "end": 253.53,
+   "line": 40
+  },
+  {
+   "en": "“Boo!” he roars.",
+   "phon_docx": "“Boo!” wudohisv.",
+   "syl_docx": "“Boo!” ᏭᏙᎯᏒ.",
+   "syl": "“Boo!” ᏭᏙᎯᏒ.",
+   "page": 20,
+   "note": "",
+   "phon": "“Boo!” wudohisv.",
+   "start": 254.49,
+   "end": 255.34,
+   "line": 41
+  },
+  {
+   "en": "Lucy, Mark, and Joshua pretend to be scared.",
+   "phon_docx": "Lusi, Magi, nole Tsosaya anisgaehv unatselvnvhi.",
+   "syl_docx": "ᎷᏏ, ᎹᎩ, ᏃᎴ ᏦᏌᏯ ᎠᏂᏍᎦᎡᎲ ᎤᎾᏤᎸᏅᎯ.",
+   "syl": "ᎷᏏ, ᎹᎩ, ᏃᎴ ᏦᏌᏯ ᎠᏂᏍᎦᎡᎲ ᎤᎾᏤᎸᏅᎯ.",
+   "page": 21,
+   "note": "",
+   "phon": "Lusi, Magi, nole Tsosaya anisgaehv unatselvnvhi.",
+   "start": 256.15,
+   "end": 263.38,
+   "line": 42
+  },
+  {
+   "en": "Then they wave good-bye.",
+   "phon_docx": "Daunasolvdagisv.",
+   "syl_docx": "ᏓᎤᎾᏐᎸᏓᎩᏒ.",
+   "syl": "ᏓᎤᎾᏐᎸᏓᎩᏒ.",
+   "page": 21,
+   "note": "",
+   "phon": "Daunasolvdagisv.",
+   "start": 264.23,
+   "end": 266.09,
+   "line": 43
+  },
+  {
+   "en": "Danny waves back.",
+   "phon_docx": "Wusolvdagisv Denili.",
+   "syl_docx": "ᏭᏐᎸᏓᎩᏒ ᏕᏂᎵ.",
+   "syl": "ᏭᏐᎸᏓᎩᏒ ᏕᏂᎵ.",
+   "page": 21,
+   "note": "",
+   "phon": "Wusolvdagisv Denili.",
+   "start": 266.55,
+   "end": 269.68,
+   "line": 44
+  },
+  {
+   "en": "Danny opens the three trick or treat bags.",
+   "phon_docx": "Denili dusdugisv tso iga degalidi.",
+   "syl_docx": "ᏕᏂᎵ ᏚᏍᏚᎩᏒ Ꮶ ᎢᎦ ᏕᎦᎵᏗ.",
+   "syl": "ᏕᏂᎵ ᏚᏍᏚᎩᏒ Ꮶ ᎢᎦ ᏕᎦᎵᏗ.",
+   "page": 22,
+   "note": "",
+   "phon": "Denili dusdugisv tso iga degalidi.",
+   "start": 270.48,
+   "end": 274.01,
+   "line": 45
+  },
+  {
+   "en": "Inside are candy corn, apples, raisins, and some licorice witch’s hats.",
+   "phon_docx": "Selu iyusdi, svkata, qualusi tsukayosv, nole ditsudanagisgi sgili tsulasquetawohi digatlv.",
+   "syl_docx": "ᏎᎷ ᎢᏳᏍᏗ, ᏒᎧᏔ, ᏆᎷᏏ ᏧᎧᏲᏒ, ᏃᎴ ᏗᏧᏓᎾᎩᏍᎩ ᏍᎩᎵ ᏧᎳᏍᏇᏔᏬᎯ ᏗᎦᏢ.",
+   "syl": "ᏎᎷ ᎢᏳᏍᏗ, ᏒᎧᏔ, ᏆᎷᏏ ᏧᎧᏲᏒ, ᏃᎴ ᏗᏧᏓᎾᎩᏍᎩ ᏍᎩᎵ ᏧᎳᏍᏇᏔᏬᎯ ᏗᎦᏢ.",
+   "page": 22,
+   "note": "",
+   "phon": "Selu iyusdi, svkata, qualusi tsukayosv, nole ditsudanagisgi sgili tsulasquetawohi digatlv.",
+   "start": 275.12,
+   "end": 281.02,
+   "line": 46
+  },
+  {
+   "en": "“Yum,” he says.",
+   "phon_docx": "“Yvmi,” udvnv.",
+   "syl_docx": "“ᏴᎻ,” ᎤᏛᏅ.",
+   "syl": "“ᏴᎻ,” ᎤᏛᏅ.",
+   "page": 22,
+   "note": "",
+   "phon": "“Yvmi,” udvnv.",
+   "start": 281.37,
+   "end": 286.43,
+   "line": 47
+  },
+  {
+   "en": "“Speaking of yum,” Danny’s father says, “it’s time for a cup of hot chocolate with marshmallows.”",
+   "phon_docx": "“Yvmi tsadiha,” udvdv Denili udoda, “no usqualv udilegi tsugalvda genadi digatlv igaditasdiyu.”",
+   "syl_docx": "“ᏴᎻ ᏣᏗᎭ,” ᎤᏛᏛ ᏕᏂᎵ ᎤᏙᏓ, “Ꮓ ᎤᏍᏆᎸ ᎤᏗᎴᎩ ᏧᎦᎸᏓ ᎨᎾᏗ ᏗᎦᏢ ᎢᎦᏗᏔᏍᏗᏳ.”",
+   "syl": "“ᏴᎻ ᏣᏗᎭ,” ᎤᏛᏛ ᏕᏂᎵ ᎤᏙᏓ, “Ꮓ ᎤᏍᏆᎸ ᎤᏗᎴᎩ ᏧᎦᎸᏓ ᎨᎾᏗ ᏗᎦᏢ ᎢᎦᏗᏔᏍᏗᏳ.”",
+   "page": 23,
+   "note": " Page turn in the movie is 1.8 s from the nearest pause; start time may need a nudge.",
+   "phon": "“Yvmi tsadiha,” udvdv Denili udoda, “no usqualv udilegi tsugalvda genadi digatlv igaditasdiyu.”",
+   "start": 287.23,
+   "end": 300.75,
+   "line": 48
+  },
+  {
+   "en": "“And a witch’s hat!” says Danny.",
+   "phon_docx": "“Nole sgili tsulasquetawohi!” udvnv Denili.",
+   "syl_docx": "“ᏃᎴ ᏍᎩᎵ ᏧᎳᏍᏇᏔᏬᎯ!” ᎤᏛᏅ ᏕᏂᎵ.",
+   "syl": "“ᏃᎴ ᏍᎩᎵ ᏧᎳᏍᏇᏔᏬᎯ!” ᎤᏛᏅ ᏕᏂᎵ.",
+   "page": 24,
+   "note": "",
+   "phon": "“Nole sgili tsulasquetawohi!” udvnv Denili.",
+   "start": 301.24,
+   "end": 307.3,
+   "line": 49
+  },
+  {
+   "en": "“What a perfect idea,” says Danny’s mother.",
+   "phon_docx": "“Osda hadanvtada,” udvnv Denili Utsihi.",
+   "syl_docx": "“ᎣᏍᏓ ᎭᏓᏅᏔᏓ,” ᎤᏛᏅ ᏕᏂᎵ ᎤᏥᎯ.",
+   "syl": "“ᎣᏍᏓ ᎭᏓᏅᏔᏓ,” ᎤᏛᏅ ᏕᏂᎵ ᎤᏥᎯ.",
+   "page": 24,
+   "note": "",
+   "phon": "“Osda hadanvtada,” udvnv Denili Utsihi.",
+   "start": 308.4,
+   "end": 310.41,
+   "line": 50
+  },
+  {
+   "en": "“For a perfect Halloween, after all,” says Danny.",
+   "phon_docx": "“Hayolada nigalisda anisgili aninanvgogvi,” udvnv Denili.",
+   "syl_docx": "“ᎭᏲᎳᏓ ᏂᎦᎵᏍᏓ ᎠᏂᏍᎩᎵ ᎠᏂᎾᏅᎪᎬᎢ,” ᎤᏛᏅ ᏕᏂᎵ.",
+   "syl": "“ᎭᏲᎳᏓ ᏂᎦᎵᏍᏓ ᎠᏂᏥᏍᎩᎵ ᎠᏂᎾᏅᎪᎬᎢ,” ᎤᏛᏅ ᏕᏂᎵ.",
+   "page": 24,
+   "note": "Syllabary taken from the Oct 24 PDF; differs from the Word file: PDF adds “Ꮵ” Phonetics re-spelled for: ᎠᏂᏥᏍᎩᎵ = anitsisgili (check).",
+   "phon": "“Hayolada nigalisda anitsisgili aninanvgogvi,” udvnv Denili.",
+   "start": 311.07,
+   "end": 320.49,
+   "line": 51
+  }
+ ],
+ "spans": {
+  "5": [
+   10.23,
+   34.46
+  ],
+  "6": [
+   35.79,
+   53.66
+  ],
+  "7": [
+   54.54,
+   61.45
+  ],
+  "8": [
+   62.94,
+   74.24
+  ],
+  "9": [
+   75.03,
+   99.8
+  ],
+  "10": [
+   100.32,
+   122.53
+  ],
+  "11": [
+   123.07,
+   145.56
+  ],
+  "12": [
+   145.98,
+   156.15
+  ],
+  "13": [
+   156.62,
+   161.63
+  ],
+  "14": [
+   162.64,
+   171.92
+  ],
+  "15": [
+   173.48,
+   179.02
+  ],
+  "16": [
+   180.02,
+   195.15
+  ],
+  "17": [
+   196.04,
+   207.59
+  ],
+  "18": [
+   208.96,
+   223.78
+  ],
+  "19": [
+   224.57,
+   237.68
+  ],
+  "20": [
+   239.28,
+   255.34
+  ],
+  "21": [
+   256.15,
+   269.68
+  ],
+  "22": [
+   270.48,
+   286.43
+  ],
+  "23": [
+   287.23,
+   300.75
+  ],
+  "24": [
+   301.24,
+   320.49
+  ]
+ }
+}

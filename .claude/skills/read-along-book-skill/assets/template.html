@@ -1,0 +1,524 @@
+<title>Read-along</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Cherokee:wght@400;600&family=Patrick+Hand&family=Nunito:wght@400;600;700&display=swap">
+<style>
+/* Layout: a thin bar of controls on top, then one full-height stage holding the book page (portrait, fitted inside),
+   the live caption sitting on the page where the printed text used to be, page arrows at the sides.
+   Dark theme by default (navy); the Settings sheet can give bg_color / accent_color for another book. */
+:root {
+  --bg: #1f1e33;
+  --bg-deep: color-mix(in srgb, var(--bg) 55%, black);
+  --fg: #f5eee0;
+  --fg-dim: #c9c1b4;
+  --accent: #f08a2e;
+  --accent-ink: #1a1208;
+  --panel: rgba(255, 250, 240, .93);
+  --ink: #1f1c18;
+  --ink-dim: #5c5650;
+  --font-syl: 'Noto Sans Cherokee', 'Plantagenet Cherokee', 'Aboriginal Sans', sans-serif;
+  --font-ui: 'Nunito', system-ui, sans-serif;
+  --font-story: 'Patrick Hand', 'Nunito', cursive;
+  --fade: .6s;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font-ui); overflow: hidden; -webkit-font-smoothing: antialiased; }
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+#app { height: 100%; display: flex; flex-direction: column; }
+#bar { display: flex; align-items: center; gap: 10px; padding: 8px 14px; background: var(--bg-deep); min-height: 48px; flex-wrap: wrap; }
+#bar .brand { font-family: var(--font-syl); font-weight: 600; letter-spacing: .02em; white-space: nowrap; }
+#bar .brand small { font-family: var(--font-ui); font-weight: 400; color: var(--fg-dim); margin-left: 8px; }
+#bar .spacer { flex: 1; }
+.pill { padding: 6px 12px; border-radius: 999px; border: 1px solid rgba(255,255,255,.22); color: var(--fg-dim); font-size: .85rem; line-height: 1; }
+.pill[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+#chips { display: flex; gap: 6px; }
+#chips.disabled { opacity: .35; pointer-events: none; }
+.chip { padding: 5px 10px; border-radius: 999px; border: 1px solid rgba(255,255,255,.22); color: var(--fg-dim); font-size: .8rem; line-height: 1; }
+.chip[aria-pressed="true"] { background: rgba(255,255,255,.14); color: var(--fg); }
+#counter { color: var(--fg-dim); font-variant-numeric: tabular-nums; min-width: 3.5em; text-align: right; font-size: .9rem; }
+
+#stage { position: relative; flex: 1; min-height: 0; display: flex; align-items: center; justify-content: center;
+  background: radial-gradient(ellipse at 50% 40%, color-mix(in srgb, var(--bg) 85%, white) 0%, var(--bg) 55%, var(--bg-deep) 100%); user-select: none; }
+#frame { position: relative; overflow: hidden; border-radius: 4px; box-shadow: 0 12px 40px rgba(0,0,0,.55); background: #fff; }
+#pic { display: block; width: 100%; height: 100%; object-fit: cover; transform-origin: 50% 50%; transition: transform 22s linear, opacity .35s ease; will-change: transform; }
+#pic.swap { opacity: 0; }
+#pic.flicker { animation: flicker 2.8s ease-in-out infinite; }   /* candle light: Effect column = flicker */
+@keyframes flicker { 0%{filter:brightness(1)} 9%{filter:brightness(1.05)} 17%{filter:brightness(.98)} 26%{filter:brightness(1.04)} 38%{filter:brightness(1)} 47%{filter:brightness(1.06)} 56%{filter:brightness(.97)} 71%{filter:brightness(1.03)} 100%{filter:brightness(1)} }
+
+#caption { position: absolute; left: 7%; right: 7%; top: 50%; transform: translateY(-50%); padding: 10px 16px 12px; text-align: center;
+  background: var(--panel); color: var(--ink); border-radius: 12px; box-shadow: 0 6px 24px rgba(0,0,0,.25); opacity: 0;
+  transition: opacity var(--fade) ease; pointer-events: none; }
+#caption.show { opacity: 1; }
+#caption.dip { opacity: .25; transition-duration: .12s; }
+#caption[hidden] { display: none; }
+#caption .syl { font-family: var(--font-syl); font-weight: 600; font-size: clamp(1.05rem, 2.4vmin, 1.7rem); line-height: 1.35; text-wrap: balance; }
+#caption .phon { font-family: var(--font-ui); font-weight: 600; font-size: clamp(.85rem, 1.7vmin, 1.15rem); line-height: 1.4; margin-top: 3px; color: var(--ink); }
+#caption .en { font-family: var(--font-story); font-size: clamp(.9rem, 1.9vmin, 1.25rem); line-height: 1.35; margin-top: 4px; color: var(--ink-dim); }
+#caption [hidden] { display: none; }
+
+.arrow { position: absolute; top: 50%; transform: translateY(-50%); width: 52px; height: 92px; border-radius: 14px; color: var(--fg);
+  background: rgba(0,0,0,.25); font-size: 2rem; opacity: .7; transition: opacity .2s, background .2s; }
+.arrow:hover { opacity: 1; background: rgba(0,0,0,.45); }
+.arrow:disabled { opacity: .12; cursor: default; }
+#prev { left: 10px; } #next { right: 10px; }
+.corner { position: absolute; bottom: 14px; width: 42px; height: 42px; border-radius: 50%; background: rgba(0,0,0,.35); color: var(--fg); font-size: 1.1rem; opacity: .75; }
+.corner:hover { opacity: 1; }
+#replay { right: 14px; } #full { left: 14px; }
+
+#cover { position: absolute; left: 50%; bottom: 18px; transform: translateX(-50%); width: min(92%, 640px); text-align: center; padding: 14px 18px 16px;
+  background: rgba(16,15,31,.86); border-radius: 16px; backdrop-filter: blur(6px); box-shadow: 0 10px 30px rgba(0,0,0,.4); }
+#cover[hidden] { display: none; }
+#cover .en { margin: 0; font-family: var(--font-story); font-size: clamp(1.2rem, 3vw, 1.6rem); }
+#cover .credit { margin: 6px 0 0; color: var(--fg-dim); font-size: .85rem; line-height: 1.4; }
+#begin { margin-top: 12px; padding: 11px 30px; border-radius: 999px; background: var(--accent); color: var(--accent-ink); font-weight: 700; font-size: 1.05rem; letter-spacing: .02em; }
+#begin:hover { filter: brightness(1.06); }
+
+/* timing mode */
+#timing { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); width: min(94%, 720px); padding: 12px 16px; border-radius: 14px;
+  background: rgba(16,15,31,.92); box-shadow: 0 10px 30px rgba(0,0,0,.45); font-size: .9rem; line-height: 1.45; }
+#timing[hidden] { display: none; }
+#timing h2 { margin: 0 0 4px; font-size: 1rem; }
+#timing .line { margin: 8px 0; padding: 8px 12px; border-radius: 10px; background: rgba(255,255,255,.08); }
+#timing .line .syl { font-family: var(--font-syl); font-size: 1.15rem; }
+#timing .line .en { color: var(--fg-dim); font-family: var(--font-story); }
+#timing .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 8px; }
+#timing .row .pill { color: var(--fg); }
+#timing .big { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 700; padding: 8px 18px; }
+#timing .clock { font-variant-numeric: tabular-nums; color: var(--fg-dim); margin-left: auto; }
+#timing .note { color: var(--fg-dim); font-size: .8rem; margin-top: 6px; }
+
+@media (max-width: 640px) {
+  #bar { padding: 6px 10px; gap: 6px; }
+  #bar .brand small { display: none; }
+  .arrow { width: 40px; height: 76px; font-size: 1.6rem; }
+  #caption { left: 4%; right: 4%; padding: 8px 10px 9px; }
+}
+@media (prefers-reduced-motion: reduce) { #pic { transition: opacity .35s ease; animation: none; } }
+</style>
+
+<div id="app">
+  <div id="bar">
+    <div class="brand" id="brand"></div>
+    <div class="spacer"></div>
+    <button class="pill" id="textToggle" aria-pressed="true">Text</button>
+    <div id="chips">
+      <button class="chip" data-show="syl" aria-pressed="true">ᏣᎳᎩ</button>
+      <button class="chip" data-show="phon" aria-pressed="true">phonetics</button>
+      <button class="chip" data-show="en" aria-pressed="true">English</button>
+    </div>
+    <button class="pill" id="playAll" aria-pressed="false">Play all</button>
+    <button class="pill" id="timeIt" aria-pressed="false" title="Fix the line timings by tapping along">Time it</button>
+    <span id="counter"></span>
+  </div>
+  <main id="stage">
+    <div id="frame">
+      <img id="pic" alt="">
+      <div id="caption" aria-live="polite">
+        <div class="syl" id="capSyl"></div>
+        <div class="phon" id="capPhon"></div>
+        <div class="en" id="capEn"></div>
+      </div>
+    </div>
+    <button class="arrow" id="prev" aria-label="Previous page">‹</button>
+    <button class="arrow" id="next" aria-label="Next page">›</button>
+    <button class="corner" id="full" aria-label="Full screen">⛶</button>
+    <button class="corner" id="replay" aria-label="Play this page again" hidden>↻</button>
+    <div id="cover">
+      <p class="en" id="coverEn"></p>
+      <p class="credit" id="coverCredit"></p>
+      <button id="begin">Begin</button>
+    </div>
+    <div id="timing" hidden>
+      <h2>Timing mode</h2>
+      <div>Press <b>Play</b>, then tap <b>space</b> (or Mark) the moment each line is spoken. Arrow keys nudge the last mark.</div>
+      <div class="line"><div class="syl" id="tSyl"></div><div class="en" id="tEn"></div></div>
+      <div class="row">
+        <button class="pill" id="tPlay">Play</button>
+        <button class="pill big" id="tMark">Mark (space)</button>
+        <button class="pill" id="tBack">Back one</button>
+        <button class="pill" id="tHear">Hear this line</button>
+        <button class="pill" id="tFinish">Finish and save</button>
+        <span class="clock" id="tClock">0.00 s</span>
+      </div>
+      <div class="note" id="tNote"></div>
+    </div>
+  </main>
+</div>
+
+<script>
+const BOOK = /*DATA*/;
+
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const S = BOOK.settings;
+  const pages = BOOK.pages;
+  const lines = BOOK.lines;
+  const silences = BOOK.silences || [];                       // -32 dB pauses (hear every little gap)
+  const pauseLists = [(BOOK.pauses || {}).strict || [], (BOOK.pauses || {}).coarse || [], silences];   // quietest first
+  const MARGIN = 0.15;                                         // lead before the first sound, tail after the last
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const GAP = S.line_gap_seconds === undefined || S.line_gap_seconds === '' ? 0 : (Number(S.line_gap_seconds) || 0);
+  document.documentElement.style.setProperty('--fade', (S.fade_seconds || 0.6) + 's');
+  if (S.bg_color) document.documentElement.style.setProperty('--bg', S.bg_color);
+  if (S.accent_color) document.documentElement.style.setProperty('--accent', S.accent_color);
+  document.title = BOOK.title.en || BOOK.title.phon || 'Read-along';
+  const KEY = 'readalong:' + String(S.storage_key || BOOK.title.en || BOOK.title.phon || 'book').toLowerCase().replace(/[^a-z0-9\u13a0-\u13ff]+/g, '-');
+
+  const state = {
+    page: 0,
+    textOn: (S.text_default || 'on') !== 'off',
+    show: { syl: S.show_syllabary !== 'no', phon: S.show_phonetics !== 'no', en: S.show_english !== 'no' },
+    autoplay: false,
+    started: false,
+    timing: false,
+  };
+  try { const saved = JSON.parse(localStorage.getItem(KEY + ':prefs') || 'null'); if (saved) { state.textOn = saved.textOn; Object.assign(state.show, saved.show || {}); } } catch (e) {}
+  const savePrefs = () => { try { localStorage.setItem(KEY + ':prefs', JSON.stringify({ textOn: state.textOn, show: state.show })); } catch (e) {} };
+  // her own tapped timings, if she made some on this computer
+  let custom = null;
+  try { custom = JSON.parse(localStorage.getItem(KEY + ':timings') || 'null'); } catch (e) {}
+  if (custom) for (const id in custom) if (lines[id]) { lines[id].start = custom[id][0]; lines[id].end = custom[id][1]; }
+
+  const pic = $('pic'), frame = $('frame'), stage = $('stage'), caption = $('caption'), cover = $('cover');
+  const audio = new Audio();
+  audio.preload = 'auto';
+  audio.src = S.audio || 'audio/narration.mp3';
+  let timer = null, raf = null, token = 0, pageGen = 0, unlocked = false;
+  function unlock() {          // Safari and iPad only start sound inside a tap: the first tap starts and pauses the narration
+    if (unlocked) return;
+    unlocked = true;
+    try { const p = audio.play(); if (p && p.then) p.then(() => { if (!state.timing && token === 0) audio.pause(); }, () => {}); } catch (e) {}
+  }
+
+  // ----- bar and cover text -----
+  $('brand').innerHTML = `${BOOK.title.syl} <small>${BOOK.title.phon}</small>`;
+  $('coverEn').textContent = BOOK.title.en || '';
+  $('coverCredit').textContent = S.credit || '';
+  $('coverCredit').hidden = !S.credit;
+
+  // ----- fit the page inside the stage -----
+  let ratio = 1275 / 1651;
+  function fit() {
+    const sw = stage.clientWidth - 16, sh = stage.clientHeight - 16;
+    let h = sh, w = h * ratio;
+    if (w > sw) { w = sw; h = w / ratio; }
+    frame.style.width = w + 'px'; frame.style.height = h + 'px';
+  }
+  new ResizeObserver(fit).observe(stage);
+
+  // ----- motion (very light: the pages are drawings on paper) -----
+  const MOTIONS = {                      // [scale, x%, y%] at the start and the end of the page
+    'zoom in':   [[1.0, 0, 0], [1.035, 0, 0]],
+    'zoom out':  [[1.035, 0, 0], [1.0, 0, 0]],
+    'pan right': [[1.06, 1.5, 0], [1.06, -1.5, 0]],
+    'pan left':  [[1.06, -1.5, 0], [1.06, 1.5, 0]],
+    'drift':     [[1.03, .6, .6], [1.03, -.6, -.6]],
+    'hold':      [[1.0, 0, 0], [1.0, 0, 0]],
+  };
+  const tf = (m) => `translate(${m[1]}%, ${m[2]}%) scale(${m[0]})`;
+  function runMotion(page) {
+    const m = MOTIONS[(page.motion || 'hold').toLowerCase()] || MOTIONS.hold;
+    pic.classList.toggle('flicker', (page.effect || '').toLowerCase() === 'flicker');
+    if (reduce) { pic.style.transform = 'none'; return; }
+    pic.style.transition = 'none';
+    pic.style.transform = tf(m[0]);
+    void pic.offsetWidth;
+    pic.style.transition = '';
+    pic.style.transform = tf(m[1]);
+  }
+
+  // ----- caption -----
+  function setCaption(line) {
+    $('capSyl').textContent = line.syl || '';
+    $('capPhon').textContent = line.phon || '';
+    $('capEn').textContent = line.en || '';
+  }
+  function placeCaption(page) {
+    const z = page.zone && page.zone.length === 2 ? page.zone : [0.7, 0.9];
+    caption.style.top = ((z[0] + z[1]) / 2 * 100) + '%';
+  }
+  function applyShow() {
+    $('capSyl').hidden = !state.show.syl;
+    $('capPhon').hidden = !state.show.phon;
+    $('capEn').hidden = !state.show.en;
+    caption.hidden = !state.textOn;
+    $('textToggle').setAttribute('aria-pressed', String(state.textOn));
+    $('chips').classList.toggle('disabled', !state.textOn);
+    document.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', String(state.show[c.dataset.show])));
+  }
+
+  // ----- narration: one file, each line is a start and end inside it -----
+  function stopAudio() {
+    token++;
+    clearTimeout(timer); cancelAnimationFrame(raf);
+    audio.pause();
+    caption.classList.remove('show');
+  }
+  function whenReady(fn) {
+    if (audio.readyState >= 1) fn();
+    else { audio.addEventListener('loadedmetadata', fn, { once: true }); audio.load(); }
+  }
+  function playLines(ids, onDone) {
+    stopAudio();
+    const my = ++token;
+    const ls = ids.map(i => lines[i]).filter(l => l && isFinite(l.start) && isFinite(l.end));
+    if (!ls.length) { onDone && onDone(my); return; }
+    const first = ls[0].start, lastEnd = ls[ls.length - 1].end - GAP;
+    let cur = -1, done = false;
+    const finish = () => { if (done || my !== token) return; done = true; audio.pause(); caption.classList.remove('show'); timer = setTimeout(() => { if (my === token) onDone && onDone(my); }, 500); };
+    const tick = () => {
+      if (my !== token) return;
+      const t = audio.currentTime;
+      let k = 0;
+      for (let i = 0; i < ls.length; i++) if (t >= ls[i].start - 0.05) k = i;
+      if (k !== cur) {
+        if (cur < 0) { setCaption(ls[k]); }
+        else { caption.classList.add('dip'); const line = ls[k]; setTimeout(() => { if (my === token) { setCaption(line); caption.classList.remove('dip'); } }, 130); }
+        cur = k;
+      }
+      if (t >= lastEnd || audio.ended) { finish(); return; }
+      raf = requestAnimationFrame(tick);
+    };
+    const begin = () => {
+      if (my !== token) return;
+      try { audio.currentTime = first; } catch (e) {}
+      setCaption(ls[0]);
+      audio.onplaying = () => { if (my === token) caption.classList.add('show'); };
+      audio.onerror = () => { if (my === token) { caption.classList.add('show'); timer = setTimeout(finish, 3000); } };
+      const p = audio.play();
+      if (p && p.catch) p.catch(() => { if (my === token) { caption.classList.add('show'); timer = setTimeout(finish, 3000); } });
+      raf = requestAnimationFrame(tick);
+    };
+    whenReady(begin);
+  }
+  function afterPage(my) {
+    if (my !== token) return;
+    if (state.page === 0) { go(1); return; }                 // the cover's title line leads straight into the book
+    if (!state.autoplay) return;
+    const wait = Math.max(0, Number(S.pause_seconds) || 1.5) * 1000;
+    timer = setTimeout(() => {
+      if (my !== token) return;
+      if (state.page < pages.length - 1) go(state.page + 1); else { setAutoplay(false); go(0); }
+    }, wait);
+  }
+
+  // ----- pages -----
+  function preload(i) { if (pages[i]) { const im = new Image(); im.src = pages[i].image; } }
+  function go(i, opts = {}) {
+    i = Math.max(0, Math.min(pages.length - 1, i));
+    const page = pages[i];
+    const changed = i !== state.page || opts.force;
+    state.page = i;
+    stopAudio();
+    $('prev').disabled = i === 0;
+    $('next').disabled = i === pages.length - 1;
+    $('counter').textContent = i === 0 ? '' : `${i} / ${pages.length - 1}`;
+    cover.hidden = i !== 0 || state.timing;
+    $('replay').hidden = i === 0 || !page.lines.length;
+    placeCaption(page);
+    const show = () => {
+      const gen = ++pageGen;
+      let fired = false;
+      const ready = () => {
+        if (fired || gen !== pageGen) return;
+        fired = true;
+        pic.onload = pic.onerror = null;
+        if (pic.naturalWidth && pic.naturalHeight) { ratio = pic.naturalWidth / pic.naturalHeight; fit(); }
+        pic.classList.remove('swap');
+        runMotion(page);
+        if (state.timing) return;
+        if (i > 0 && state.started) {
+          if (page.lines.length) playLines(page.lines, afterPage);
+          else if (state.autoplay) { const my = token; timer = setTimeout(() => { if (my === token) { setAutoplay(false); } }, 3000); }
+        }
+      };
+      pic.onload = pic.onerror = null;
+      pic.alt = page.alt || '';
+      pic.src = page.image;
+      if (pic.decode) pic.decode().then(ready, ready);
+      else { pic.onload = pic.onerror = ready; if (pic.complete && pic.naturalWidth) ready(); }
+    };
+    if (changed && pic.src) { pic.classList.add('swap'); timer = setTimeout(show, 260); } else show();
+    preload(i + 1); snapshot();
+  }
+  function setAutoplay(on) {
+    state.autoplay = on;
+    $('playAll').setAttribute('aria-pressed', String(on));
+    $('playAll').textContent = on ? 'Stop' : 'Play all';
+  }
+
+  // ----- controls -----
+  $('begin').addEventListener('click', () => { unlock(); state.started = true; cover.hidden = true; if (pages[0].lines.length) playLines(pages[0].lines, afterPage); else go(1); });
+  $('prev').addEventListener('click', () => go(state.page - 1));
+  $('next').addEventListener('click', () => { unlock(); state.started = true; go(state.page + 1); });
+  $('replay').addEventListener('click', () => { unlock(); state.started = true; go(state.page, { force: true }); });
+  $('textToggle').addEventListener('click', () => { state.textOn = !state.textOn; applyShow(); savePrefs(); });
+  document.querySelectorAll('.chip').forEach(c => c.addEventListener('click', () => { state.show[c.dataset.show] = !state.show[c.dataset.show]; applyShow(); savePrefs(); }));
+  $('playAll').addEventListener('click', () => {
+    unlock();
+    if (state.timing) setTiming(false);
+    state.started = true;
+    setAutoplay(!state.autoplay);
+    if (state.autoplay) go(state.page === 0 ? 1 : state.page, { force: true }); else stopAudio();
+  });
+  $('full').addEventListener('click', () => {
+    const el = document.documentElement;
+    if (document.fullscreenElement) { document.exitFullscreen && document.exitFullscreen(); return; }
+    const req = el.requestFullscreen || el.webkitRequestFullscreen;
+    if (req) { try { const p = req.call(el); if (p && p.catch) p.catch(() => {}); } catch (e) {} }
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.target.tagName === 'INPUT') return;
+    unlock();
+    if (state.timing) {
+      if (e.key === ' ') { e.preventDefault(); mark(); }
+      else if (e.key === 'ArrowLeft') { e.preventDefault(); nudge(-0.2); }
+      else if (e.key === 'ArrowRight') { e.preventDefault(); nudge(0.2); }
+      else if (e.key === 'Escape') setTiming(false);
+      return;
+    }
+    if (e.key === 'ArrowRight') { state.started = true; go(state.page + 1); }
+    else if (e.key === 'ArrowLeft') go(state.page - 1);
+    else if (e.key === ' ') { e.preventDefault(); state.started = true; if (state.page === 0) $('begin').click(); else go(state.page, { force: true }); }
+    else if (e.key === 'Enter' && state.page === 0) $('begin').click();
+    else if (e.key.toLowerCase() === 't') $('textToggle').click();
+    else if (e.key.toLowerCase() === 'p') $('playAll').click();
+    else if (e.key.toLowerCase() === 'f') $('full').click();
+  });
+  let tx = null;
+  stage.addEventListener('touchstart', (e) => { tx = e.changedTouches[0].clientX; }, { passive: true });
+  stage.addEventListener('touchend', (e) => {
+    if (tx === null || state.timing) return;
+    const dx = e.changedTouches[0].clientX - tx; tx = null;
+    if (Math.abs(dx) < 50) return;
+    unlock(); state.started = true;
+    go(state.page + (dx < 0 ? 1 : -1));
+  }, { passive: true });
+
+  // ----- timing mode: tap along, then save the times -----
+  const order = [];                       // line ids in reading order
+  pages.forEach(p => p.lines.forEach(id => order.push(id)));
+  let tIdx = 0, tMarks = {}, tRaf = null;
+  function setTiming(on) {
+    state.timing = on;
+    $('timeIt').setAttribute('aria-pressed', String(on));
+    $('timing').hidden = !on;
+    if (on) {
+      stopAudio(); setAutoplay(false);
+      tMarks = {};
+      // start from the first line of the page she is looking at
+      const first = pages[state.page].lines[0];
+      tIdx = Math.max(0, order.indexOf(first));
+      showTimingLine(); cover.hidden = true;
+      $('tNote').textContent = custom ? 'This browser already has your tapped timings; marking again replaces them when you press Finish.' : 'Times in the spreadsheet are machine guesses until you mark them.';
+      tRaf = requestAnimationFrame(clock);
+    } else {
+      audio.pause(); cancelAnimationFrame(tRaf); go(state.page, { force: true });
+    }
+  }
+  function clock() { $('tClock').textContent = audio.currentTime.toFixed(2) + ' s'; if (state.timing) tRaf = requestAnimationFrame(clock); }
+  function showTimingLine() {
+    const id = order[tIdx];
+    if (id === undefined) { $('tSyl').textContent = '— end of the book —'; $('tEn').textContent = 'Tap once more where the last line ends, then Finish.'; return; }
+    const l = lines[id];
+    $('tSyl').textContent = `${tIdx + 1} / ${order.length}  ${l.syl}`;
+    $('tEn').textContent = l.en;
+    const pi = pages.findIndex(p => p.lines.includes(id));
+    if (pi >= 0 && pi !== state.page) go(pi);
+  }
+  function tPlayFrom(t) { whenReady(() => { try { audio.currentTime = Math.max(0, t); } catch (e) {} const p = audio.play(); if (p && p.catch) p.catch(() => {}); }); }
+  function onsetFor(t) {   // a tap lands a little after the first sound: move it back to the start of the speech she heard
+    const prev = silences.filter(s => s[1] <= t + 0.05 && t - s[1] <= 1.3);
+    if (prev.length) return prev[prev.length - 1][1];
+    for (const s of silences) if (s[0] <= t && t <= s[1]) return s[1];
+    return Math.max(0, t - 0.4);
+  }
+  function pauseAt(t, list) {   // the pause (blips under 0.1 s ignored) that ends at or just before t
+    const merged = [];
+    for (const s of list) { const m = merged[merged.length - 1]; if (m && s[0] - m[1] < 0.1) m[1] = s[1]; else merged.push([s[0], s[1]]); }
+    const c = merged.filter(s => s[0] - 0.05 <= t && s[1] <= t + 0.03 && t - s[1] <= 0.8);
+    return c.length ? c[c.length - 1] : null;
+  }
+  function boundaryFor(onset) {   // {end of the line before, start of this line} around a speech onset, with margins
+    const pf = pauseAt(onset, silences);
+    let pz = null;
+    for (const list of pauseLists) { const q = pauseAt(onset, list); if (q && (!pf || q[0] >= pf[0] - 0.05)) { pz = q; break; } }
+    if (!pz) return { end: onset - 0.25, start: onset - MARGIN };
+    const m = Math.min(MARGIN, Math.max(0.03, (pz[1] - pz[0]) / 2 - 0.03));
+    return { end: pz[0] + m, start: pz[1] - m };
+  }
+  function mark() {
+    const t = audio.paused ? audio.currentTime : onsetFor(audio.currentTime);
+    const id = order[tIdx];
+    if (id !== undefined) tMarks[id] = t; else tMarks.__end = t;
+    if (tIdx < order.length) { tIdx++; showTimingLine(); }
+    if (audio.paused) tPlayFrom(t);
+  }
+  function nudge(d) {
+    const i = tIdx - 1; if (i < 0) return;
+    const id = order[i]; tMarks[id] = Math.max(0, (tMarks[id] || 0) + d);
+    $('tNote').textContent = `Line ${i + 1} now starts at ${tMarks[id].toFixed(2)} s`;
+    tPlayFrom(tMarks[id]);
+  }
+  const r2 = (x) => Math.round(x * 100) / 100;
+  function finishTiming() {
+    const ids = order.filter(id => tMarks[id] !== undefined);
+    if (!ids.length) { $('tNote').textContent = 'Nothing marked yet.'; return; }
+    const out = {};
+    for (let k = 0; k < order.length; k++) {
+      const id = order[k]; if (tMarks[id] === undefined) continue;
+      let next = null;
+      for (let j = k + 1; j < order.length; j++) if (tMarks[order[j]] !== undefined) { next = tMarks[order[j]]; break; }
+      const b = boundaryFor(tMarks[id]);
+      let end;
+      if (next !== null) end = boundaryFor(next).end;
+      else if (tMarks.__end !== undefined) end = tMarks.__end;
+      else {                                   // last line she marked: ends at the next pause heard after it
+        const after = (pauseLists[0].length ? pauseLists[0] : silences).find(s => s[0] > tMarks[id] + 0.3);
+        end = after && after[0] - tMarks[id] < 15 ? after[0] + MARGIN : tMarks[id] + 4;
+      }
+      if (end <= b.start + 0.3) end = b.start + 0.5;
+      out[id] = [r2(b.start), r2(end)];
+      lines[id].start = out[id][0]; lines[id].end = out[id][1];
+    }
+    custom = Object.assign(custom || {}, out);
+    try { localStorage.setItem(KEY + ':timings', JSON.stringify(custom)); } catch (e) {}
+    const csv = 'Line,Start,End\n' + Object.keys(custom).map(id => `${id},${custom[id][0]},${custom[id][1]}`).join('\n') + '\n';
+    if (window.claude) {           // inside the claude.ai viewer a download link does nothing: show the text to copy instead
+      $('tNote').innerHTML = `Saved ${Object.keys(out).length} lines in this browser. To keep them for good, copy this into a file called <b>timings.csv</b> next to build_book.py and rebuild:<br>`;
+      const ta = document.createElement('textarea'); ta.value = csv; ta.rows = 6; ta.style.cssText = 'width:100%;margin-top:6px;font:12px/1.3 monospace;color:#1f1c18;';
+      ta.addEventListener('focus', () => ta.select());
+      $('tNote').appendChild(ta);
+      state.timing = false; $('timeIt').setAttribute('aria-pressed', 'false'); cancelAnimationFrame(tRaf); audio.pause();
+      return;                       // the panel stays open until she presses Time it again
+    }
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv' })); a.download = 'timings.csv'; document.body.appendChild(a); a.click(); a.remove();
+    $('tNote').textContent = `Saved ${Object.keys(out).length} lines. timings.csv is downloading: put it next to build_book.py and rebuild to keep them for good.`;
+    setTiming(false);
+  }
+  $('timeIt').addEventListener('click', () => { unlock(); if (!state.timing && !$('timing').hidden) { $('timing').hidden = true; go(state.page, { force: true }); return; } setTiming(!state.timing); });
+  $('tPlay').addEventListener('click', () => { unlock(); if (!audio.paused) { audio.pause(); $('tPlay').textContent = 'Play'; return; } $('tPlay').textContent = 'Pause'; const id = order[tIdx]; const from = tMarks[id] !== undefined ? tMarks[id] : (id !== undefined && lines[id] ? Math.max(0, lines[id].start - 1.5) : audio.currentTime); tPlayFrom(from); });
+  $('tMark').addEventListener('click', () => { unlock(); mark(); });
+  $('tBack').addEventListener('click', () => { if (tIdx > 0) { tIdx--; delete tMarks[order[tIdx]]; delete tMarks.__end; showTimingLine(); const id = order[tIdx]; tPlayFrom(Math.max(0, (tMarks[order[tIdx - 1]] !== undefined ? tMarks[order[tIdx - 1]] : lines[id].start - 1.5))); } });
+  $('tHear').addEventListener('click', () => { const id = order[tIdx]; if (id === undefined) return; const s = tMarks[id] !== undefined ? tMarks[id] : lines[id].start; tPlayFrom(s); });
+  $('tFinish').addEventListener('click', finishTiming);
+
+  // ----- live-update hook (keeps the page you are on if this file is republished) -----
+  function snapshot() { try { window.claude?.hot?.snapshot?.(() => ({ page: state.page, started: state.started })); } catch (e) {} }
+  function start(data) {
+    applyShow();
+    setAutoplay(false);
+    if (data && data.started) state.started = true;
+    go(data && data.page ? data.page : 0, { force: true });
+  }
+  const hot = window.claude && window.claude.hot;
+  if (hot && hot.ready) hot.ready(start); else start((hot && hot.data) || {});
+})();
+</script>

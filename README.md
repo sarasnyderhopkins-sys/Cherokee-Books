@@ -25,7 +25,8 @@ Each book folder keeps everything needed to rebuild it: the spreadsheet (the sou
 
 ## Hosting
 
-A static site: no build step. Deploy with the Vercel CLI from this folder (project `wespeakcherokee-books`, team
-`sara-snyder-hopkins`), then add the subdomain, e.g. `books.wespeakcherokee.org`, in the Vercel project's domains.
+Live at https://books.wespeakcherokee.org/ (shelf), with each book at its folder name, e.g.
+https://books.wespeakcherokee.org/danny/. A static site with no build step: the Vercel project `wespeakcherokee-books`
+(team `sara-snyder-hopkins`) is linked to this repository, so every push to `main` redeploys within a minute.
 `vercel.json` adds the trailing slash so `…/danny` becomes `…/danny/` and the book's relative images and audio load.
 The books are public pages: no hub sign-in.

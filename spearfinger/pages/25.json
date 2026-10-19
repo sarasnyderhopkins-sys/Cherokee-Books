@@ -1,0 +1,524 @@
+{
+ "beat": "The chickadee flutters down from the high branches and lights on Spearfinger's raised arm; on 'the hunters saw this ... a sign to aim there' the arrows fly in one after another and converge on her hand.",
+ "pieces": {
+  "chickadee": {
+   "ids": [
+    720,
+    14126,
+    4828
+   ],
+   "cut": [
+    592,
+    458,
+    675,
+    516
+   ]
+  },
+  "arrow01": {
+   "ids": [
+    4647,
+    5563
+   ],
+   "cut": [
+    283,
+    58,
+    414,
+    303
+   ]
+  },
+  "arrow02": {
+   "ids": [
+    4661,
+    5577
+   ],
+   "cut": [
+    1018,
+    86,
+    1129,
+    303
+   ]
+  },
+  "arrow03": {
+   "ids": [
+    4664,
+    5582
+   ],
+   "cut": [
+    803,
+    92,
+    851,
+    298
+   ]
+  },
+  "arrow04": {
+   "ids": [
+    4671,
+    14924
+   ],
+   "cut": [
+    483,
+    100,
+    577,
+    310
+   ]
+  },
+  "arrow05": {
+   "ids": [
+    4725,
+    5592
+   ],
+   "cut": [
+    94,
+    175,
+    249,
+    361
+   ]
+  },
+  "arrow06": {
+   "ids": [
+    4736,
+    15400
+   ],
+   "cut": [
+    658,
+    19,
+    703,
+    244
+   ]
+  },
+  "arrow07": {
+   "ids": [
+    4736,
+    4828
+   ],
+   "cut": [
+    716,
+    189,
+    766,
+    408
+   ]
+  },
+  "arrow08": {
+   "ids": [
+    5607,
+    15562
+   ],
+   "cut": [
+    1019,
+    241,
+    1191,
+    408
+   ]
+  },
+  "arrow09": {
+   "ids": [
+    4741,
+    4959
+   ],
+   "cut": [
+    853,
+    306,
+    932,
+    494
+   ]
+  },
+  "arrow10": {
+   "ids": [
+    5630,
+    15690
+   ],
+   "cut": [
+    107,
+    413,
+    303,
+    565
+   ]
+  },
+  "arrow11": {
+   "ids": [
+    5634,
+    15694
+   ],
+   "cut": [
+    968,
+    418,
+    1131,
+    597
+   ]
+  },
+  "arrow12": {
+   "ids": [
+    4749,
+    5671
+   ],
+   "cut": [
+    335,
+    464,
+    491,
+    652
+   ]
+  },
+  "arrow13": {
+   "ids": [
+    5080,
+    5737
+   ],
+   "cut": [
+    387,
+    696,
+    528,
+    849
+   ]
+  }
+ },
+ "depth": {
+  "chickadee": 1.0,
+  "arrow01": 1.0,
+  "arrow02": 1.0,
+  "arrow03": 1.0,
+  "arrow04": 1.0,
+  "arrow05": 1.0,
+  "arrow06": 1.0,
+  "arrow07": 1.0,
+  "arrow08": 1.0,
+  "arrow09": 1.0,
+  "arrow10": 1.0,
+  "arrow11": 1.0,
+  "arrow12": 1.0,
+  "arrow13": 1.0
+ },
+ "camera": {
+  "zoom": [
+   1.0,
+   1.05
+  ],
+  "focus": [
+   0.5,
+   0.5
+  ]
+ },
+ "motions": {
+  "chickadee": [
+   {
+    "type": "hide",
+    "at": "p2w4"
+   },
+   {
+    "type": "path",
+    "at": "p2w4",
+    "dur": 4.6,
+    "pts": [
+     [
+      960,
+      150
+     ],
+     [
+      860,
+      215
+     ],
+     [
+      800,
+      300
+     ],
+     [
+      720,
+      330
+     ],
+     [
+      690,
+      420
+     ],
+     [
+      650,
+      470
+     ],
+     [
+      632,
+      515
+     ]
+    ],
+    "ease": "steps:16"
+   },
+   {
+    "type": "bob",
+    "at": "p2w4",
+    "until": "p2w4+4.6",
+    "amp": 5,
+    "freq": 2.5
+   }
+  ],
+  "arrow01": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": -113,
+    "dy": -234
+   },
+   {
+    "type": "hide",
+    "at": "p4w4"
+   },
+   {
+    "type": "move",
+    "at": "p4w4",
+    "dur": 0.45,
+    "dx": 113,
+    "dy": 234,
+    "ease": "linear"
+   }
+  ],
+  "arrow02": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": 107,
+    "dy": -237
+   },
+   {
+    "type": "hide",
+    "at": "p4w7"
+   },
+   {
+    "type": "move",
+    "at": "p4w7",
+    "dur": 0.45,
+    "dx": -107,
+    "dy": 237,
+    "ease": "linear"
+   }
+  ],
+  "arrow03": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": 38,
+    "dy": -257
+   },
+   {
+    "type": "hide",
+    "at": "p4w5"
+   },
+   {
+    "type": "move",
+    "at": "p4w5",
+    "dur": 0.45,
+    "dx": -38,
+    "dy": 257,
+    "ease": "linear"
+   }
+  ],
+  "arrow04": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": -96,
+    "dy": -242
+   },
+   {
+    "type": "hide",
+    "at": "p4w3+0.35"
+   },
+   {
+    "type": "move",
+    "at": "p4w3+0.35",
+    "dur": 0.45,
+    "dx": 96,
+    "dy": 242,
+    "ease": "linear"
+   }
+  ],
+  "arrow05": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": -164,
+    "dy": -202
+   },
+   {
+    "type": "hide",
+    "at": "p4w6"
+   },
+   {
+    "type": "move",
+    "at": "p4w6",
+    "dur": 0.45,
+    "dx": 164,
+    "dy": 202,
+    "ease": "linear"
+   }
+  ],
+  "arrow06": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": -27,
+    "dy": -259
+   },
+   {
+    "type": "hide",
+    "at": "p4w3"
+   },
+   {
+    "type": "move",
+    "at": "p4w3",
+    "dur": 0.45,
+    "dx": 27,
+    "dy": 259,
+    "ease": "linear"
+   }
+  ],
+  "arrow07": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": 34,
+    "dy": -258
+   },
+   {
+    "type": "hide",
+    "at": "p4w7+0.25"
+   },
+   {
+    "type": "move",
+    "at": "p4w7+0.25",
+    "dur": 0.45,
+    "dx": -34,
+    "dy": 258,
+    "ease": "linear"
+   }
+  ],
+  "arrow08": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": 186,
+    "dy": -181
+   },
+   {
+    "type": "hide",
+    "at": "p4w4+0.3"
+   },
+   {
+    "type": "move",
+    "at": "p4w4+0.3",
+    "dur": 0.45,
+    "dx": -186,
+    "dy": 181,
+    "ease": "linear"
+   }
+  ],
+  "arrow09": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": 85,
+    "dy": -246
+   },
+   {
+    "type": "hide",
+    "at": "p4w8"
+   },
+   {
+    "type": "move",
+    "at": "p4w8",
+    "dur": 0.45,
+    "dx": -85,
+    "dy": 246,
+    "ease": "linear"
+   }
+  ],
+  "arrow10": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": -208,
+    "dy": -156
+   },
+   {
+    "type": "hide",
+    "at": "p4w5+0.3"
+   },
+   {
+    "type": "move",
+    "at": "p4w5+0.3",
+    "dur": 0.45,
+    "dx": 208,
+    "dy": 156,
+    "ease": "linear"
+   }
+  ],
+  "arrow11": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": 174,
+    "dy": -193
+   },
+   {
+    "type": "hide",
+    "at": "p4w8+0.3"
+   },
+   {
+    "type": "move",
+    "at": "p4w8+0.3",
+    "dur": 0.45,
+    "dx": -174,
+    "dy": 193,
+    "ease": "linear"
+   }
+  ],
+  "arrow12": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": -162,
+    "dy": -203
+   },
+   {
+    "type": "hide",
+    "at": "p4w6+0.3"
+   },
+   {
+    "type": "move",
+    "at": "p4w6+0.3",
+    "dur": 0.45,
+    "dx": 162,
+    "dy": 203,
+    "ease": "linear"
+   }
+  ],
+  "arrow13": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": -177,
+    "dy": -190
+   },
+   {
+    "type": "hide",
+    "at": "p4w8+0.6"
+   },
+   {
+    "type": "move",
+    "at": "p4w8+0.6",
+    "dur": 0.45,
+    "dx": 177,
+    "dy": 190,
+    "ease": "linear"
+   }
+  ]
+ }
+}

@@ -14,6 +14,7 @@ Writes work/pageNN/pieces/<name>.png (RGBA, with a 12 px underfill of its own co
 covers it), paper.png, manifest.json (position, z-order, pivot) and prev/rest_composite.png.
 Z-order: pieces whose cut edges touch are ordered by the cut-edge shadows (the darker edge is underneath);
 "back" and "front" lists in the page file override that.
+"fill": "nearest" fills the holes with the nearest outside colour instead of a blur (flat colours, no smudge).
 """
 import sys, json, os, itertools
 from PIL import Image
@@ -87,6 +88,12 @@ for c in range(3): fill[:, :, c] = np.where(conf < 0.2, mean_paper[c], fill[:, :
 # where the hole sat on white paper, use plain paper colour rather than a blur of the piece's neighbours
 near_paper = ndi.gaussian_filter(clean_paper.astype(np.float32), 20) > 0.55
 fill = np.where((hole & near_paper)[..., None], mean_paper[None, None, :] * 0.6 + fill * 0.4, fill)
+if cfg.get('fill') == 'nearest':
+    # flat cut-paper colours: each hole pixel takes the colour of the nearest pixel outside the hole, so a
+    # hole that straddles skin and paper splits cleanly instead of blurring into a smudge
+    idx = ndi.distance_transform_edt(hole, return_distances=False, return_indices=True)
+    near = ndi.median_filter(im, size=(5, 5, 1))[idx[0], idx[1]]
+    fill = ndi.gaussian_filter(near, (1.2, 1.2, 0))
 rng = np.random.default_rng(3)
 noise = ndi.gaussian_filter(rng.normal(0, 3.2, (H, W)), 0.8)
 grain = np.stack([noise * 1.0, noise * 0.95, noise * 0.9], -1)

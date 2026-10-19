@@ -67,5 +67,21 @@ faint pale ghost. Known spots:
   logs); faint marks where the branch carrier was.
 * Page 18: the hobble is small because a tree trunk runs behind her shawl.
 * Page 19: a faint ghost where the top leaf was.
+* Page 20: the spear arm swings like a jointed puppet limb; a faint seam at
+  the shoulder cut. The hunter does not duck (his outline could not be cut).
+* Page 21: the arrows are fused with the background, so they cannot fly;
+  Spearfinger jolts as they hit and the camera pushes in.
+* Page 22: only the titmouse's beak moves (on each "un"); the leaves sway. A
+  faint halo round the beak.
+* Page 23: camera push only, no character beat (arrows fused with the
+  background).
+* Page 24: small tan bits at the thumb and arm where the hands meet the
+  leaves.
+* Page 25: faint smudges near the leaf edges where two arrows wait before
+  flying in.
+* Page 26: before the strike the palm is filled in with flat skin colour where
+  the blood splash was (`"fill": "nearest"`); a tiny speck of arrowhead stays.
+* Pages 20–23 would improve if re-segmented with more colour seeds (cream
+  belly, tan face, thin arrows).
 
 Each page's beat is the `"beat"` line in `pages/NN.json`.

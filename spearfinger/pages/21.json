@@ -1,0 +1,50 @@
+{
+ "beat": "Arrows rain in all around her (the picture's own arrows); Spearfinger jolts on 'they shot' and again on 'when they hit her stony skin', unhurt; the camera pushes in on her.",
+ "pieces": {
+  "spearfinger": [
+   237,
+   267,
+   9981,
+   10121,
+   10319,
+   10367,
+   9437,
+   18821,
+   9631,
+   9700,
+   9757,
+   60325
+  ]
+ },
+ "depth": {
+  "spearfinger": 0.85
+ },
+ "camera": {
+  "zoom": [
+   1.0,
+   1.05
+  ],
+  "focus": [
+   0.57,
+   0.45
+  ]
+ },
+ "motions": {
+  "spearfinger": [
+   {
+    "type": "shake",
+    "at": "p2w4",
+    "until": "p2w4+0.7",
+    "amp": 2.5,
+    "freq": 7
+   },
+   {
+    "type": "shake",
+    "at": "p4w2",
+    "until": "p4w2+0.8",
+    "amp": 2.5,
+    "freq": 7
+   }
+  ]
+ }
+}

@@ -1,0 +1,6 @@
+{
+ "beat": "Camera only: a slow push in across the hail of arrows toward Spearfinger. (The page's thin arrows and the brown background are merged in the segmentation, so no piece can move cleanly.)",
+ "pieces": {},
+ "camera": {"zoom": [1.0, 1.07], "focus": [0.66, 0.42], "drift": 30},
+ "motions": {}
+}

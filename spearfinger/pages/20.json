@@ -1,0 +1,97 @@
+{
+ "beat": "On 'she jabbed in every direction' Spearfinger's arm, a jointed paper limb pinned at the shoulder, stabs her awl finger up at the rim of the pit three times, and once more on 'anyone who came near'.",
+ "pieces": {
+  "arm": {
+   "ids": [
+    94,
+    33128,
+    82
+   ],
+   "cut": [
+    592,
+    180,
+    790,
+    560
+   ]
+  }
+ },
+ "pivot": {
+  "arm": [
+   594,
+   367
+  ]
+ },
+ "depth": {
+  "arm": 0.85
+ },
+ "camera": {
+  "zoom": [
+   1.0,
+   1.045
+  ],
+  "focus": [
+   0.55,
+   0.35
+  ]
+ },
+ "motions": {
+  "arm": [
+   {
+    "type": "rotate",
+    "at": "p3w2",
+    "dur": 0.17,
+    "deg": -6,
+    "ease": "steps:2"
+   },
+   {
+    "type": "rotate",
+    "at": "p3w2+0.3",
+    "dur": 0.25,
+    "deg": 6,
+    "ease": "steps:3"
+   },
+   {
+    "type": "rotate",
+    "at": "p3w2+0.6",
+    "dur": 0.17,
+    "deg": -6,
+    "ease": "steps:2"
+   },
+   {
+    "type": "rotate",
+    "at": "p3w2+0.9",
+    "dur": 0.25,
+    "deg": 6,
+    "ease": "steps:3"
+   },
+   {
+    "type": "rotate",
+    "at": "p3w2+1.2",
+    "dur": 0.17,
+    "deg": -6,
+    "ease": "steps:2"
+   },
+   {
+    "type": "rotate",
+    "at": "p3w2+1.5",
+    "dur": 0.25,
+    "deg": 6,
+    "ease": "steps:3"
+   },
+   {
+    "type": "rotate",
+    "at": "p4w2",
+    "dur": 0.17,
+    "deg": -6,
+    "ease": "steps:2"
+   },
+   {
+    "type": "rotate",
+    "at": "p4w2+0.3",
+    "dur": 0.25,
+    "deg": 6,
+    "ease": "steps:3"
+   }
+  ]
+ }
+}

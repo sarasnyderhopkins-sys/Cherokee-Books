@@ -1,0 +1,393 @@
+{
+ "beat": "On 'an arrow struck her soft palm' the arrow slides in along its line and strikes her raised palm; blood splashes out from the hand in drops (two other arrows fly past just before).",
+ "pieces": {
+  "arrow_hit": {
+   "ids": [
+    6515,
+    6533,
+    12041,
+    12109,
+    5459
+   ],
+   "cut": [
+    136,
+    34,
+    492,
+    362
+   ]
+  },
+  "arrow_a": {
+   "ids": [
+    4563,
+    5255
+   ],
+   "cut": [
+    303,
+    0,
+    397,
+    159
+   ]
+  },
+  "arrow_b": {
+   "ids": [
+    4576,
+    5259
+   ],
+   "cut": [
+    0,
+    83,
+    117,
+    174
+   ]
+  },
+  "splash": {
+   "ids": [
+    6183,
+    6207
+   ],
+   "cut": [
+    360,
+    334,
+    476,
+    446
+   ]
+  },
+  "drop_a": {
+   "ids": [
+    3794
+   ]
+  },
+  "drop_b": {
+   "ids": [
+    6172
+   ]
+  },
+  "drop_c": {
+   "ids": [
+    6205
+   ]
+  },
+  "drop_d": {
+   "ids": [
+    786,
+    11751
+   ],
+   "cut": [
+    536,
+    435,
+    562,
+    481
+   ]
+  },
+  "drop_e": {
+   "ids": [
+    11856,
+    11751
+   ],
+   "cut": [
+    611,
+    436,
+    676,
+    558
+   ]
+  },
+  "drop_f": {
+   "ids": [
+    786,
+    6207
+   ],
+   "cut": [
+    282,
+    457,
+    354,
+    559
+   ]
+  },
+  "drop_g": {
+   "ids": [
+    786
+   ],
+   "cut": [
+    162,
+    563,
+    195,
+    609
+   ]
+  },
+  "drop_h": {
+   "ids": [
+    786
+   ],
+   "cut": [
+    274,
+    744,
+    294,
+    787
+   ]
+  }
+ },
+ "depth": {
+  "arrow_hit": 1.0,
+  "arrow_a": 1.0,
+  "arrow_b": 1.0,
+  "splash": 1.0,
+  "drop_a": 1.0,
+  "drop_b": 1.0,
+  "drop_c": 1.0,
+  "drop_d": 1.0,
+  "drop_e": 1.0,
+  "drop_f": 1.0,
+  "drop_g": 1.0,
+  "drop_h": 1.0
+ },
+ "camera": {
+  "zoom": [
+   1.0,
+   1.05
+  ],
+  "focus": [
+   0.38,
+   0.35
+  ]
+ },
+ "motions": {
+  "arrow_hit": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": -220,
+    "dy": -199
+   },
+   {
+    "type": "hide",
+    "at": "p5w3-0.4"
+   },
+   {
+    "type": "move",
+    "at": "p5w3-0.4",
+    "dur": 0.4,
+    "dx": 220,
+    "dy": 199,
+    "ease": "linear"
+   }
+  ],
+  "arrow_a": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": -150,
+    "dy": -260
+   },
+   {
+    "type": "hide",
+    "at": "p5w2+0.6"
+   },
+   {
+    "type": "move",
+    "at": "p5w2+0.6",
+    "dur": 0.45,
+    "dx": 150,
+    "dy": 260,
+    "ease": "linear"
+   }
+  ],
+  "arrow_b": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": -250,
+    "dy": -135
+   },
+   {
+    "type": "hide",
+    "at": "p5w2+1.2"
+   },
+   {
+    "type": "move",
+    "at": "p5w2+1.2",
+    "dur": 0.45,
+    "dx": 250,
+    "dy": 135,
+    "ease": "linear"
+   }
+  ],
+  "splash": [
+   {
+    "type": "hide",
+    "at": "p5w3"
+   }
+  ],
+  "drop_a": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": 10,
+    "dy": 47
+   },
+   {
+    "type": "hide",
+    "at": "p5w3+0.02"
+   },
+   {
+    "type": "move",
+    "at": "p5w3+0.02",
+    "dur": 0.35,
+    "dx": -10,
+    "dy": -47,
+    "ease": "out"
+   }
+  ],
+  "drop_b": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": 152,
+    "dy": 18
+   },
+   {
+    "type": "hide",
+    "at": "p5w3+0.06"
+   },
+   {
+    "type": "move",
+    "at": "p5w3+0.06",
+    "dur": 0.35,
+    "dx": -152,
+    "dy": -18,
+    "ease": "out"
+   }
+  ],
+  "drop_c": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": -12,
+    "dy": -11
+   },
+   {
+    "type": "hide",
+    "at": "p5w3+0.10"
+   },
+   {
+    "type": "move",
+    "at": "p5w3+0.10",
+    "dur": 0.35,
+    "dx": 12,
+    "dy": 11,
+    "ease": "out"
+   }
+  ],
+  "drop_d": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": -51,
+    "dy": -60
+   },
+   {
+    "type": "hide",
+    "at": "p5w3+0.14"
+   },
+   {
+    "type": "move",
+    "at": "p5w3+0.14",
+    "dur": 0.35,
+    "dx": 51,
+    "dy": 60,
+    "ease": "out"
+   }
+  ],
+  "drop_e": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": -112,
+    "dy": -86
+   },
+   {
+    "type": "hide",
+    "at": "p5w3+0.18"
+   },
+   {
+    "type": "move",
+    "at": "p5w3+0.18",
+    "dur": 0.35,
+    "dx": 112,
+    "dy": 86,
+    "ease": "out"
+   }
+  ],
+  "drop_f": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": 99,
+    "dy": -93
+   },
+   {
+    "type": "hide",
+    "at": "p5w3+0.22"
+   },
+   {
+    "type": "move",
+    "at": "p5w3+0.22",
+    "dur": 0.35,
+    "dx": -99,
+    "dy": 93,
+    "ease": "out"
+   }
+  ],
+  "drop_g": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": 190,
+    "dy": -144
+   },
+   {
+    "type": "hide",
+    "at": "p5w3+0.26"
+   },
+   {
+    "type": "move",
+    "at": "p5w3+0.26",
+    "dur": 0.35,
+    "dx": -190,
+    "dy": 144,
+    "ease": "out"
+   }
+  ],
+  "drop_h": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 0,
+    "dx": 121,
+    "dy": -260
+   },
+   {
+    "type": "hide",
+    "at": "p5w3+0.30"
+   },
+   {
+    "type": "move",
+    "at": "p5w3+0.30",
+    "dur": 0.35,
+    "dx": -121,
+    "dy": 260,
+    "ease": "out"
+   }
+  ]
+ },
+ "fill": "nearest"
+}

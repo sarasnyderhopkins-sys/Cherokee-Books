@@ -1,0 +1,110 @@
+[
+ {
+  "idx": 1,
+  "start": 0,
+  "end": 2.79,
+  "words": [
+   {
+    "syl": "ᎯᎳᏳᎢ",
+    "pho": "halv´:'i:yu",
+    "start": 0,
+    "end": 1.08
+   },
+   {
+    "syl": "ᏳᏢᏂ",
+    "pho": "yu:hlv´:hnv'i",
+    "start": 1.08,
+    "end": 1.88
+   },
+   {
+    "syl": "ᎠᏲᏟ,",
+    "pho": "ayóhli,",
+    "start": 1.88,
+    "end": 2.79
+   }
+  ],
+  "eng": "When the child fell asleep,"
+ },
+ {
+  "idx": 2,
+  "start": 2.91,
+  "end": 12.1,
+  "words": [
+   {
+    "syl": "ᎪᏍᏓᏱ",
+    "pho": "gó:sda:yi",
+    "start": 2.91,
+    "end": 3.68
+   },
+   {
+    "syl": "ᏗᎦᏘᏍᏙᏗ",
+    "pho": "digá:hlti:sdóhdi",
+    "start": 3.68,
+    "end": 4.8
+   },
+   {
+    "syl": "ᎦᏰᏌᏛ",
+    "pho": "gá:ye:sadv´:'i",
+    "start": 4.8,
+    "end": 5.7
+   },
+   {
+    "syl": "ᏥᏕᎦᏘᏍᏗᏍᎨ",
+    "pho": "tside:gá:hltisdísge'i",
+    "start": 5.7,
+    "end": 7.24
+   },
+   {
+    "syl": "ᏍᎩᎾ",
+    "pho": "sgina",
+    "start": 7.24,
+    "end": 7.69
+   },
+   {
+    "syl": "ᎦᏂᎯᏓ",
+    "pho": "ganv:hí:da",
+    "start": 7.69,
+    "end": 8.58
+   },
+   {
+    "syl": "ᎦᏁᎦᏗᏓᎸᎦᏍᏙᏗ",
+    "pho": "gané:gadidalv´gsdohdi",
+    "start": 8.58,
+    "end": 10.88
+   },
+   {
+    "syl": "ᎦᏰᏌᏛᎢ",
+    "pho": "gá:ye:sadv´:'i",
+    "start": 10.88,
+    "end": 12.1
+   }
+  ],
+  "eng": "Spearfinger would stab her with the long awl finger"
+ },
+ {
+  "idx": 3,
+  "start": 12.65,
+  "end": 17.08,
+  "words": [
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 12.65,
+    "end": 13.32
+   },
+   {
+    "syl": "ᏧᏪᎳ",
+    "pho": "tsuwe:la",
+    "start": 13.32,
+    "end": 14.71
+   },
+   {
+    "syl": "ᏣᏕᎦᎵᎩᎡᎮᎢ.",
+    "pho": "tside:galigí:'ehe'i.",
+    "start": 14.71,
+    "end": 17.08
+   }
+  ],
+  "eng": "and take out her liver."
+ }
+]

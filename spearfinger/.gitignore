@@ -1,0 +1,12 @@
+# rebuilt by the scripts (prep_page.py, build_pieces.py, animate.py); page 27's original layers stay committed
+/work/page[0-2][0-6]/*
+/work/page[01][0-9]/*
+!/work/page*/timing*.json
+!/work/page*/timing*.csv
+!/work/page*/comps*.json
+/work/*/prev/
+/work/*/frames/
+/out/
+/work/cards/
+/work/tools/
+/work/*.log

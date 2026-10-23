@@ -1,0 +1,162 @@
+[
+ {
+  "idx": 1,
+  "start": 0.39,
+  "end": 2.44,
+  "words": [
+   {
+    "syl": "ᏃᏗ",
+    "pho": "nodi",
+    "start": 0.39,
+    "end": 0.9
+   },
+   {
+    "syl": "ᎤᎵᎪᎲᏍᏗ",
+    "pho": "u:ligó:hv:sdi",
+    "start": 0.9,
+    "end": 1.93
+   },
+   {
+    "syl": "ᏱᎩ",
+    "pho": "yí:gi",
+    "start": 1.93,
+    "end": 2.44
+   }
+  ],
+  "eng": "In the fall,"
+ },
+ {
+  "idx": 2,
+  "start": 2.57,
+  "end": 8.33,
+  "words": [
+   {
+    "syl": "ᏧᎧᏎᏍᏕ",
+    "pho": "tsu:kse:sde",
+    "start": 2.57,
+    "end": 3.37
+   },
+   {
+    "syl": "ᏧᎦᏒᏍᏗ",
+    "pho": "tsu:ksv´:sdi",
+    "start": 3.37,
+    "end": 4.48
+   },
+   {
+    "syl": "ᎤᎳᏌᎳᏙᏗ",
+    "pho": "u:lsaldó:di",
+    "start": 4.48,
+    "end": 6.62
+   },
+   {
+    "syl": "ᏕᏍᎬᎢ",
+    "pho": "detsgv´:'i",
+    "start": 6.62,
+    "end": 7.14
+   },
+   {
+    "syl": "ᎦᎸᎾᏗᏣ.",
+    "pho": "galv´:ndí:tsa",
+    "start": 7.14,
+    "end": 8.33
+   }
+  ],
+  "eng": "she would watch for the smoke rising above the trees."
+ },
+ {
+  "idx": 3,
+  "start": 8.95,
+  "end": 12.79,
+  "words": [
+   {
+    "syl": "ᎯᎳᏳᎢ",
+    "pho": "halv´:'i:yu",
+    "start": 8.95,
+    "end": 10.03
+   },
+   {
+    "syl": "ᏍᎩᎾᏃ",
+    "pho": "sginahno",
+    "start": 10.03,
+    "end": 10.78
+   },
+   {
+    "syl": "ᏱᏄᎳᏍᏓᎾ,",
+    "pho": "yinú:lsdana",
+    "start": 10.78,
+    "end": 12.35
+   },
+   {
+    "syl": "ᏍᎩᎾ.",
+    "pho": "sgina",
+    "start": 12.35,
+    "end": 12.79
+   }
+  ],
+  "eng": "When that happened,"
+ },
+ {
+  "idx": 4,
+  "start": 12.59,
+  "end": 16.31,
+  "words": [
+   {
+    "syl": "ᏣᎧᏔᎮ",
+    "pho": "tsá:ktahe",
+    "start": 12.59,
+    "end": 13.35
+   },
+   {
+    "syl": "ᎠᏂᏣᎳᎩ",
+    "pho": "ani:tsalagi",
+    "start": 13.35,
+    "end": 14.42
+   },
+   {
+    "syl": "ᏧᏆᎶᎩ",
+    "pho": "tsu:gwaló:gi",
+    "start": 14.42,
+    "end": 15.07
+   },
+   {
+    "syl": "ᏓᎾᎪᎰᏍᏗᏍᎬᎢ",
+    "pho": "da:nagohvsdí:sgv'i",
+    "start": 15.07,
+    "end": 16.31
+   }
+  ],
+  "eng": "she knew the Cherokees were burning the leaves"
+ },
+ {
+  "idx": 5,
+  "start": 16.57,
+  "end": 19.84,
+  "words": [
+   {
+    "syl": "ᎣᎴ",
+    "pho": "nole",
+    "start": 16.57,
+    "end": 17.09
+   },
+   {
+    "syl": "ᏘᎵ",
+    "pho": "tí:li",
+    "start": 17.09,
+    "end": 17.5
+   },
+   {
+    "syl": "ᎭᏂᎳᎨᏴᎢ",
+    "pho": "ani:lagé:yv'i",
+    "start": 17.5,
+    "end": 19.12
+   },
+   {
+    "syl": "ᎡᎳᏗ.",
+    "pho": "e:ladi.",
+    "start": 19.12,
+    "end": 19.84
+   }
+  ],
+  "eng": "to gather the chestnuts on the ground."
+ }
+]

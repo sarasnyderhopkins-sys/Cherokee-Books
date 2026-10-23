@@ -1,0 +1,217 @@
+{
+ "beat": "The council fire flickers while the speaker in blue lays out the plan with an open palm: his hand lifts on 'decided to trap her in a pit' and again on 'all the warriors'.",
+ "pieces": {
+  "flame_3500": [
+   3500
+  ],
+  "flame_3503": [
+   3503
+  ],
+  "flame_3499": [
+   3499
+  ],
+  "flame_5052": [
+   5052
+  ],
+  "flame_5110": [
+   5110
+  ],
+  "flame_3508": [
+   3508
+  ],
+  "flame_5115": [
+   5115
+  ],
+  "flame_5051": [
+   5051
+  ],
+  "flame_3506": [
+   3506
+  ],
+  "flame_5050": [
+   5050
+  ],
+  "flame_5096": [
+   5096
+  ],
+  "flame_3509": [
+   3509
+  ],
+  "flame_3504": [
+   3504
+  ],
+  "pot": [
+   5033
+  ],
+  "tunic": [
+   4772
+  ],
+  "hand": [
+   26345
+  ]
+ },
+ "back": [
+  "flame_3500",
+  "flame_3503",
+  "flame_3499",
+  "flame_5052",
+  "flame_5110",
+  "flame_3508",
+  "flame_5115",
+  "flame_5051",
+  "flame_3506",
+  "flame_5050",
+  "flame_5096",
+  "flame_3509",
+  "flame_3504"
+ ],
+ "front": [
+  "tunic",
+  "hand",
+  "pot"
+ ],
+ "depth": {
+  "flame_3500": 0.65,
+  "flame_3503": 0.65,
+  "flame_3499": 0.65,
+  "flame_5052": 0.65,
+  "flame_5110": 0.65,
+  "flame_3508": 0.65,
+  "flame_5115": 0.65,
+  "flame_5051": 0.65,
+  "flame_3506": 0.65,
+  "flame_5050": 0.65,
+  "flame_5096": 0.65,
+  "flame_3509": 0.65,
+  "flame_3504": 0.65,
+  "pot": 0.65,
+  "tunic": 0.65,
+  "hand": 0.65
+ },
+ "pivot": {
+  "hand": [
+   392,
+   437
+  ]
+ },
+ "camera": {
+  "zoom": [
+   1.0,
+   1.04
+  ],
+  "focus": [
+   0.42,
+   0.55
+  ]
+ },
+ "motions": {
+  "flame_3500": [
+   {
+    "type": "flicker",
+    "amp": 1.6
+   }
+  ],
+  "flame_3503": [
+   {
+    "type": "flicker",
+    "amp": 1.6
+   }
+  ],
+  "flame_3499": [
+   {
+    "type": "flicker",
+    "amp": 2.6
+   }
+  ],
+  "flame_5052": [
+   {
+    "type": "flicker",
+    "amp": 1.8
+   }
+  ],
+  "flame_5110": [
+   {
+    "type": "flicker",
+    "amp": 1.8
+   }
+  ],
+  "flame_3508": [
+   {
+    "type": "flicker",
+    "amp": 2.6
+   }
+  ],
+  "flame_5115": [
+   {
+    "type": "flicker",
+    "amp": 2.6
+   }
+  ],
+  "flame_5051": [
+   {
+    "type": "flicker",
+    "amp": 2.6
+   }
+  ],
+  "flame_3506": [
+   {
+    "type": "flicker",
+    "amp": 2.6
+   }
+  ],
+  "flame_5050": [
+   {
+    "type": "flicker",
+    "amp": 2.6
+   }
+  ],
+  "flame_5096": [
+   {
+    "type": "flicker",
+    "amp": 2.6
+   }
+  ],
+  "flame_3509": [
+   {
+    "type": "flicker",
+    "amp": 2.6
+   }
+  ],
+  "flame_3504": [
+   {
+    "type": "flicker",
+    "amp": 2.6
+   }
+  ],
+  "hand": [
+   {
+    "type": "rotate",
+    "at": "p1w3",
+    "dur": 0.5,
+    "deg": -9,
+    "ease": "steps:3"
+   },
+   {
+    "type": "rotate",
+    "at": "p1w5+0.3",
+    "dur": 0.6,
+    "deg": 9,
+    "ease": "steps:3"
+   },
+   {
+    "type": "rotate",
+    "at": "p2w4",
+    "dur": 0.5,
+    "deg": -11,
+    "ease": "steps:3"
+   },
+   {
+    "type": "rotate",
+    "at": "p2w5+0.8",
+    "dur": 0.6,
+    "deg": 11,
+    "ease": "steps:3"
+   }
+  ]
+ }
+}

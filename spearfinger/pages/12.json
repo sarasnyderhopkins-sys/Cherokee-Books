@@ -1,0 +1,90 @@
+{
+ "beat": "Spearfinger waits, still, in the fog; on 'to strike' the spear finger makes one quick stop-motion jab and returns.",
+ "pieces": {
+  "arm": {
+   "ids": [
+    6025,
+    44167,
+    44631,
+    45511,
+    46357
+   ]
+  },
+  "spear_a": {
+   "ids": [
+    5706
+   ],
+   "cut": [
+    30,
+    550,
+    240,
+    642
+   ]
+  },
+  "spear_b": {
+   "ids": [
+    5706
+   ],
+   "cut": [
+    240,
+    598,
+    362,
+    682
+   ]
+  },
+  "bush": [
+   54908
+  ]
+ },
+ "front": [
+  "bush"
+ ],
+ "depth": {
+  "arm": 0.65,
+  "spear_a": 0.65,
+  "spear_b": 0.65,
+  "bush": 0.65
+ },
+ "camera": {
+  "zoom": [
+   1.0,
+   1.04
+  ],
+  "focus": [
+   0.45,
+   0.55
+  ]
+ },
+ "motions": {
+  "arm": [
+   {
+    "type": "jab",
+    "at": "p3w4",
+    "dur": 0.4,
+    "dx": -30,
+    "dy": -10,
+    "count": 1
+   }
+  ],
+  "spear_a": [
+   {
+    "type": "jab",
+    "at": "p3w4",
+    "dur": 0.4,
+    "dx": -30,
+    "dy": -10,
+    "count": 1
+   }
+  ],
+  "spear_b": [
+   {
+    "type": "jab",
+    "at": "p3w4",
+    "dur": 0.4,
+    "dx": -30,
+    "dy": -10,
+    "count": 1
+   }
+  ]
+ }
+}

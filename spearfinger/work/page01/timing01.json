@@ -1,0 +1,66 @@
+[
+ {
+  "idx": 1,
+  "start": 0.25,
+  "end": 4.83,
+  "words": [
+   {
+    "syl": "ᎡᏘᏴ",
+    "pho": "é:tiyv",
+    "start": 0.25,
+    "end": 1.1
+   },
+   {
+    "syl": "ᏥᎨᏒ",
+    "pho": "tsige:sv´:",
+    "start": 1.1,
+    "end": 1.84
+   },
+   {
+    "syl": "ᎠᏂᏣᎳᎩ",
+    "pho": "ani:tsalagi",
+    "start": 1.84,
+    "end": 3.09
+   },
+   {
+    "syl": "ᎠᏂᏴᏫ",
+    "pho": "ani:yv:wíya",
+    "start": 3.09,
+    "end": 4.83
+   }
+  ],
+  "eng": "Long ago the Cherokee people"
+ },
+ {
+  "idx": 2,
+  "start": 4.82,
+  "end": 9.29,
+  "words": [
+   {
+    "syl": "ᏙᎯᏯᎾᏊ",
+    "pho": "tohí:gwuhno",
+    "start": 4.82,
+    "end": 6.17
+   },
+   {
+    "syl": "ᏣᏁᎮᎢ",
+    "pho": "tsanehé:'i",
+    "start": 6.17,
+    "end": 7.43
+   },
+   {
+    "syl": "ᎢᎾᎨᎢ",
+    "pho": "i:nagé:'i",
+    "start": 7.43,
+    "end": 8.44
+   },
+   {
+    "syl": "ᎦᏚᏏ.",
+    "pho": "gadú:si.",
+    "start": 8.44,
+    "end": 9.29
+   }
+  ],
+  "eng": "lived in peace and harmony in the mountain forests."
+ }
+]

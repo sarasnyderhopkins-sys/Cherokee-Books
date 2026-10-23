@@ -1,0 +1,254 @@
+[
+ {
+  "idx": 1,
+  "start": 0,
+  "end": 3.89,
+  "words": [
+   {
+    "syl": "ᎾᎥ",
+    "pho": "na'v´",
+    "start": 0,
+    "end": 0.47
+   },
+   {
+    "syl": "ᎾᎢ",
+    "pho": "na'í",
+    "start": 0.47,
+    "end": 0.95
+   },
+   {
+    "syl": "ᎠᎦᏳᎵᎨ",
+    "pho": "agayv´:lige",
+    "start": 0.95,
+    "end": 2.84
+   },
+   {
+    "syl": "ᎤᎷᏨᎩ",
+    "pho": "ulu:tsv´:gi",
+    "start": 2.84,
+    "end": 3.89
+   }
+  ],
+  "eng": "By and by an old woman came"
+ },
+ {
+  "idx": 2,
+  "start": 3.87,
+  "end": 9.13,
+  "words": [
+   {
+    "syl": "ᏧᏓᏅᏠᎯᏗ",
+    "pho": "tsuda:nvdlohí:di",
+    "start": 3.87,
+    "end": 5.92
+   },
+   {
+    "syl": "ᎨᎸᏛᏍᏗ",
+    "pho": "gelvdvsdi",
+    "start": 5.92,
+    "end": 7.04
+   },
+   {
+    "syl": "ᎯᎠ",
+    "pho": "hí'a",
+    "start": 7.04,
+    "end": 8.01
+   },
+   {
+    "syl": "ᎤᏍᏗ",
+    "pho": "ú:sdi",
+    "start": 8.01,
+    "end": 8.42
+   },
+   {
+    "syl": "ᎦᏅᏅ.",
+    "pho": "ganv:nv´",
+    "start": 8.42,
+    "end": 9.13
+   }
+  ],
+  "eng": "hobbling along the trail."
+ },
+ {
+  "idx": 3,
+  "start": 9.45,
+  "end": 17.93,
+  "words": [
+   {
+    "syl": "ᏍᎩᎾ.",
+    "pho": "sgina",
+    "start": 9.45,
+    "end": 10.04
+   },
+   {
+    "syl": "ᎤᏐᏯᏊ",
+    "pho": "usó:yigwu",
+    "start": 10.04,
+    "end": 11.01
+   },
+   {
+    "syl": "ᏗᎧᎾᏗ",
+    "pho": "di:kándi",
+    "start": 11.01,
+    "end": 11.97
+   },
+   {
+    "syl": "ᏥᎨᏎ",
+    "pho": "tsigesé:'i",
+    "start": 11.97,
+    "end": 13.56
+   },
+   {
+    "syl": "ᏂᎦᏓ",
+    "pho": "nigá:da",
+    "start": 13.56,
+    "end": 14.73
+   },
+   {
+    "syl": "ᎠᏃᎳᎩ",
+    "pho": "anó:hlgi",
+    "start": 14.73,
+    "end": 15.92
+   },
+   {
+    "syl": "ᎭᎾ.",
+    "pho": "hana",
+    "start": 15.92,
+    "end": 16.41
+   },
+   {
+    "syl": "ᎦᏚᎱᎢ,",
+    "pho": "gadú:hv'i",
+    "start": 16.41,
+    "end": 17.93
+   }
+  ],
+  "eng": "She looked just like an old woman everyone in the village knew,"
+ },
+ {
+  "idx": 4,
+  "start": 18.35,
+  "end": 24.83,
+  "words": [
+   {
+    "syl": "ᎠᏎᏃ",
+    "pho": "asé:no",
+    "start": 18.35,
+    "end": 19.2
+   },
+   {
+    "syl": "ᎯᎠ",
+    "pho": "hí'a",
+    "start": 19.2,
+    "end": 20.22
+   },
+   {
+    "syl": "ᏗᎾᏔᎾᎢ",
+    "pho": "di:ntahné:'i",
+    "start": 20.22,
+    "end": 21.72
+   },
+   {
+    "syl": "ᎠᏂᎦᏴᎵ",
+    "pho": "ani:gayv´:li",
+    "start": 21.72,
+    "end": 22.96
+   },
+   {
+    "syl": "ᏣᏂᎧᏔᎮᎢ",
+    "pho": "tsaní:ktahé:'i",
+    "start": 22.96,
+    "end": 24.83
+   }
+  ],
+  "eng": "but the wise elders knew"
+ },
+ {
+  "idx": 5,
+  "start": 24.63,
+  "end": 29.23,
+  "words": [
+   {
+    "syl": "ᎪᏍᏓᏱ",
+    "pho": "gó:sda:yi",
+    "start": 24.63,
+    "end": 25.38
+   },
+   {
+    "syl": "ᏗᎦᏘᏍᏙᏗ",
+    "pho": "digá:hltisdóhdi",
+    "start": 25.38,
+    "end": 26.47
+   },
+   {
+    "syl": "ᎦᏰᏌᏗ",
+    "pho": "gayé:sad",
+    "start": 26.47,
+    "end": 27.61
+   },
+   {
+    "syl": "ᎨᏒ",
+    "pho": "gesv´",
+    "start": 27.61,
+    "end": 28.04
+   },
+   {
+    "syl": "ᏚᏓᏥᎶᏚ,",
+    "pho": "duda:tsiló:sdi",
+    "start": 28.04,
+    "end": 29.23
+   }
+  ],
+  "eng": "it was Spearfinger in disguise,"
+ },
+ {
+  "idx": 6,
+  "start": 29.33,
+  "end": 35.92,
+  "words": [
+   {
+    "syl": "ᎠᏎᏃ",
+    "pho": "ase:no",
+    "start": 29.33,
+    "end": 30.18
+   },
+   {
+    "syl": "ᎨᏍᏓᏗ",
+    "pho": "gésdadi",
+    "start": 30.18,
+    "end": 30.93
+   },
+   {
+    "syl": "ᎩᎶ",
+    "pho": "kiló:",
+    "start": 30.93,
+    "end": 31.43
+   },
+   {
+    "syl": "ᎪᎱᏍᏓ",
+    "pho": "gohó:sda",
+    "start": 31.43,
+    "end": 32.17
+   },
+   {
+    "syl": "ᏳᏛᎾ",
+    "pho": "yudv´:na",
+    "start": 32.17,
+    "end": 33.33
+   },
+   {
+    "syl": "ᎱᎾᏓᏓᏰᏙᏗᏍᎬ",
+    "pho": "undedotisgv'i",
+    "start": 33.33,
+    "end": 35.32
+   },
+   {
+    "syl": "ᏍᎩᎾ.",
+    "pho": "sgína.",
+    "start": 35.32,
+    "end": 35.92
+   }
+  ],
+  "eng": "so no one said a word of warning to her."
+ }
+]

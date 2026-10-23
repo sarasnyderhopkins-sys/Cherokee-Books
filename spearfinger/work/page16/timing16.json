@@ -1,0 +1,140 @@
+[
+ {
+  "idx": 1,
+  "start": 0.16,
+  "end": 9.1,
+  "words": [
+   {
+    "syl": "ᎯᎠ",
+    "pho": "hí'a",
+    "start": 0.16,
+    "end": 0.82
+   },
+   {
+    "syl": "ᏗᏂᎳᏫᎦ",
+    "pho": "dini:la:wí:ga",
+    "start": 0.82,
+    "end": 2.22
+   },
+   {
+    "syl": "ᏣᏚᎧᏔᏁ",
+    "pho": "tsidunúktane:",
+    "start": 2.22,
+    "end": 3.62
+   },
+   {
+    "syl": "ᎾᏍᏊ",
+    "pho": "ná:sgwu",
+    "start": 3.62,
+    "end": 4.17
+   },
+   {
+    "syl": "ᎤᏂᏌᏛᏗ",
+    "pho": "uni:sadv´:di",
+    "start": 4.17,
+    "end": 5.78
+   },
+   {
+    "syl": "ᎦᏙ",
+    "pho": "ga:dó",
+    "start": 5.78,
+    "end": 6.34
+   },
+   {
+    "syl": "ᎠᏔᎳᎧᏒᎢ",
+    "pho": "atala:gsv´'i",
+    "start": 6.34,
+    "end": 8.44
+   },
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 8.44,
+    "end": 9.1
+   }
+  ],
+  "eng": "The council decided to trap her in a pit"
+ },
+ {
+  "idx": 2,
+  "start": 9.22,
+  "end": 17.05,
+  "words": [
+   {
+    "syl": "ᏣᏚᎩᎬᏗᏤ",
+    "pho": "tsadugigvditse'i",
+    "start": 9.22,
+    "end": 11.25
+   },
+   {
+    "syl": "ᎾᏍᎩ",
+    "pho": "ná:sgi",
+    "start": 11.25,
+    "end": 11.89
+   },
+   {
+    "syl": "ᏂᎦᏓ",
+    "pho": "nigá:da",
+    "start": 11.89,
+    "end": 12.85
+   },
+   {
+    "syl": "ᏗᏂᏟᎯ",
+    "pho": "dinahliha",
+    "start": 12.85,
+    "end": 14.14
+   },
+   {
+    "syl": "ᏣᏚᏗᎦᏘᎸᏍᏗ",
+    "pho": "tsunigatilvsdi",
+    "start": 14.14,
+    "end": 17.05
+   }
+  ],
+  "eng": "and hoped that if all the warriors attacked her"
+ },
+ {
+  "idx": 3,
+  "start": 17.19,
+  "end": 24.76,
+  "words": [
+   {
+    "syl": "ᎦᏟᏓ",
+    "pho": "gahltsida",
+    "start": 17.19,
+    "end": 18.49
+   },
+   {
+    "syl": "ᏍᎩᎾ",
+    "pho": "sgí:na",
+    "start": 18.49,
+    "end": 19.09
+   },
+   {
+    "syl": "ᏣᏚᏂᏘᏏᎶᎡ",
+    "pho": "tsiduniti:si:ló'e",
+    "start": 19.09,
+    "end": 21.18
+   },
+   {
+    "syl": "ᏍᎩᎾ.",
+    "pho": "sgí:na",
+    "start": 21.18,
+    "end": 21.78
+   },
+   {
+    "syl": "ᎤᏅᏱᎭ",
+    "pho": "unv:yí:ha",
+    "start": 21.78,
+    "end": 23.17
+   },
+   {
+    "syl": "ᎤᏁᎦᎸᎢ.",
+    "pho": "u:ne:galv´:'i.",
+    "start": 23.17,
+    "end": 24.76
+   }
+  ],
+  "eng": "with arrows at once, they could pierce her stony skin."
+ }
+]

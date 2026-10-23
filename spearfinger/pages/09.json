@@ -1,0 +1,89 @@
+{
+ "beat": "Held still; on 'Liver, I eat' she lifts the dripping liver a notch on her spear finger, and on 'su, sa, sai' one drop of blood falls.",
+ "pieces": {
+  "forearm": [
+   25400
+  ],
+  "hand": [
+   25393,
+   25407,
+   25383,
+   25387,
+   7823,
+   7824,
+   7825,
+   11187
+  ],
+  "sleeve": [
+   3853
+  ],
+  "drop": [
+   7829
+  ]
+ },
+ "front": [
+  "sleeve"
+ ],
+ "depth": {
+  "hand": 0.85,
+  "sleeve": 0.85,
+  "drop": 0.85,
+  "forearm": 0.85
+ },
+ "camera": {
+  "zoom": [
+   1.0,
+   1.04
+  ],
+  "focus": [
+   0.4,
+   0.45
+  ]
+ },
+ "motions": {
+  "hand": [
+   {
+    "type": "move",
+    "at": "p1w1",
+    "dur": 0.25,
+    "dy": -10,
+    "ease": "steps:2"
+   },
+   {
+    "type": "rotate",
+    "at": "p1w1",
+    "dur": 0.25,
+    "deg": -1.0,
+    "ease": "steps:2"
+   }
+  ],
+  "drop": [
+   {
+    "type": "fall",
+    "at": "p2",
+    "dur": 0.7,
+    "dy": 220,
+    "deg": 0
+   }
+  ],
+  "forearm": [
+   {
+    "type": "move",
+    "at": "p1w1",
+    "dur": 0.25,
+    "dy": -10,
+    "ease": "steps:2"
+   },
+   {
+    "type": "rotate",
+    "at": "p1w1",
+    "dur": 0.25,
+    "deg": -1.0,
+    "ease": "steps:2"
+   }
+  ]
+ },
+ "back": [
+  "forearm"
+ ]
+}

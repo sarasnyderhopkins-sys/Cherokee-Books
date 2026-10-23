@@ -1,0 +1,15 @@
+{
+ "beat": "Stillness, then on 'she would stab her' the raised hand drives the spear finger down in one sharp three-frame thrust and holds.",
+ "pieces": {
+  "arm": [25977, 24734, 24743, 24792, 24790, 3220, 5171]
+ },
+ "depth": {"arm": 0.85},
+ "pivot": {"arm": "center"},
+ "camera": {"zoom": [1.0, 1.04], "focus": [0.35, 0.6]},
+ "motions": {
+  "arm": [
+   {"type": "move", "at": "p2w4", "dur": 0.25, "dx": 4, "dy": 34, "ease": "steps:3"},
+   {"type": "rotate", "at": "p2w4", "dur": 0.25, "deg": 2, "ease": "steps:3"}
+  ]
+ }
+}

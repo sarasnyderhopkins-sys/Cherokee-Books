@@ -1,0 +1,156 @@
+{
+ "beat": "Breeze in the branches while the camera eases in on the perched titmouse; on 'Un, un, un!' its beak tips up three times as it sings (once also on 'sang out').",
+ "pieces": {
+  "beak": {
+   "ids": [
+    1362
+   ],
+   "cut": [
+    682,
+    405,
+    730,
+    480
+   ]
+  },
+  "sprig_low": [
+   11,
+   3547,
+   998
+  ],
+  "canopy": [
+   1,
+   2021,
+   7
+  ],
+  "leaf_left": [
+   3108
+  ],
+  "leaf_top": [
+   2
+  ]
+ },
+ "depth": {
+  "beak": 0.85,
+  "sprig_low": 0.9,
+  "canopy": 0.6,
+  "leaf_left": 0.8,
+  "leaf_top": 0.5
+ },
+ "camera": {
+  "zoom": [
+   1.0,
+   1.06
+  ],
+  "focus": [
+   0.52,
+   0.48
+  ]
+ },
+ "motions": {
+  "beak": [
+   {
+    "type": "rotate",
+    "at": "p5w1",
+    "dur": 0.12,
+    "deg": -12.0,
+    "ease": "steps:2"
+   },
+   {
+    "type": "rotate",
+    "at": "p5w1+0.3",
+    "dur": 0.17,
+    "deg": 12.0,
+    "ease": "steps:2"
+   },
+   {
+    "type": "rotate",
+    "at": "p5w2",
+    "dur": 0.12,
+    "deg": -12.0,
+    "ease": "steps:2"
+   },
+   {
+    "type": "rotate",
+    "at": "p5w2+0.3",
+    "dur": 0.17,
+    "deg": 12.0,
+    "ease": "steps:2"
+   },
+   {
+    "type": "rotate",
+    "at": "p5w3",
+    "dur": 0.12,
+    "deg": -12.0,
+    "ease": "steps:2"
+   },
+   {
+    "type": "rotate",
+    "at": "p5w3+0.3",
+    "dur": 0.17,
+    "deg": 12.0,
+    "ease": "steps:2"
+   },
+   {
+    "type": "rotate",
+    "at": "p4w3",
+    "dur": 0.12,
+    "deg": -8.0,
+    "ease": "steps:2"
+   },
+   {
+    "type": "rotate",
+    "at": "p4w3+0.35",
+    "dur": 0.17,
+    "deg": 8.0,
+    "ease": "steps:2"
+   }
+  ],
+  "sprig_low": [
+   {
+    "type": "sway",
+    "amp": 1.2,
+    "freq": 0.3
+   }
+  ],
+  "canopy": [
+   {
+    "type": "sway",
+    "amp": 0.7,
+    "freq": 0.25
+   }
+  ],
+  "leaf_left": [
+   {
+    "type": "sway",
+    "amp": 1.4,
+    "freq": 0.35
+   }
+  ],
+  "leaf_top": [
+   {
+    "type": "sway",
+    "amp": 1.5,
+    "freq": 0.22
+   }
+  ]
+ },
+ "pivot": {
+  "beak": [
+   684,
+   446
+  ],
+  "sprig_low": [
+   628,
+   688
+  ],
+  "canopy": [
+   1080,
+   405
+  ],
+  "leaf_left": [
+   172,
+   575
+  ],
+  "leaf_top": "center"
+ }
+}

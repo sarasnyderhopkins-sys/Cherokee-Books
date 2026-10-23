@@ -1,0 +1,60 @@
+[
+ {
+  "idx": 1,
+  "start": 0.23,
+  "end": 5.16,
+  "words": [
+   {
+    "syl": "“ᎤᏪᎳ",
+    "pho": "uwe:la",
+    "start": 0.23,
+    "end": 1.09
+   },
+   {
+    "syl": "ᏥᎩᎠ,”",
+    "pho": "tsigí'a",
+    "start": 1.09,
+    "end": 2.58
+   },
+   {
+    "syl": "ᏧᏪᎳ",
+    "pho": "tsuwe:la",
+    "start": 2.58,
+    "end": 3.34
+   },
+   {
+    "syl": "ᏕᏥᎩᏍᎪᎢ",
+    "pho": "detsigisgo’i",
+    "start": 3.34,
+    "end": 5.16
+   }
+  ],
+  "eng": "“Liver, I eat… liver, I eat,”"
+ },
+ {
+  "idx": 2,
+  "start": 4.96,
+  "end": 6.17,
+  "words": [
+   {
+    "syl": "“Ꮡ,",
+    "pho": "su",
+    "start": 4.96,
+    "end": 5.31
+   },
+   {
+    "syl": "Ꮜ,",
+    "pho": "sa",
+    "start": 5.31,
+    "end": 5.56
+   },
+   {
+    "syl": "ᏌᎢ”",
+    "pho": "sai”",
+    "start": 5.56,
+    "end": 6.17
+   }
+  ],
+  "eng": "“su, sa, sai.”"
+ }
+]

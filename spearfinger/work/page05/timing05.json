@@ -1,0 +1,130 @@
+[
+ {
+  "idx": 1,
+  "start": 0.21,
+  "end": 3.49,
+  "words": [
+   {
+    "syl": "ᎪᎨᏱ,",
+    "pho": "go:ge:yi,",
+    "start": 0.21,
+    "end": 0.85
+   },
+   {
+    "syl": "Ꮓ",
+    "pho": "hno",
+    "start": 0.85,
+    "end": 1.03
+   },
+   {
+    "syl": "ᏗᏂᏲᏟ",
+    "pho": "di:ni:yó:hli",
+    "start": 1.03,
+    "end": 1.76
+   },
+   {
+    "syl": "ᎦᏚᏏ",
+    "pho": "gadú:si",
+    "start": 1.76,
+    "end": 2.3
+   },
+   {
+    "syl": "ᎢᏣ",
+    "pho": "i:tsa",
+    "start": 2.3,
+    "end": 2.66
+   },
+   {
+    "syl": "ᎢᎾᎨᎢ",
+    "pho": "i:nagé:'i",
+    "start": 2.66,
+    "end": 3.49
+   }
+  ],
+  "eng": "In the spring, when the children were on the wooded hillsides"
+ },
+ {
+  "idx": 2,
+  "start": 3.57,
+  "end": 6.67,
+  "words": [
+   {
+    "syl": "ᎡᎯ",
+    "pho": "é:hi",
+    "start": 3.57,
+    "end": 4.11
+   },
+   {
+    "syl": "ᎠᏂ",
+    "pho": "á:ni",
+    "start": 4.11,
+    "end": 4.56
+   },
+   {
+    "syl": "ᏣᎾᏗᎩᏏᏙᎮᎢ",
+    "pho": "tsandigí:si:dóhe:'i",
+    "start": 4.56,
+    "end": 6.67
+   }
+  ],
+  "eng": "picking wild strawberries,"
+ },
+ {
+  "idx": 3,
+  "start": 7.18,
+  "end": 9.31,
+  "words": [
+   {
+    "syl": "ᎾᏍᎩ",
+    "pho": "hnasgi",
+    "start": 7.18,
+    "end": 7.63
+   },
+   {
+    "syl": "ᎾᎥᎢ",
+    "pho": "na'v",
+    "start": 7.63,
+    "end": 8.16
+   },
+   {
+    "syl": "ᏣᎦᎷᎧᎨᎢ",
+    "pho": "tsiga'lú:hgé:'i,",
+    "start": 8.16,
+    "end": 9.31
+   }
+  ],
+  "eng": "she would come upon them,"
+ },
+ {
+  "idx": 4,
+  "start": 9.99,
+  "end": 13.03,
+  "words": [
+   {
+    "syl": "ᎤᏂᎵᏏ",
+    "pho": "u:ni:lí:si",
+    "start": 9.99,
+    "end": 10.85
+   },
+   {
+    "syl": "ᎢᏳᏍᏗ",
+    "pho": "i:yú:sdi",
+    "start": 10.85,
+    "end": 11.42
+   },
+   {
+    "syl": "ᏗᎧᎾᏗ",
+    "pho": "di:ká:ndi",
+    "start": 11.42,
+    "end": 12.17
+   },
+   {
+    "syl": "ᏥᎨᏎᎢ.",
+    "pho": "tsige:sé:'i.",
+    "start": 12.17,
+    "end": 13.03
+   }
+  ],
+  "eng": "looking like their old grandmother."
+ }
+]

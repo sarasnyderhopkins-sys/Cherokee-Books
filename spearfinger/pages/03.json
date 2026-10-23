@@ -1,0 +1,149 @@
+{
+ "beat": "Spearfinger prowls a few stepped paces to the left through the forest; on 'what she liked best was to eat the livers' she leans forward hungrily; the trees sway.",
+ "pieces": {
+  "hag": {
+   "ids": [
+    17843,
+    10365,
+    10366,
+    15658,
+    13805,
+    9547,
+    13953
+   ],
+   "cut": [
+    470,
+    360,
+    1030,
+    940
+   ]
+  },
+  "tree_l": {
+   "ids": [
+    1062,
+    9544,
+    9786,
+    1337
+   ],
+   "cut": [
+    4,
+    4,
+    425,
+    830
+   ]
+  },
+  "clump_l": {
+   "ids": [
+    10,
+    4053,
+    11,
+    644,
+    916
+   ],
+   "cut": [
+    90,
+    4,
+    600,
+    295
+   ]
+  },
+  "clump_m": [
+   818
+  ],
+  "tree_r": {
+   "ids": [
+    7,
+    9471
+   ],
+   "cut": [
+    740,
+    4,
+    1195,
+    945
+   ]
+  }
+ },
+ "back": [
+  "tree_l",
+  "tree_r",
+  "clump_l",
+  "clump_m"
+ ],
+ "front": [
+  "hag"
+ ],
+ "depth": {
+  "hag": 0.85,
+  "tree_l": 0.5,
+  "tree_r": 0.5,
+  "clump_l": 0.45,
+  "clump_m": 0.45
+ },
+ "pivot": {
+  "clump_l": "center",
+  "clump_m": "center"
+ },
+ "camera": {
+  "zoom": [
+   1.0,
+   1.04
+  ],
+  "focus": [
+   0.5,
+   0.55
+  ]
+ },
+ "motions": {
+  "hag": [
+   {
+    "type": "move",
+    "at": "p1",
+    "dur": 5.0,
+    "dx": -30,
+    "ease": "steps:8"
+   },
+   {
+    "type": "bob",
+    "at": "p1",
+    "until": "p1+5",
+    "amp": 2,
+    "freq": 1.6
+   },
+   {
+    "type": "rotate",
+    "at": "p3",
+    "dur": 1.2,
+    "deg": 3,
+    "ease": "steps:5"
+   }
+  ],
+  "tree_l": [
+   {
+    "type": "sway",
+    "amp": 0.7,
+    "freq": 0.3
+   }
+  ],
+  "tree_r": [
+   {
+    "type": "sway",
+    "amp": 0.6,
+    "freq": 0.27
+   }
+  ],
+  "clump_l": [
+   {
+    "type": "sway",
+    "amp": 1.2,
+    "freq": 0.35
+   }
+  ],
+  "clump_m": [
+   {
+    "type": "sway",
+    "amp": 1.4,
+    "freq": 0.4
+   }
+  ]
+ }
+}

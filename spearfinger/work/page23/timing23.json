@@ -1,0 +1,122 @@
+[
+ {
+  "idx": 1,
+  "start": 0.22,
+  "end": 6.66,
+  "words": [
+   {
+    "syl": "ᎯᎠᏃ",
+    "pho": "hí'ahno",
+    "start": 0.22,
+    "end": 1.02
+   },
+   {
+    "syl": "ᎠᏂᏃᏟᏙᎯ",
+    "pho": "ani:nó:hli:dó:hi",
+    "start": 1.02,
+    "end": 2.75
+   },
+   {
+    "syl": "ᎯᎠ",
+    "pho": "hí'a",
+    "start": 2.75,
+    "end": 3.54
+   },
+   {
+    "syl": "ᏂᎦᏪᏍᎬᎢ",
+    "pho": "nigawé:sgv'i",
+    "start": 3.54,
+    "end": 4.7
+   },
+   {
+    "syl": "ᏧᏁᎵᏎᎢ",
+    "pho": "tsuné:li:se'i",
+    "start": 4.7,
+    "end": 5.86
+   },
+   {
+    "syl": "“ᎤᎾᎱ,”",
+    "pho": "“unáhu,”",
+    "start": 5.86,
+    "end": 6.66
+   }
+  ],
+  "eng": "The hunters thought it was saying “unahu,”"
+ },
+ {
+  "idx": 2,
+  "start": 6.96,
+  "end": 12.0,
+  "words": [
+   {
+    "syl": "ᎤᏰᎳᏚᎢ",
+    "pho": "huye:hldv´'i",
+    "start": 6.96,
+    "end": 8.22
+   },
+   {
+    "syl": "ᎯᎠ",
+    "pho": "hí'a",
+    "start": 8.22,
+    "end": 9.21
+   },
+   {
+    "syl": "ᎪᏪᎸᎢ",
+    "pho": "kane'isdi",
+    "start": 9.21,
+    "end": 10.48
+   },
+   {
+    "syl": "ᎤᏓᎾᏛᎢ,",
+    "pho": "udá:ntogi",
+    "start": 10.48,
+    "end": 12.0
+   }
+  ],
+  "eng": "which means heart,"
+ },
+ {
+  "idx": 3,
+  "start": 12.28,
+  "end": 19.48,
+  "words": [
+   {
+    "syl": "ᎠᏎᏃ",
+    "pho": "aseno",
+    "start": 12.28,
+    "end": 13.27
+   },
+   {
+    "syl": "ᏣᏓᏍᏆᎵᏍᏗᏍᎨ",
+    "pho": "tsida:sgwálisdísge",
+    "start": 13.27,
+    "end": 15.24
+   },
+   {
+    "syl": "ᏗᎦᏟᏓ",
+    "pho": "digahltsida",
+    "start": 15.24,
+    "end": 16.43
+   },
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 16.43,
+    "end": 17.02
+   },
+   {
+    "syl": "ᎡᎳᏗ",
+    "pho": "é:ladi",
+    "start": 17.02,
+    "end": 17.9
+   },
+   {
+    "syl": "ᏣᏗᏥᎮᎢ.",
+    "pho": "tsidá:ditsihé'i.",
+    "start": 17.9,
+    "end": 19.48
+   }
+  ],
+  "eng": "but the arrows just broke and fell to the ground."
+ }
+]

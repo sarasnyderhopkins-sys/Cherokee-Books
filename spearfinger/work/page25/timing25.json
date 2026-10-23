@@ -1,0 +1,172 @@
+[
+ {
+  "idx": 1,
+  "start": 0,
+  "end": 5.05,
+  "words": [
+   {
+    "syl": "ᏂᎪᎯᎸᏃ",
+    "pho": "nigohilv´:hno",
+    "start": 0,
+    "end": 1.6
+   },
+   {
+    "syl": "ᏄᏓᎴ",
+    "pho": "núdale",
+    "start": 1.6,
+    "end": 2.43
+   },
+   {
+    "syl": "ᎤᏍᏗ",
+    "pho": "ú:sdi",
+    "start": 2.43,
+    "end": 2.99
+   },
+   {
+    "syl": "ᏥᏍᏆ,",
+    "pho": "tsí:sgwa,",
+    "start": 2.99,
+    "end": 4.12
+   },
+   {
+    "syl": "ᏥᎩᎵ,",
+    "pho": "tsi:gili:lí,",
+    "start": 4.12,
+    "end": 5.05
+   }
+  ],
+  "eng": "Soon another little bird, a chickadee,"
+ },
+ {
+  "idx": 2,
+  "start": 5.1,
+  "end": 12.49,
+  "words": [
+   {
+    "syl": "ᎱᏃᎯᎵᏣᏁ",
+    "pho": "tsunohilotsv'i",
+    "start": 5.1,
+    "end": 6.53
+   },
+   {
+    "syl": "ᎡᎳᏗ",
+    "pho": "é:ladi",
+    "start": 6.53,
+    "end": 7.66
+   },
+   {
+    "syl": "ᎨᏒᎢ",
+    "pho": "gesvi",
+    "start": 7.66,
+    "end": 8.69
+   },
+   {
+    "syl": "ᎯᎠ",
+    "pho": "hí'a",
+    "start": 8.69,
+    "end": 9.42
+   },
+   {
+    "syl": "ᎦᎸᎳᏗ",
+    "pho": "galv´:ladi",
+    "start": 9.42,
+    "end": 10.49
+   },
+   {
+    "syl": "ᏚᏩᏂᎦᎸᎢ",
+    "pho": "duwá:ngalv´'i",
+    "start": 10.49,
+    "end": 12.49
+   }
+  ],
+  "eng": "flew down from the high branches"
+ },
+ {
+  "idx": 3,
+  "start": 12.76,
+  "end": 16.22,
+  "words": [
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 12.76,
+    "end": 13.51
+   },
+   {
+    "syl": "ᏍᎩᎾ",
+    "pho": "sgina",
+    "start": 13.51,
+    "end": 14.16
+   },
+   {
+    "syl": "ᏍᎩᎵ",
+    "pho": "sgi:lí",
+    "start": 14.16,
+    "end": 14.82
+   },
+   {
+    "syl": "ᎦᏃᎨᎾ.",
+    "pho": "kanogé:na.",
+    "start": 14.82,
+    "end": 16.22
+   }
+  ],
+  "eng": "and lighted on the witch’s arm."
+ },
+ {
+  "idx": 4,
+  "start": 16.02,
+  "end": 25.01,
+  "words": [
+   {
+    "syl": "ᎯᎠ",
+    "pho": "hí'a",
+    "start": 16.02,
+    "end": 16.64
+   },
+   {
+    "syl": "ᎠᏂᏃᏟᏙᎯ",
+    "pho": "ani:nohlidó:hi",
+    "start": 16.64,
+    "end": 18.66
+   },
+   {
+    "syl": "ᏧᏂᎪᎮᎢ",
+    "pho": "tsuni:gohé'i",
+    "start": 18.66,
+    "end": 19.96
+   },
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 19.96,
+    "end": 20.48
+   },
+   {
+    "syl": "ᏣᏂᎧᏔᎮᎢ",
+    "pho": "tsaníktahé:'i",
+    "start": 20.48,
+    "end": 22.04
+   },
+   {
+    "syl": "ᎢᏳᏃ",
+    "pho": "iyú:no",
+    "start": 22.04,
+    "end": 22.82
+   },
+   {
+    "syl": "ᎢᏣ",
+    "pho": "í:tsa",
+    "start": 22.82,
+    "end": 23.34
+   },
+   {
+    "syl": "ᎤᎾᎳᏐᏍᏙᏗ.",
+    "pho": "unalsósdóhdi.",
+    "start": 23.34,
+    "end": 25.01
+   }
+  ],
+  "eng": "The hunters saw this and knew it was a sign to aim there."
+ }
+]

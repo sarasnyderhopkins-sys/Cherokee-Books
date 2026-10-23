@@ -1,0 +1,27 @@
+{
+ "beat": "The titmouse's wings flutter between two reaching hands; on 'they caught the bird' both hands close in on it in a quick stop-motion grab and hold, then ease back on 'even today'.",
+ "pieces": {
+  "hand_r": [23843, 23891, 23914, 5102],
+  "hand_l": [24599, 24812],
+  "wings": [21485, 22109, 22137],
+  "leaves_r": [18308, 13572, 5142, 19435],
+  "leaves_l": {"box": [0, 620, 420, 945]}
+ },
+ "front": ["leaves_r", "leaves_l"],
+ "pivot": {"hand_r": [1060, 480], "hand_l": [300, 858], "wings": "center"},
+ "depth": {"hand_r": 0.85, "hand_l": 0.85, "wings": 1.0, "leaves_r": 0.75, "leaves_l": 0.8},
+ "camera": {"zoom": [1.0, 1.045], "focus": [0.5, 0.55]},
+ "motions": {
+  "wings": [
+   {"type": "shake", "at": 0, "until": "p2w1+0.4", "amp": 2.0, "freq": 9}
+  ],
+  "hand_r": [
+   {"type": "rotate", "at": "p2w1", "dur": 0.4, "deg": -4, "ease": "steps:3"},
+   {"type": "rotate", "at": "p3", "dur": 1.2, "deg": 4, "ease": "steps:5"}
+  ],
+  "hand_l": [
+   {"type": "rotate", "at": "p2w1", "dur": 0.4, "deg": 5, "ease": "steps:3"},
+   {"type": "rotate", "at": "p3", "dur": 1.2, "deg": -5, "ease": "steps:5"}
+  ]
+ }
+}

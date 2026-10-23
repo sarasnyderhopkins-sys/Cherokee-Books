@@ -1,0 +1,290 @@
+[
+ {
+  "idx": 1,
+  "start": 0,
+  "end": 8.9,
+  "words": [
+   {
+    "syl": "ᎯᎠᏃ",
+    "pho": "hi'ahno",
+    "start": 0,
+    "end": 0.85
+   },
+   {
+    "syl": "ᏥᎩᎵᎵ",
+    "pho": "tsigili:lí",
+    "start": 0.85,
+    "end": 1.99
+   },
+   {
+    "syl": "ᏣᎧᏔᎮᎢ",
+    "pho": "tsa:gtahé:'i",
+    "start": 1.99,
+    "end": 3.41
+   },
+   {
+    "syl": "ᏍᎩᎾ",
+    "pho": "sgina",
+    "start": 3.41,
+    "end": 3.97
+   },
+   {
+    "syl": "ᎪᏍᏓᏱ",
+    "pho": "gó:sda:yi",
+    "start": 3.97,
+    "end": 4.82
+   },
+   {
+    "syl": "ᏗᎦᏘᏍᏙᏗ",
+    "pho": "digálitisdóhdi",
+    "start": 4.82,
+    "end": 6.24
+   },
+   {
+    "syl": "ᎦᏰᏌᏗ",
+    "pho": "gaye:sad(i)",
+    "start": 6.24,
+    "end": 7.38
+   },
+   {
+    "syl": "ᎤᏕᎵᏍᏛᎢ",
+    "pho": "udé:lisdv'i",
+    "start": 7.38,
+    "end": 8.9
+   }
+  ],
+  "eng": "The chickadee knew Spearfinger’s secret:"
+ },
+ {
+  "idx": 2,
+  "start": 8.7,
+  "end": 13.72,
+  "words": [
+   {
+    "syl": "ᏍᎩᎾ",
+    "pho": "sgina",
+    "start": 8.7,
+    "end": 9.36
+   },
+   {
+    "syl": "ᎤᏓᎾᏛᎢ",
+    "pho": "udá:ntv'i",
+    "start": 9.36,
+    "end": 10.78
+   },
+   {
+    "syl": "ᎨᏍᏓᏗ",
+    "pho": "gésdadi",
+    "start": 10.78,
+    "end": 11.63
+   },
+   {
+    "syl": "ᎦᏁᏥ",
+    "pho": "gané:tsi",
+    "start": 11.63,
+    "end": 12.49
+   },
+   {
+    "syl": "ᏯᏄᏍᏕᎢ.",
+    "pho": "yanú:sde'i.",
+    "start": 12.49,
+    "end": 13.72
+   }
+  ],
+  "eng": "her heart was not in her chest."
+ },
+ {
+  "idx": 3,
+  "start": 13.52,
+  "end": 18.39,
+  "words": [
+   {
+    "syl": "ᎠᏎᏃ",
+    "pho": "aseno",
+    "start": 13.52,
+    "end": 14.62
+   },
+   {
+    "syl": "ᏆᎾᎥᎢ",
+    "pho": "gwana:'v´'i",
+    "start": 14.62,
+    "end": 15.96
+   },
+   {
+    "syl": "ᏄᏍᏛᎢ",
+    "pho": "nusdv´'i",
+    "start": 15.96,
+    "end": 16.96
+   },
+   {
+    "syl": "ᎤᏬᏰᏂ",
+    "pho": "uwoyé:ni",
+    "start": 16.96,
+    "end": 18.39
+   }
+  ],
+  "eng": "It was in the soft palm of her hand."
+ },
+ {
+  "idx": 4,
+  "start": 18.39,
+  "end": 26.32,
+  "words": [
+   {
+    "syl": "ᏍᎩᏴᏃ",
+    "pho": "sgiyvhno",
+    "start": 18.39,
+    "end": 19.19
+   },
+   {
+    "syl": "ᎯᎠ",
+    "pho": "hí'a",
+    "start": 19.19,
+    "end": 19.67
+   },
+   {
+    "syl": "ᎠᏂᏃᏟᏙᎯ",
+    "pho": "ani:nohlidóhi",
+    "start": 19.67,
+    "end": 21.09
+   },
+   {
+    "syl": "ᏰᎵ",
+    "pho": "yéli",
+    "start": 21.09,
+    "end": 21.81
+   },
+   {
+    "syl": "ᎤᏂᏲᏍᏙᏗ",
+    "pho": "uni:yó:sdohdi",
+    "start": 21.81,
+    "end": 23.85
+   },
+   {
+    "syl": "ᎨᏒ",
+    "pho": "gesv´",
+    "start": 23.85,
+    "end": 24.32
+   },
+   {
+    "syl": "ᎯᎠ",
+    "pho": "hí'a",
+    "start": 24.32,
+    "end": 24.8
+   },
+   {
+    "syl": "ᎤᏐᏅᎢ",
+    "pho": "u:so:nv´:'i",
+    "start": 24.8,
+    "end": 25.74
+   },
+   {
+    "syl": "ᏍᎩᎵ.",
+    "pho": "sgi:lí.",
+    "start": 25.74,
+    "end": 26.32
+   }
+  ],
+  "eng": "At last the hunters could destroy the evil witch."
+ },
+ {
+  "idx": 5,
+  "start": 26.93,
+  "end": 41.16,
+  "words": [
+   {
+    "syl": "ᎠᎴ",
+    "pho": "ale",
+    "start": 26.93,
+    "end": 27.7
+   },
+   {
+    "syl": "ᏗᎦᏟᏓ",
+    "pho": "digahltsida",
+    "start": 27.7,
+    "end": 30.02
+   },
+   {
+    "syl": "ᎤᏪᏘᎸᎩ",
+    "pho": "uwanilv'i",
+    "start": 30.02,
+    "end": 34.0
+   },
+   {
+    "syl": "ᏆᎾᎥᎢ",
+    "pho": "gwaná:'v'i",
+    "start": 34.0,
+    "end": 36.17
+   },
+   {
+    "syl": "ᎤᏬᏰᏂ",
+    "pho": "uwoyé:ni",
+    "start": 36.17,
+    "end": 37.51
+   },
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 37.51,
+    "end": 38.18
+   },
+   {
+    "syl": "ᏍᎩᏴᏃ",
+    "pho": "sgiyvhno",
+    "start": 38.18,
+    "end": 39.38
+   },
+   {
+    "syl": "ᏧᎵᏬᏤᎢ.",
+    "pho": "tsulihwó:tse'i.",
+    "start": 39.38,
+    "end": 41.16
+   }
+  ],
+  "eng": "An arrow struck her soft palm, and she died."
+ },
+ {
+  "idx": 6,
+  "start": 41.15,
+  "end": 48.41,
+  "words": [
+   {
+    "syl": "ᎠᏂᏣᎳᎩ",
+    "pho": "ani:tsalagi",
+    "start": 41.15,
+    "end": 42.5
+   },
+   {
+    "syl": "“ᏥᏳᎧᏗ",
+    "pho": "tsiyú:gdi",
+    "start": 42.5,
+    "end": 43.49
+   },
+   {
+    "syl": "ᎦᏃᎮᏍᎦ”",
+    "pho": "kanohé:sgi",
+    "start": 43.49,
+    "end": 45.35
+   },
+   {
+    "syl": "ᎭᏃᏎᎰᎢ",
+    "pho": "anosého:'i",
+    "start": 45.35,
+    "end": 46.59
+   },
+   {
+    "syl": "ᎯᎠ",
+    "pho": "hí'a",
+    "start": 46.59,
+    "end": 47.09
+   },
+   {
+    "syl": "ᏥᎩᎵᎵ.",
+    "pho": "tsigili:lí.",
+    "start": 47.09,
+    "end": 48.41
+   }
+  ],
+  "eng": "The Cherokees call the chickadee “truth teller.”"
+ }
+]

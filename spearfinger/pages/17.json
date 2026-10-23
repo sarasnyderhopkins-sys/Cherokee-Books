@@ -1,0 +1,129 @@
+{
+ "beat": "The torch flame flickers; on 'they built a big fire' the man with the torch dips it toward the fire, and on 'hid in the laurels' the man carrying laurel branches takes a couple of stepped strides off to hide.",
+ "pieces": {
+  "trunk_l": [
+   3979
+  ],
+  "trunk_m": [
+   4130
+  ],
+  "carrier": {
+   "box": [
+    0,
+    320,
+    450,
+    945
+   ],
+   "drop": [
+    3744,
+    1801,
+    1751,
+    5246,
+    1710,
+    5244,
+    1620,
+    1465,
+    3979,
+    4130,
+    3743,
+    1791,
+    1607,
+    1667,
+    5247
+   ]
+  },
+  "torchman": [
+   13079,
+   5736,
+   1585
+  ],
+  "torch_flame": [
+   5245
+  ],
+  "foliage": [
+   47
+  ],
+  "loin": [
+   1455
+  ]
+ },
+ "back": [
+  "trunk_l",
+  "trunk_m"
+ ],
+ "front": [
+  "loin",
+  "foliage"
+ ],
+ "depth": {
+  "trunk_l": 0.65,
+  "trunk_m": 0.65,
+  "carrier": 0.65,
+  "torchman": 0.65,
+  "torch_flame": 0.65,
+  "foliage": 0.65,
+  "loin": 0.65
+ },
+ "pivot": {
+  "torchman": [
+   740,
+   235
+  ],
+  "torch_flame": [
+   584,
+   296
+  ]
+ },
+ "camera": {
+  "zoom": [
+   1.0,
+   1.035
+  ],
+  "focus": [
+   0.45,
+   0.5
+  ]
+ },
+ "motions": {
+  "torch_flame": [
+   {
+    "type": "flicker",
+    "amp": 4.0
+   },
+   {
+    "type": "move",
+    "at": "p3w3",
+    "dur": 0.9,
+    "dx": 2.1,
+    "dy": 5.4,
+    "ease": "steps:3"
+   }
+  ],
+  "torchman": [
+   {
+    "type": "rotate",
+    "at": "p3w3",
+    "dur": 0.9,
+    "deg": -2.0,
+    "ease": "steps:3"
+   }
+  ],
+  "carrier": [
+   {
+    "type": "move",
+    "at": "p4w2",
+    "dur": 2.0,
+    "dx": -16,
+    "dy": 1,
+    "ease": "steps:4"
+   },
+   {
+    "type": "bob",
+    "at": "p4w2",
+    "until": "p4w2+2.0",
+    "amp": 2.5,
+    "freq": 2.5
+   }
+  ]
+ }
+}

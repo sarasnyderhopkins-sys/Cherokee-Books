@@ -1,0 +1,210 @@
+[
+ {
+  "idx": 1,
+  "start": 0,
+  "end": 6.9,
+  "words": [
+   {
+    "syl": "ᎯᎠ",
+    "pho": "hí'a",
+    "start": 0,
+    "end": 0.8
+   },
+   {
+    "syl": "ᎠᏂᏣᎳᎩ",
+    "pho": "ani:tsalagi",
+    "start": 0.8,
+    "end": 1.87
+   },
+   {
+    "syl": "ᎭᏫᏂᏳ",
+    "pho": "hawí:ni:yu",
+    "start": 1.87,
+    "end": 2.73
+   },
+   {
+    "syl": "ᏧᎾᏍᎪᏎ",
+    "pho": "tsunsgó:se'i",
+    "start": 2.73,
+    "end": 3.81
+   },
+   {
+    "syl": "ᏗᎦᎾᏗᏫᏒᎢ",
+    "pho": "digandiwisv’i",
+    "start": 3.81,
+    "end": 5.31
+   },
+   {
+    "syl": "ᎯᎠ",
+    "pho": "hí'a",
+    "start": 5.31,
+    "end": 5.73
+   },
+   {
+    "syl": "ᎤᏍᏗ",
+    "pho": "ú:sdi",
+    "start": 5.73,
+    "end": 6.16
+   },
+   {
+    "syl": "ᎦᏅᏅ",
+    "pho": "ganv:nv´",
+    "start": 6.16,
+    "end": 6.9
+   }
+  ],
+  "eng": "The Cherokees dug a deep pit across the trail"
+ },
+ {
+  "idx": 2,
+  "start": 7.54,
+  "end": 12.28,
+  "words": [
+   {
+    "syl": "ᏃᎴ",
+    "pho": "no:le",
+    "start": 7.54,
+    "end": 8.25
+   },
+   {
+    "syl": "ᏧᏅᏒᏁᎢ",
+    "pho": "tsunú:svné:'i",
+    "start": 8.25,
+    "end": 9.78
+   },
+   {
+    "syl": "ᏧᏩᏂᎦᏢ",
+    "pho": "tsuwanigahlanvhi",
+    "start": 9.78,
+    "end": 11.57
+   },
+   {
+    "syl": "ᎬᏗ.",
+    "pho": "gv´hdi.",
+    "start": 11.57,
+    "end": 12.28
+   }
+  ],
+  "eng": "and covered it with branches."
+ },
+ {
+  "idx": 3,
+  "start": 12.68,
+  "end": 17.9,
+  "words": [
+   {
+    "syl": "ᏃᏊᏗ",
+    "pho": "nogwudi",
+    "start": 12.68,
+    "end": 13.54
+   },
+   {
+    "syl": "ᎡᏆ",
+    "pho": "é:gwa",
+    "start": 13.54,
+    "end": 14.05
+   },
+   {
+    "syl": "ᏧᏃᏔᏁᎢ",
+    "pho": "tsunó:tané:'i",
+    "start": 14.05,
+    "end": 15.57
+   },
+   {
+    "syl": "ᎾᎥᏂ",
+    "pho": "na'v´hni",
+    "start": 15.57,
+    "end": 16.53
+   },
+   {
+    "syl": "ᎤᏍᏗ",
+    "pho": "ú:sdi",
+    "start": 16.53,
+    "end": 17.04
+   },
+   {
+    "syl": "ᎦᏅᏅ",
+    "pho": "ganv:nv´",
+    "start": 17.04,
+    "end": 17.9
+   }
+  ],
+  "eng": "Then they built a big fire near the trail"
+ },
+ {
+  "idx": 4,
+  "start": 17.7,
+  "end": 20.65,
+  "words": [
+   {
+    "syl": "ᏃᎴ",
+    "pho": "no:le",
+    "start": 17.7,
+    "end": 18.26
+   },
+   {
+    "syl": "ᏧᎾᏗᏍᎦᎳᏁ",
+    "pho": "tsundisgáhlane",
+    "start": 18.26,
+    "end": 19.86
+   },
+   {
+    "syl": "ᏌᎷᏱ.",
+    "pho": "salú:yi.",
+    "start": 19.86,
+    "end": 20.65
+   }
+  ],
+  "eng": "and hid in the laurels."
+ },
+ {
+  "idx": 5,
+  "start": 20.74,
+  "end": 28.93,
+  "words": [
+   {
+    "syl": "ᏃᏉᏗᏍᏉ",
+    "pho": "no:gwodísgwo",
+    "start": 20.74,
+    "end": 22.04
+   },
+   {
+    "syl": "ᏣᏂᎧᏔᎮ",
+    "pho": "tsaní:gtahé:",
+    "start": 22.04,
+    "end": 23.31
+   },
+   {
+    "syl": "ᎢᏳᏊ",
+    "pho": "i:yú:gwu",
+    "start": 23.31,
+    "end": 24.07
+   },
+   {
+    "syl": "ᏓᎦᎷᏥᏒ",
+    "pho": "dagalú:tsisv´:",
+    "start": 24.07,
+    "end": 25.34
+   },
+   {
+    "syl": "ᏍᎩᎾ.",
+    "pho": "sgína",
+    "start": 25.34,
+    "end": 26.05
+   },
+   {
+    "syl": "ᎭᎪᏘᏍᎬᎢ",
+    "pho": "ago:tísgv:'i",
+    "start": 26.05,
+    "end": 27.53
+   },
+   {
+    "syl": "ᏧᎧᏒᏍᏗ.",
+    "pho": "tsuksv´:sdi.",
+    "start": 27.53,
+    "end": 28.93
+   }
+  ],
+  "eng": "They knew she would come as soon as she saw the smoke."
+ }
+]

@@ -1,0 +1,15 @@
+{
+ "beat": "The old woman (Spearfinger in disguise) hobbles: a stepped, rocking gait with a small lurch forward along the trail on 'came hobbling along the trail'.",
+ "pieces": {
+  "woman": [694, 10499, 13832, 8909, 8158]
+ },
+ "depth": {"woman": 0.65},
+ "pivot": {"woman": [1025, 420]},
+ "camera": {"zoom": [1.0, 1.035], "focus": [0.7, 0.5]},
+ "motions": {
+  "woman": [
+   {"type": "move", "at": "p1w4", "dur": 5.5, "dx": -8, "ease": "steps:4"},
+   {"type": "sway", "at": "p1w4", "until": "p2w5", "amp": 1.6, "freq": 1.0}
+  ]
+ }
+}

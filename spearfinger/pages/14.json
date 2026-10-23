@@ -1,0 +1,133 @@
+{
+ "beat": "Spearfinger's spear-finger arm creeps out of the fog toward the lone hunter on 'grab', the blade glints on 'slice', and on 'disappear into the fog' the arm draws back and the blade fades.",
+ "pieces": {
+  "fog": [
+   28570
+  ],
+  "hair": [
+   1211,
+   9616,
+   9573,
+   9572,
+   9702,
+   9613,
+   1526
+  ],
+  "blade": [
+   1879
+  ],
+  "bush_low": [
+   10238
+  ],
+  "bush_right": {
+   "box": [
+    930,
+    500,
+    1200,
+    830
+   ]
+  },
+  "hunter": [
+   28961,
+   29119,
+   9736,
+   10067,
+   10255,
+   9757,
+   28466,
+   10253,
+   28470,
+   10254,
+   10258,
+   10062
+  ]
+ },
+ "back": [
+  "fog"
+ ],
+ "front": [
+  "bush_low",
+  "bush_right"
+ ],
+ "depth": {
+  "fog": 0.65,
+  "hair": 0.65,
+  "blade": 0.65,
+  "bush_low": 0.65,
+  "bush_right": 0.65,
+  "hunter": 0.65
+ },
+ "pivot": {
+  "fog": [
+   1199,
+   260
+  ]
+ },
+ "camera": {
+  "zoom": [
+   1.0,
+   1.04
+  ],
+  "focus": [
+   0.4,
+   0.5
+  ]
+ },
+ "motions": {
+  "fog": [
+   {
+    "type": "scale",
+    "at": "p2",
+    "dur": 3.0,
+    "sx": 1.035,
+    "sy": 1.035,
+    "ease": "steps:6"
+   },
+   {
+    "type": "scale",
+    "at": "p4w2",
+    "dur": 2.0,
+    "sx": 0.9661835748792271,
+    "sy": 0.9661835748792271,
+    "ease": "steps:5"
+   }
+  ],
+  "blade": [
+   {
+    "type": "move",
+    "at": "p2",
+    "dur": 3.0,
+    "dx": -21,
+    "dy": 8,
+    "ease": "steps:6"
+   },
+   {
+    "type": "glint",
+    "at": "p3w3",
+    "dur": 0.5
+   },
+   {
+    "type": "move",
+    "at": "p4w2",
+    "dur": 2.0,
+    "dx": 21,
+    "dy": -8,
+    "ease": "steps:5"
+   },
+   {
+    "type": "fade",
+    "at": "p4w2",
+    "dur": 2.0,
+    "to": 0.0,
+    "ease": "steps:5"
+   }
+  ],
+  "hair": [
+   {
+    "type": "sway",
+    "amp": 1.0,
+    "freq": 0.4
+   }
+  ]
+ }
+}

@@ -1,0 +1,96 @@
+[
+ {
+  "idx": 1,
+  "start": 0,
+  "end": 7.47,
+  "words": [
+   {
+    "syl": "ᎯᎳᏳᎢ",
+    "pho": "hilv´:i:yú",
+    "start": 0,
+    "end": 0.94
+   },
+   {
+    "syl": "ᏍᎩᎾ",
+    "pho": "sgína",
+    "start": 0.94,
+    "end": 1.41
+   },
+   {
+    "syl": "ᏩᏚᎳᏏᏁ",
+    "pho": "wadu:lá:sine",
+    "start": 1.41,
+    "end": 2.59
+   },
+   {
+    "syl": "ᎦᏚᎢ",
+    "pho": "gadú:",
+    "start": 2.59,
+    "end": 3.51
+   },
+   {
+    "syl": "ᎭᏫᎾ",
+    "pho": "hawí:na",
+    "start": 3.51,
+    "end": 4.22
+   },
+   {
+    "syl": "ᏗᏔᎳᎧᏒᎢ",
+    "pho": "ditalagsv':i",
+    "start": 4.22,
+    "end": 5.63
+   },
+   {
+    "syl": "ᏣᏭᎶᎢᏎᎢ",
+    "pho": "tsuwulo'ise'i",
+    "start": 5.63,
+    "end": 7.47
+   }
+  ],
+  "eng": "When she stepped onto the pitfall and tumbled through into the hole,"
+ },
+ {
+  "idx": 2,
+  "start": 8.08,
+  "end": 16.62,
+  "words": [
+   {
+    "syl": "ᏍᎩᎾ",
+    "pho": "sgína",
+    "start": 8.08,
+    "end": 8.74
+   },
+   {
+    "syl": "ᎪᏍᏓᏱ",
+    "pho": "gó:sda:yi",
+    "start": 8.74,
+    "end": 9.57
+   },
+   {
+    "syl": "ᏗᎦᏘᏍᏙᏗ",
+    "pho": "digá:hlti:sdóhdi",
+    "start": 9.57,
+    "end": 10.96
+   },
+   {
+    "syl": "ᎦᏰᏌᏗ",
+    "pho": "gá:ye:sadv´:'i",
+    "start": 10.96,
+    "end": 12.08
+   },
+   {
+    "syl": "ᏣᎾᎤᎳᏍᏓᏁ",
+    "pho": "tsinú:lsdané:",
+    "start": 12.08,
+    "end": 14.85
+   },
+   {
+    "syl": "ᎱᎳᏍᏕᎵᏴᏌ.",
+    "pho": "ulsde:li:yv´:sa.",
+    "start": 14.85,
+    "end": 16.62
+   }
+  ],
+  "eng": "she turned back into Spearfinger."
+ }
+]

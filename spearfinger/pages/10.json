@@ -1,0 +1,52 @@
+{
+ "beat": "The hunter watches from the left as Spearfinger walks on through the woods, stepping right in stop-motion while she sings.",
+ "pieces": {
+  "spearfinger": {
+   "box": [
+    495,
+    300,
+    690,
+    820
+   ]
+  },
+  "canopy": [
+   10011
+  ],
+  "canopy_dark": [
+   1
+  ]
+ },
+ "depth": {
+  "spearfinger": 0.85,
+  "canopy": 0.65,
+  "canopy_dark": 0.65
+ },
+ "camera": {
+  "zoom": [
+   1.0,
+   1.035
+  ],
+  "focus": [
+   0.5,
+   0.55
+  ]
+ },
+ "motions": {
+  "spearfinger": [
+   {
+    "type": "move",
+    "at": "p3",
+    "dur": 8.5,
+    "dx": 90,
+    "ease": "steps:14"
+   },
+   {
+    "type": "bob",
+    "at": "p3",
+    "until": "p3+8.5",
+    "amp": 2.5,
+    "freq": 1.6
+   }
+  ]
+ }
+}

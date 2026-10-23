@@ -1,0 +1,25 @@
+{
+ "beat": "Two men tend the leaf fires together: their torch flames flicker the whole page, and two loose leaves drift down while the narration says they went about in twos.",
+ "pieces": {
+  "flame_l": [5560],
+  "flame_r": [5569],
+  "leaf_a": [7087],
+  "leaf_b": [7089]
+ },
+ "front": ["flame_l", "flame_r"],
+ "pivot": {"leaf_a": "center", "leaf_b": "center"},
+ "depth": {"flame_l": 0.65, "flame_r": 0.65, "leaf_a": 0.8, "leaf_b": 0.85},
+ "camera": {"zoom": [1.0, 1.035], "focus": [0.5, 0.6]},
+ "motions": {
+  "flame_l": [{"type": "flicker", "amp": 6}],
+  "flame_r": [{"type": "flicker", "amp": 6}],
+  "leaf_a": [
+   {"type": "move", "at": "p2", "dur": 9, "dx": -24, "dy": 120, "ease": "linear"},
+   {"type": "sway", "at": "p2", "amp": 14, "freq": 0.45}
+  ],
+  "leaf_b": [
+   {"type": "move", "at": "p2w3", "dur": 8, "dx": -30, "dy": 110, "ease": "linear"},
+   {"type": "sway", "at": "p2w3", "amp": 16, "freq": 0.4}
+  ]
+ }
+}

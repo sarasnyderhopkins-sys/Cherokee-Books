@@ -1,0 +1,108 @@
+{
+ "beat": "Smoke drifts up from the autumn trees while Spearfinger's head, watching from the right, leans in a little on 'she would watch for the smoke'.",
+ "pieces": {
+  "head": {
+   "box": [
+    860,
+    60,
+    1200,
+    590
+   ]
+  },
+  "wisp_top": {
+   "box": [
+    540,
+    40,
+    730,
+    95
+   ]
+  },
+  "wisp_mid": {
+   "box": [
+    440,
+    195,
+    680,
+    265
+   ]
+  },
+  "wisp_low": {
+   "box": [
+    175,
+    255,
+    485,
+    325
+   ]
+  }
+ },
+ "depth": {
+  "head": 0.65,
+  "wisp_top": 0.5,
+  "wisp_mid": 0.55,
+  "wisp_low": 0.6
+ },
+ "camera": {
+  "zoom": [
+   1.0,
+   1.035
+  ],
+  "focus": [
+   0.55,
+   0.4
+  ]
+ },
+ "motions": {
+  "head": [
+   {
+    "type": "scale",
+    "at": "p2",
+    "dur": 0.6,
+    "sx": 1.04,
+    "sy": 1.04,
+    "ease": "steps:4"
+   },
+   {
+    "type": "rotate",
+    "at": "p2",
+    "dur": 0.6,
+    "deg": -2.0,
+    "ease": "steps:4"
+   }
+  ],
+  "wisp_top": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 24,
+    "dx": 30,
+    "dy": -18,
+    "ease": "linear"
+   }
+  ],
+  "wisp_mid": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 24,
+    "dx": 26,
+    "dy": -22,
+    "ease": "linear"
+   }
+  ],
+  "wisp_low": [
+   {
+    "type": "move",
+    "at": 0,
+    "dur": 24,
+    "dx": 22,
+    "dy": -26,
+    "ease": "linear"
+   }
+  ]
+ },
+ "pivot": {
+  "head": [
+   1199,
+   330
+  ]
+ }
+}

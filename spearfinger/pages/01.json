@@ -1,0 +1,134 @@
+{
+ "beat": "Mother and daughter walk a step into the corn; the corn leaves sway.",
+ "pieces": {
+  "family": [
+   16075,
+   25210,
+   30668,
+   25211,
+   32423,
+   32485,
+   30726,
+   23836,
+   31802,
+   16405,
+   29955,
+   32107,
+   38064,
+   39125,
+   39133,
+   29957,
+   29951
+  ],
+  "corn_mid": [
+   22568
+  ],
+  "corn_r1": [
+   22489
+  ],
+  "corn_r2": {
+   "box": [
+    1000,
+    380,
+    1200,
+    945
+   ]
+  },
+  "corn_l1": {
+   "box": [
+    195,
+    470,
+    420,
+    850
+   ]
+  },
+  "corn_l2": {
+   "box": [
+    0,
+    620,
+    192,
+    945
+   ],
+   "min_area": 0,
+   "drop": [
+    22526
+   ]
+  }
+ },
+ "back": [
+  "corn_mid",
+  "corn_r1"
+ ],
+ "front": [
+  "family"
+ ],
+ "depth": {
+  "family": 0.85,
+  "corn_mid": 0.65,
+  "corn_r1": 0.65,
+  "corn_r2": 0.8,
+  "corn_l1": 0.75,
+  "corn_l2": 0.9
+ },
+ "motions": {
+  "family": [
+   {
+    "type": "move",
+    "at": "p1",
+    "dur": 4.0,
+    "dy": -10,
+    "ease": "steps:6"
+   },
+   {
+    "type": "scale",
+    "at": "p1",
+    "dur": 4.0,
+    "sx": 0.975,
+    "sy": 0.975,
+    "ease": "steps:6"
+   },
+   {
+    "type": "bob",
+    "at": "p1",
+    "until": "p1+4",
+    "amp": 2.5,
+    "freq": 1.5
+   }
+  ],
+  "corn_mid": [
+   {
+    "type": "sway",
+    "amp": 1.2,
+    "freq": 0.35
+   }
+  ],
+  "corn_r1": [
+   {
+    "type": "sway",
+    "amp": 1.4,
+    "freq": 0.3
+   }
+  ],
+  "corn_r2": [
+   {
+    "type": "sway",
+    "amp": 1.0,
+    "freq": 0.4
+   }
+  ],
+  "corn_l1": [
+   {
+    "type": "sway",
+    "amp": 1.3,
+    "freq": 0.33
+   }
+  ],
+  "corn_l2": [
+   {
+    "type": "sway",
+    "amp": 1.1,
+    "freq": 0.38
+   }
+  ]
+ }
+}

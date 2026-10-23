@@ -1,0 +1,103 @@
+{
+ "beat": "On 'tumbled through into the hole' two loose branches of the broken pit cover drop and turn into the pit in stepped falls; on 'she turned back into Spearfinger' her hair bristles out (grows a little) and the spear-finger glints.",
+ "pieces": {
+  "leaf_43548": [
+   43548
+  ],
+  "leaf_mid": [
+   12728,
+   45542,
+   12599
+  ],
+  "hair": [
+   17201,
+   8631,
+   8632
+  ],
+  "blade": [
+   45541
+  ]
+ },
+ "depth": {
+  "leaf_43548": 0.65,
+  "leaf_mid": 0.65,
+  "hair": 0.65,
+  "blade": 0.65
+ },
+ "pivot": {
+  "leaf_43548": "center",
+  "leaf_mid": "center",
+  "hair": "center"
+ },
+ "camera": {
+  "zoom": [
+   1.0,
+   1.04
+  ],
+  "focus": [
+   0.55,
+   0.55
+  ]
+ },
+ "motions": {
+  "leaf_43548": [
+   {
+    "type": "move",
+    "at": "p1w6",
+    "dur": 0.9,
+    "dy": 70,
+    "dx": -6,
+    "ease": "steps:5"
+   },
+   {
+    "type": "rotate",
+    "at": "p1w6",
+    "dur": 0.9,
+    "deg": 18,
+    "ease": "steps:5"
+   }
+  ],
+  "leaf_mid": [
+   {
+    "type": "move",
+    "at": "p1w6+0.5",
+    "dur": 0.9,
+    "dy": 30,
+    "dx": 6,
+    "ease": "steps:5"
+   },
+   {
+    "type": "rotate",
+    "at": "p1w6+0.5",
+    "dur": 0.9,
+    "deg": -9,
+    "ease": "steps:5"
+   }
+  ],
+  "hair": [
+   {
+    "type": "scale",
+    "at": "p2w2",
+    "dur": 0.4,
+    "sx": 1.08,
+    "sy": 1.08,
+    "ease": "steps:3"
+   },
+   {
+    "type": "scale",
+    "at": "p2w5",
+    "dur": 0.5,
+    "sx": 0.9259259259259258,
+    "sy": 0.9259259259259258,
+    "ease": "steps:3"
+   }
+  ],
+  "blade": [
+   {
+    "type": "glint",
+    "at": "p2w3",
+    "dur": 0.6
+   }
+  ]
+ }
+}

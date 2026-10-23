@@ -1,0 +1,166 @@
+[
+ {
+  "idx": 1,
+  "start": 0.24,
+  "end": 4.03,
+  "words": [
+   {
+    "syl": "ᏃᏉᏗ",
+    "pho": "nogwodi",
+    "start": 0.24,
+    "end": 1.05
+   },
+   {
+    "syl": "ᏙᏳ",
+    "pho": "do:hyú",
+    "start": 1.05,
+    "end": 1.52
+   },
+   {
+    "syl": "ᏧᏂᎾᎸᏤ",
+    "pho": "tsuni:ná:lvtse",
+    "start": 1.52,
+    "end": 2.71
+   },
+   {
+    "syl": "ᎭᎾᏉ",
+    "pho": "haná:gwo",
+    "start": 2.71,
+    "end": 4.03
+   }
+  ],
+  "eng": "They were so angry"
+ },
+ {
+  "idx": 2,
+  "start": 4.11,
+  "end": 10.56,
+  "words": [
+   {
+    "syl": "ᏧᏂᏂᏴᎮ",
+    "pho": "tsuni:ní:yvhe",
+    "start": 4.11,
+    "end": 5.41
+   },
+   {
+    "syl": "ᏍᎩᎾ",
+    "pho": "sgina",
+    "start": 5.41,
+    "end": 5.89
+   },
+   {
+    "syl": "ᏥᏍᏆ",
+    "pho": "tsí:sgwa",
+    "start": 5.89,
+    "end": 6.75
+   },
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 6.75,
+    "end": 7.86
+   },
+   {
+    "syl": "ᏧᎾᏣᎧᏎᎴ",
+    "pho": "tsuni:tságse:le'i",
+    "start": 7.86,
+    "end": 9.5
+   },
+   {
+    "syl": "ᎦᎾᎪᎢ.",
+    "pho": "ganhgó:'i.",
+    "start": 9.5,
+    "end": 10.56
+   }
+  ],
+  "eng": "they caught the bird and cut off its tongue."
+ },
+ {
+  "idx": 3,
+  "start": 11.05,
+  "end": 16.03,
+  "words": [
+   {
+    "syl": "ᎯᎪᎢᎦ",
+    "pho": "hí:go:'í:ga",
+    "start": 11.05,
+    "end": 12.02
+   },
+   {
+    "syl": "ᎯᎠ",
+    "pho": "hí'a",
+    "start": 12.02,
+    "end": 12.46
+   },
+   {
+    "syl": "ᏥᏍᏆ",
+    "pho": "tsí:sgwa",
+    "start": 12.46,
+    "end": 13.47
+   },
+   {
+    "syl": "ᎦᏯᎪᎦ",
+    "pho": "gahygó:ga",
+    "start": 13.47,
+    "end": 14.63
+   },
+   {
+    "syl": "ᏍᏆᎳ",
+    "pho": "sgwalá:",
+    "start": 14.63,
+    "end": 15.06
+   },
+   {
+    "syl": "ᎦᎾᎪᎢ",
+    "pho": "ganhgó:'i",
+    "start": 15.06,
+    "end": 16.03
+   }
+  ],
+  "eng": "Even today the titmouse has a short tongue,"
+ },
+ {
+  "idx": 4,
+  "start": 16.44,
+  "end": 20.92,
+  "words": [
+   {
+    "syl": "ᏃᎴ",
+    "pho": "nole",
+    "start": 16.44,
+    "end": 16.96
+   },
+   {
+    "syl": "ᎯᎠ",
+    "pho": "hí'a",
+    "start": 16.96,
+    "end": 17.39
+   },
+   {
+    "syl": "ᎠᏂᏣᎳᎩ",
+    "pho": "ani:tsalagi",
+    "start": 17.39,
+    "end": 18.46
+   },
+   {
+    "syl": "ᎭᏂᎧᏔ",
+    "pho": "haníktaha",
+    "start": 18.46,
+    "end": 19.32
+   },
+   {
+    "syl": "ᎦᏯᎪᎦ",
+    "pho": "gahygó:ga",
+    "start": 19.32,
+    "end": 20.18
+   },
+   {
+    "syl": "ᎨᏒᎢ.",
+    "pho": "gesv´:'i.",
+    "start": 20.18,
+    "end": 20.92
+   }
+  ],
+  "eng": "and the Cherokees know it is a liar."
+ }
+]

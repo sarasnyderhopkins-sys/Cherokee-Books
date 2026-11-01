@@ -67,4 +67,4 @@ Needs Python 3 with openpyxl (her Mac has it); the standalone build needs nothin
 
 - Artifact: publish `index.html` with the book folder as root and `images/…`, `audio/…` as files (fonts are not needed, Google Fonts serves them). Republish the same path to keep the URL; images and audio stay uploaded.
 - Her Mac: the book folder under `Cher231/<Book>/Read Along/` (device_commit_files with the project copy as stagedPath). Also keep a copy in the project's shared folder.
-- Hosting on wespeakcherokee.org (a subdomain per book or game) was discussed but not set up as of 2026-10-19.
+- Hosting: the shelf is this repo, served at https://wespeakcherokee.org/books/ and each book at `/books/<folder>/` (since 2026-11-01; books.wespeakcherokee.org redirects there). A new book is a new folder plus `python3 make_shelf.py`; no domain or hub change. Keep every link inside a book relative (`images/…`, `audio/…`), never starting with `/`, or it escapes `/books/`.

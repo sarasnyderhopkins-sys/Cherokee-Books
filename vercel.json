@@ -1,5 +1,13 @@
 {
   "git": { "deploymentEnabled": false },
   "trailingSlash": true,
-  "cleanUrls": false
+  "cleanUrls": false,
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "books.wespeakcherokee.org" }],
+      "destination": "https://wespeakcherokee.org/books/$1",
+      "permanent": false
+    }
+  ]
 }

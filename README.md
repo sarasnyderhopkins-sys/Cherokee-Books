@@ -25,8 +25,13 @@ Each book folder keeps everything needed to rebuild it: the spreadsheet (the sou
 
 ## Hosting
 
-Live at https://books.wespeakcherokee.org/ (shelf), with each book at its folder name, e.g.
-https://books.wespeakcherokee.org/danny/. A static site with no build step: the Vercel project `wespeakcherokee-books`
-(team `sara-snyder-hopkins`) is linked to this repository, so every push to `main` redeploys within a minute.
-`vercel.json` adds the trailing slash so `…/danny` becomes `…/danny/` and the book's relative images and audio load.
+Live at https://wespeakcherokee.org/books/ (shelf), with each book at its folder name, e.g.
+https://wespeakcherokee.org/books/danny/ (Sara, 2026-11-01: resources live under paths of the hub, not subdomains).
+A static site with no build step, in the Vercel project `wespeakcherokee-books` (team `sara-snyder-hopkins`,
+Deployment Protection "Only Preview Deployments"). The hub's `vercel.json` passes `/books/…` through to
+`wespeakcherokee-books.vercel.app`, and adds the trailing slash itself (`/books/danny` → `/books/danny/`) so the
+book's relative images and audio load. The old address books.wespeakcherokee.org stays attached to this project only to
+redirect (307) to the same page under `/books/`; that redirect is in `vercel.json` here. Keep every link in a book
+relative, never starting with `/`. Pushes to `main` don't deploy (`git.deploymentEnabled: false`); deploy from the
+Vercel connector or dashboard.
 The books are public pages: no hub sign-in.
